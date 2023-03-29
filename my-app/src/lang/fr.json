@@ -1,0 +1,21 @@
+{
+  "title": "Imene Yahiaoui Ikhlef ",
+  "description": "portfolio Imene Yahiaoui Ikhlef Développeuse web Front-end et Fullstack.sur Ile De France",
+  "logo": "logo portfolio",
+  "home_title": "Accueil",
+  "home_path": "/",
+  "skills_title": "Compétences",
+  "skills_path": "#competences",
+  "portfolio_title": "Portfolio",
+  "portfolio_path": "#portfolio",
+  "contact_title": "Contact",
+  "contact_path": "#contact",
+
+  "main_heading": {
+    "static_desc": "Bonjour👋 ,  c'est Imene",
+    "dynamic_desc": "Je suis développeuse frontend passionnée par le backend "
+  },
+  "description_info": {
+    "main": "Curieuse et passionnée par le monde de développement web et web mobile . J’ai intégré en Sptembre 2022 l’école OpenClassrooms afin de parfaire mes connaissances et d’en acquérir de nouvelles."
+  }
+}
