@@ -21,8 +21,8 @@ const Header = () => {
         </div>
 
 
-        
-        <div className={!matches ?'nav-elements': 'nav-elementsMobile' }>
+        {!matches ?
+        <div className='nav-elements'>
         <ul>
           <li>
             <Link to={t("home_path")}>{t("home_title")}</Link>
@@ -54,6 +54,12 @@ const Header = () => {
           </li>
         </ul>
         </div>
+       :
+       //show if it's mobil  
+       <div>  
+        
+         </div>
+        }
       </nav>
     </div>
   );

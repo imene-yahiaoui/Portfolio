@@ -9,7 +9,7 @@
 
 .navbar {
   height: 60px;
-  background-color: #fef7e5;
+
   position: relative;
 }
 
@@ -30,13 +30,13 @@
 }
 
 .nav-elements ul li:not(:last-child) {
-  margin-right: 60px;
+  margin-right: 45px;
 }
 
 .nav-elements ul a {
   font-size: 16px;
   font-weight: 400;
-  color: #2f234f;
+  color: #f4f2f9;
   text-decoration: none;
 }
 
