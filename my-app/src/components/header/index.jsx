@@ -1,17 +1,31 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import logo from "../../assets/images/logo.png";
 import "./style.css";
 
 const Header = () => {
-  // const { t, i18n } = useTranslation();
   const { i18n, t } = useTranslation();
   return (
     <div className="header">
       <nav className="nav">
-        <ul>
-          <li className="test">{t("home_title")}</li>
+        <Link to="/">
+          <img className="logo" src={logo} alt={t("logo_alt")}></img>
+        </Link>
+        <ul className="btn_header">
           <li>
-            <select>
+            <Link to={t("home_path")}>{t("home_title")}</Link>
+          </li>
+          <li>
+            <Link to={t("skills_path")}>{t("skills_title")}</Link>
+          </li>
+          <li>
+            <Link to={t("portfolio_path")}>{t("portfolio_title")}</Link>
+          </li>
+          <li>
+            <Link to={t("contact_path")}>{t("contact_title")}</Link>
+          </li>
+          <li>
+            <select className="btn_lang">
               <option value="fr" onClick={() => i18n.changeLanguage("fr")}>
                 {" "}
                 fr{" "}
