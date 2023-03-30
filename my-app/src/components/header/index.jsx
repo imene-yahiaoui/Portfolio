@@ -2,16 +2,28 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import logo from "../../assets/images/logo.png";
 import "./style.css";
+import useMediaQuery from "../../helpers/MediaQuery";
 
 const Header = () => {
+  const matches = useMediaQuery("(max-width:767px)");
   const { i18n, t } = useTranslation();
+ 
+
+ 
+
   return (
-    <div className="header">
-      <nav className="nav">
+    <div className="navbar">
+      <nav className="container">
+<div className="logo">
         <Link to="/">
-          <img className="logo" src={logo} alt={t("logo_alt")}></img>
+          <img  src={logo} alt={t("logo_alt")}></img>
         </Link>
-        <ul className="btn_header">
+        </div>
+
+
+        
+        <div className={!matches ?'nav-elements': 'nav-elementsMobile' }>
+        <ul>
           <li>
             <Link to={t("home_path")}>{t("home_title")}</Link>
           </li>
@@ -41,6 +53,7 @@ const Header = () => {
             </select>
           </li>
         </ul>
+        </div>
       </nav>
     </div>
   );
