@@ -1,9 +1,9 @@
-import i18n from "i18next";
-import LanguageDetector from "i18next-browser-languagedetector";
-import { initReactI18next } from "react-i18next";
-import translationsFR from "./lang/fr.json";
-import translationsEN from "./lang/en.json";
-import translationsAR from "./lang/ar.json";
+import i18n from 'i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
+import { initReactI18next } from 'react-i18next';
+import translationsFR from './lang/fr.json';
+import translationsEN from './lang/en.json';
+import translationsAR from './lang/ar.json';
 
 const resources = {
   en: {
@@ -17,14 +17,17 @@ const resources = {
   },
 };
 
-i18n
+const lang = localStorage.getItem('lang') || 'fr'; // Récupère la langue préférée depuis le local storage, ou utilise la langue par défaut "fr" si elle n'est pas définie
 
+i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources,
-
-    lng: "fr",
+    lng: lang, // Initialise la langue avec la variable "lang"
+    fallbackLng: ['fr', 'en', 'ar'],
+    ns: ['translation'],
+    debug: true,
     interpolation: {
       espaceValue: false,
     },

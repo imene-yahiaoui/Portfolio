@@ -1,10 +1,11 @@
-import "./style.css"
-const Home = () => { 
-    return (
-      <div className="home">
-        
-      </div>
-    );
-  };
-  
-  export default Home;
+import "./style.css";
+import Accueil from "../../containers/accueil";
+const Home = () => {
+  return (
+    <div className="home">
+      <Accueil />
+    </div>
+  );
+};
+
+export default Home;

@@ -9,7 +9,7 @@ import React, { useState } from 'react';
 
 const Header = () => {
   const matches = useMediaQuery("(max-width:767px)");
-  const { i18n, t } = useTranslation();
+  const { t ,i18n} = useTranslation();
  
   const [showMenu, setShowMenu] = useState(false);
 
@@ -98,11 +98,11 @@ const Header = () => {
                 {" "}
                 fr{" "}
               </option>
-              <option value="en" onClick={() => i18n.changeLanguage("en")}>
+              <option value="en" onClick={() =>i18n.changeLanguage("en")}>
                 {" "}
                 en{" "}
               </option>
-              <option value="ar" onClick={() => i18n.changeLanguage("ar")}>
+              <option value="ar" onClick={() => i18n.changeLanguage("ar") }>
                 {" "}
                 ar{" "}
               </option>
