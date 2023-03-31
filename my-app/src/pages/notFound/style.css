@@ -1,0 +1,34 @@
+.notFound {
+  background: linear-gradient(180deg, #C996CC 2.16%, #916BBF 88.24%);
+  border-radius: 60px;
+  margin: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 10px;
+}
+.notFound-img {
+  width: 60%;
+  height: auto;
+  position: relative;
+  margin-bottom: 40px;
+}
+.notFound-p {
+  font-size: 36px;
+  font-weight: 500;
+ 
+ color : white;
+  margin-bottom: 120px;
+  text-align: center;
+}
+Link {
+  font-size: 18px;
+  font-weight: 500;
+
+}
+a{
+  color : white;
+}
+a:hover{
+  color: #3D2C8D;
+}

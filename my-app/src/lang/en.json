@@ -1,0 +1,21 @@
+{
+  "title": "Imene Yahiaoui Ikhlef ",
+  "description": "portfolio Imene Yahiaoui IkhlefFront-end and Fullstack web developer.in Ile De France",
+  "logo_alt": "logo portfolio",
+  "home_title": "Home",
+  "home_path": "/",
+  "skills_title": "Skills",
+  "skills_path": "#Skills",
+  "portfolio_title": "Portfolio",
+  "portfolio_path": "#portfolio",
+  "contact_title": "Contact",
+  "contact_path": "#contact",
+
+  "main_heading": {
+    "static_desc": "Hello 👋, I'm Imene ",
+    "dynamic_desc": " a frontend developer with a passion for Backend"
+  },
+  "description_info": {
+    "main": "Curious and passionate about the world of web development and mobile web development. I joined the OpenClassrooms school in September 2022 in order to perfect my knowledge and acquire new ones."
+  }
+}
