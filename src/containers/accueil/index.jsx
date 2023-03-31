@@ -7,7 +7,7 @@ const Accueil = () => {
   const { t } = useTranslation();
   return(
 
-<div className="home">
+<div className="container accueil">
 <Intro/>
 <div>
 <img  src={logointro} alt={t("logo_alt")}></img>

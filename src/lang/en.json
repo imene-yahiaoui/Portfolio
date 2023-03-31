@@ -12,8 +12,10 @@
   "contact_path": "#contact",
 
   "main_heading": {
-    "static_desc": "Hello 👋, I'm Imene ",
-    "dynamic_desc": " a frontend developer with a passion for Backend"
+    "hello": "Hello 👋",
+    "name": "I'm Imene",
+    "static_desc": "I'am a frontend developer",
+    "dynamic_desc": "with a passion for Backend"
   },
   "description_info": {
     "main": "Curious and passionate about the world of web development and mobile web development. I joined the OpenClassrooms school in September 2022 in order to perfect my knowledge and acquire new ones."

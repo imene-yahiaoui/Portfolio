@@ -12,8 +12,10 @@
   "contact_path": "#contact",
 
   "main_heading": {
-    "static_desc": "Bonjour👋 ,  c'est Imene",
-    "dynamic_desc": "Je suis développeuse frontend passionnée par le backend "
+    "hello": "Bonjour👋 ",
+    "name": " c'est Imene",
+    "static_desc": "Je suis développeuse ",
+    "dynamic_desc": "frontend passionnée par le backend "
   },
   "description_info": {
     "main": "Curieuse et passionnée par le monde de développement web et web mobile . J’ai intégré en Sptembre 2022 l’école OpenClassrooms afin de parfaire mes connaissances et d’en acquérir de nouvelles."
