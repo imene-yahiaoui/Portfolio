@@ -6,7 +6,7 @@ import "./style.css";
 import useMediaQuery from "../../helpers/MediaQuery";
 import {FaBars , FaTimes} from "react-icons/fa"
 import React, { useState } from 'react';
-
+import DarkMode from "../darkMode"
 const Header = () => {
   const matches = useMediaQuery("(max-width:767px)");
   const { t ,i18n} = useTranslation();
@@ -45,6 +45,9 @@ const Header = () => {
           <li>
             <Link to={t("contact_path")}>{t("contact_title")}</Link>
           </li>
+          <li>
+            < DarkMode />
+            </li>
           <li>
             <select className="btn_lang">
               <option value="fr" onClick={() => i18n.changeLanguage("fr")}>

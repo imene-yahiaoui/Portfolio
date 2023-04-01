@@ -1,5 +1,5 @@
 .intro-continer{
-    color: white;
+    color:var(--body_color)
 
 }
  
@@ -19,8 +19,8 @@
   .intro-name:before{
     content: attr(data-text);
     position: absolute;
-    color: white;
-    border-right: 2px solid #fff;
+    color: var(--body_color);
+    border-right: 2px solid var(--body_color);
     animation: script 12s steps(45) infinite;
     white-space: nowrap;
     overflow: hidden;
