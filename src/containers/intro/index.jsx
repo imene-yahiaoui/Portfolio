@@ -1,5 +1,6 @@
 import "./style.css";
 import { useTranslation } from "react-i18next";
+import DownloadBtn from "../../components/download";
 
 const Intro = () => {
   const { t } = useTranslation();
@@ -17,6 +18,8 @@ const Intro = () => {
       <div>
         <p> {t("description_info.main")} </p>
       </div>
+
+      < DownloadBtn />
     </div>
   );
 };

@@ -1,6 +1,8 @@
 :root {
   --body_background: #f3ebf6;
   --body_color: black;
+  --transition: 0.25s;
+	--spark: 1.8s;
 }
 
 [data-theme="dark"] {
