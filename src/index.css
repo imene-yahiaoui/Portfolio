@@ -1,13 +1,18 @@
 :root {
   --body_background: #f3ebf6;
-  --body_color: black;
+  --body_color: rgba(16, 7, 51, 1);
   --transition: 0.25s;
 	--spark: 1.8s;
+  --lang_background:#e9d3f1;
+  --lang_color:#C996CC;
+
 }
 
 [data-theme="dark"] {
   --body_background: rgba(16, 7, 51, 1);
-  --body_color: white;
+  --body_color: #f3ebf6;
+  --lang_color:#3D2C8D;
+  --lang_background:#916BBF;
 }
 *{
   transition: all 0.3s ease-in-out;
@@ -18,8 +23,7 @@ body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
-  max-width: 1600px;
+   max-width: 1600px;
 }
 
 code {
