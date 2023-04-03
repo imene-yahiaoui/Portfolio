@@ -20,10 +20,10 @@ const Intro = () => {
 
 
       </div>
-      <div className="socialMedia"> 
+     
       <SocialMedia/>
 
-      </div>
+    
 
       < DownloadBtn />
      

@@ -1,0 +1,11 @@
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.socialMedia li {
+  margin-right: 40px;
+  list-style-type: none;
+}
