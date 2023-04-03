@@ -3,7 +3,7 @@
   --body_color: rgba(16, 7, 51, 1);
   --transition: 0.25s;
 	--spark: 1.8s;
-  --lang_background:#e9d3f1;
+  --lang_background:#e9d3f19b;
   --lang_color:#C996CC;
 
 }
@@ -12,7 +12,7 @@
   --body_background: rgba(16, 7, 51, 1);
   --body_color: #f3ebf6;
   --lang_color:#3D2C8D;
-  --lang_background:#916BBF;
+  --lang_background:#916bbf33;
 }
 *{
   transition: all 0.3s ease-in-out;

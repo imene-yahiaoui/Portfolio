@@ -21,6 +21,7 @@ const Header = () => {
   };
   console.log(showMenu);
   return (
+    <div className="header" id ={t("home_path")}>
     <div className="navbar">
       <nav className="container">
         <div className="logo">
@@ -124,6 +125,7 @@ const Header = () => {
           </div>
         )}
       </nav>
+    </div>
     </div>
   );
 };

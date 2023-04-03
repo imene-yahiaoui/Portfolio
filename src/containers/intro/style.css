@@ -1,5 +1,6 @@
 .intro-continer {
   color: var(--body_color);
+  width: 50%;
 }
 
 h1 {
