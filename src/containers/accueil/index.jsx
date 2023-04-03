@@ -9,7 +9,7 @@ const Accueil = () => {
 
 <div className="container accueil">
 <Intro/>
-<div>
+<div className="container_logo">
 <img  src={logointro} alt={t("logo_alt")}></img>
 </div>
 </div>

@@ -32,16 +32,16 @@ const Header = () => {
         {!matches ? (
           <div className="nav-elements">
             <ul>
-              <li>
+              <li  className = "nav_list">
                 <Link to={t("home_path")}>{t("home_title")}</Link>
               </li>
-              <li>
+              <li  className = "nav_list">
                 <Link to={t("skills_path")}>{t("skills_title")}</Link>
               </li>
-              <li>
+              <li  className = "nav_list">
                 <Link to={t("portfolio_path")}>{t("portfolio_title")}</Link>
               </li>
-              <li>
+              <li  className = "nav_list">
                 <Link to={t("contact_path")}>{t("contact_title")}</Link>
               </li>
               <li>
