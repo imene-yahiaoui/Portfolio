@@ -10,3 +10,7 @@
   margin-right: 40px;
 
 }
+.socialMedia_icon:hover{
+  /* background-color: aqua; */
+color: aqua;
+}
