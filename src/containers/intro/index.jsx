@@ -1,7 +1,7 @@
 import "./style.css";
 import { useTranslation } from "react-i18next";
 import DownloadBtn from "../../components/download";
-
+import SocialMedia from"../../components/socialMedia"
 const Intro = () => {
   const { t } = useTranslation();
 
@@ -17,9 +17,16 @@ const Intro = () => {
       </div>
       <div>
         <p> {t("description_info.main")} </p>
+
+
+      </div>
+      <div className="socialMedia"> 
+      <SocialMedia/>
+
       </div>
 
       < DownloadBtn />
+     
     </div>
   );
 };

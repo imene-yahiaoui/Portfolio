@@ -46,9 +46,7 @@
   color: #000;
 }
 
-.glow-on-hover:active:after {
-  background: transparent;
-}
+
 
 .glow-on-hover:hover:before {
   opacity: 1;
@@ -66,7 +64,10 @@
   border-radius: 20px;
   border: 1px solid var(--body_color);
 }
+.glow-on-hover a:hover{
+color:var(--body_color);
 
+}
 @keyframes glowing {
   0% {
     background-position: 0 0;

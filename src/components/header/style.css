@@ -9,7 +9,7 @@
 
 .navbar {
   height: 60px;
-
+  position: fixed;
   position: relative;
 }
 
@@ -42,10 +42,8 @@
   text-transform: uppercase;
 }
 
-.nav_list  {
+.nav_list {
   padding: 15px 0;
-
-  animation: 2s slideUp ease forwards 0.5s;
   position: relative;
 }
 
@@ -63,7 +61,6 @@
 .nav_list :hover:before {
   width: 100%;
 }
-
 
 .btn_lang {
   display: inline-block;
