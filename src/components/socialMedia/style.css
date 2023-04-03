@@ -3,9 +3,10 @@
   flex-direction: row;
   align-items: center;
   padding-left: 0px;
+  list-style-type: none;
 }
 
-.socialMedia li {
+.socialMedia li:not(:last-child) {
   margin-right: 40px;
-  list-style-type: none;
+
 }
