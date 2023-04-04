@@ -1,20 +1,22 @@
 :root {
   --body_background: #f3ebf6;
+  /* --body_background: linear-gradient(#f9f8fa, #d4a9d6); */
   --body_color: rgba(16, 7, 51, 1);
   --transition: 0.25s;
-	--spark: 1.8s;
-  --lang_background:#e9d3f19b;
-  --lang_color:#C996CC;
-
+  --spark: 1.8s;
+  --lang_background: #e9d3f19b;
+  --lang_color: #c996cc;
 }
 
 [data-theme="dark"] {
   --body_background: rgba(16, 7, 51, 1);
+  /* --body_background: linear-gradient(rgba(16, 7, 51, 1), rgb(94, 79, 153)); */
+
   --body_color: #f3ebf6;
-  --lang_color:#3D2C8D;
-  --lang_background:#916bbf33;
+  --lang_color: #3d2c8d;
+  --lang_background: #916bbf33;
 }
-*{
+* {
   transition: all 0.3s ease-in-out;
 }
 
@@ -23,7 +25,7 @@ body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   max-width: 1600px;
+  max-width: 1600px;
 }
 
 code {
