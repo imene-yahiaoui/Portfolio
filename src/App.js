@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import RoutesPath from "./containers/RoutesPath";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+// import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 .skillsGrille{
 display:grid;
-max-width: 800px;
+max-width: 950px;
 width: 80%;
 height:auto;
 margin: 30px auto;
@@ -8,12 +8,16 @@ border: 1px solid #333;
  grid-template-columns: repeat(auto-fill,125px); 
 /* grid-template-columns: repeat(5, 1fr); */
 justify-content: center;
-grid-gap: 10px;
+grid-gap: 70px;
 }
 
 .skillsGrille_item{
 
 width:125px;
 height:125px;
-background-color: red;
+
+}
+img{
+    height: 100%;
+    width: 100%
 }
