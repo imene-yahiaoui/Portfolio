@@ -21,111 +21,105 @@ const Header = () => {
   };
   console.log(showMenu);
   return (
-    <div className="header" id ={t("home_path")}>
-    <div className="navbar">
-      <nav className="container">
-        <div className="logo">
-          <Link to="/">
-            <img src={logo} alt={t("logo_alt")}/> 
-          </Link>
-        </div>
-
-        {!matches ? (
-          <div className="nav-elements">
-            <ul>
-              <li  className = "nav_list">
-                <Link to={t("home_path")}>{t("home_title")}</Link>
-              </li>
-              <li  className = "nav_list">
-                <Link to={t("skills_path")}>{t("skills_title")}</Link>
-              </li>
-              <li  className = "nav_list">
-                <Link to={t("portfolio_path")}>{t("portfolio_title")}</Link>
-              </li>
-              <li  className = "nav_list">
-                <Link to={t("contact_path")}>{t("contact_title")}</Link>
-              </li>
-              <li>
-                <DarkMode />
-              </li>
-              <li>
-                <select className="btn_lang">
-                  <option value="fr" onClick={() => i18n.changeLanguage("fr")}>
-                    {" "}
-                    fr{" "}
-                  </option>
-                  <option value="en" onClick={() => i18n.changeLanguage("en")}>
-                    {" "}
-                    en{" "}
-                  </option>
-                  <option value="ar" onClick={() => i18n.changeLanguage("ar")}>
-                    {" "}
-                    ar{" "}
-                  </option>
-                </select>
-              </li>
-            </ul>
+    <div className="header" id={t("home_path")}>
+      <div className="navbar">
+        <nav className="container">
+          <div className="logo">
+            <Link to="/">
+              <img src={logo} alt={t("logo_alt")} />
+            </Link>
           </div>
-        ) : (
-          //show if it's mobil
-          <div className="navbar-header">
-            <div className="navbar-icon">
-              {!showMenu ? (
-                <button onClick={handleToggleMenu}>
-                  <FaBars />
-                </button>
-              ) : (
-                <button onClick={handleToggleMenux}>
-                  {" "}
-                  <FaTimes />
-                </button>
-              )}
-            </div>
-            <div className={`navbar-menu${showMenu ? " active" : ""}`}>
-              <ul className="nav-menu titles">
-                <li>
+
+          {!matches ? (
+            <div className="nav-elements">
+              <ul>
+                <li className="nav_list">
                   <Link to={t("home_path")}>{t("home_title")}</Link>
                 </li>
-                <li>
+                <li className="nav_list">
                   <Link to={t("skills_path")}>{t("skills_title")}</Link>
                 </li>
-                <li>
+                <li className="nav_list">
                   <Link to={t("portfolio_path")}>{t("portfolio_title")}</Link>
                 </li>
-                <li>
+                <li className="nav_list">
                   <Link to={t("contact_path")}>{t("contact_title")}</Link>
                 </li>
                 <li>
-                  <select className="btn_lang">
-                    <option
-                      value="fr"
-                      onClick={() => i18n.changeLanguage("fr")}
-                    >
-                      {" "}
-                      fr{" "}
-                    </option>
-                    <option
-                      value="en"
-                      onClick={() => i18n.changeLanguage("en")}
-                    >
-                      {" "}
-                      en{" "}
-                    </option>
-                    <option
-                      value="ar"
-                      onClick={() => i18n.changeLanguage("ar")}
-                    >
-                      {" "}
-                      ar{" "}
-                    </option>
+                  <DarkMode />
+                </li>
+                <li>
+                  <select
+                    className="btn_lang"
+                    onChange={(e) => i18n.changeLanguage(e.target.value)}
+                  >
+                    <option value="fr">fr</option>
+                    <option value="en">en</option>
+                    <option value="ar">ar</option>
                   </select>
                 </li>
               </ul>
             </div>
-          </div>
-        )}
-      </nav>
-    </div>
+          ) : (
+            //show if it's mobil
+            <div className="navbar-header">
+              <div className="navbar-icon">
+                {!showMenu ? (
+                  <button onClick={handleToggleMenu}>
+                    <FaBars />
+                  </button>
+                ) : (
+                  <button onClick={handleToggleMenux}>
+                    {" "}
+                    <FaTimes />
+                  </button>
+                )}
+              </div>
+              <div className={`navbar-menu${showMenu ? " active" : ""}`}>
+                <ul className="nav-menu titles">
+                  <li>
+                    <Link to={t("home_path")}>{t("home_title")}</Link>
+                  </li>
+                  <li>
+                    <Link to={t("skills_path")}>{t("skills_title")}</Link>
+                  </li>
+                  <li>
+                    <Link to={t("portfolio_path")}>{t("portfolio_title")}</Link>
+                  </li>
+                  <li>
+                    <Link to={t("contact_path")}>{t("contact_title")}</Link>
+                  </li>
+                  <li>
+                    <select className="btn_lang">
+                      <option
+                        value="fr"
+                        onClick={() => i18n.changeLanguage("fr")}
+                      >
+                        {" "}
+                        fr{" "}
+                      </option>
+                      <option
+                        value="en"
+                        onClick={() => i18n.changeLanguage("en")}
+                      >
+                        {" "}
+                        en{" "}
+                      </option>
+                      <option
+                        value="ar"
+                        onClick={() => i18n.changeLanguage("ar")}
+                      >
+                        {" "}
+                        ar{" "}
+                      </option>
+                    </select>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          )}
+        </nav>
+      </div>
     </div>
   );
 };
