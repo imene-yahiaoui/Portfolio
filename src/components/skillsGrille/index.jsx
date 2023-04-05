@@ -111,7 +111,7 @@ const SkillsGrille = () => {
     },
   ];
 
-  return user.user === tout ? (
+  return user.user === tout ||  user.user === undefined ||  user.user === null? (
     <div className="skillsGrille">
       {skillsCategory.map((skill) => (
         <div className="skillsGrille_item" key={skill.key}>
