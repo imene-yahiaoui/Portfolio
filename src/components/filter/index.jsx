@@ -1,20 +1,26 @@
 import "./style.css";
+import { useTranslation } from "react-i18next";
 
 const Filtre = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <select className="filtre">
-        <option value="fr" onClick={() => console.log("f")}>
+        <option value={t("all")} onClick={() => console.log(t("all"))}>
           {" "}
-          fr{" "}
+          {t("all")}{" "}
         </option>
-        <option value="en" onClick={() => console.log("f")}>
+        <option value="Frontend" onClick={() => console.log("Frontend")}>
           {" "}
-          en{" "}
+          Frontend{" "}
         </option>
-        <option value="ar" onClick={() => console.log("f")}>
+        <option value="Backend" onClick={() => console.log("Backend")}>
           {" "}
-          ar{" "}
+          Backend{" "}
+        </option>
+        <option value="Mobile" onClick={() => console.log("Mobile")}>
+          {" "}
+          Mobile{" "}
         </option>
       </select>
     </div>

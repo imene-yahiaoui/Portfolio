@@ -30,7 +30,7 @@ const SkillsGrille = () => {
     {
       image: github,
       alt: "icon github",
-      category:  "backend ",
+      category:  "Backend",
       key: "4",
     },
     {
@@ -42,7 +42,7 @@ const SkillsGrille = () => {
     {
       image: express,
       alt: "icon express",
-      category: "backend",
+      category: "Backend",
       key: "6",
     },
     {
