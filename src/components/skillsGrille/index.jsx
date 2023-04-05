@@ -13,7 +13,17 @@ import react from "../../assets/images/technologyIcons/react.png";
 import sass from "../../assets/images/technologyIcons/sass.png";
 import postman from "../../assets/images/technologyIcons/postman.png";
 import kotlin from "../../assets/images/technologyIcons/kotlin.png";
+import { useSelector } from "react-redux";
+import { selectUser } from "../../helpers/features/userSlice";
+
+import { useTranslation } from "react-i18next";
+
 const SkillsGrille = () => {
+  const user = useSelector(selectUser);
+  console.log("resu", user);
+  const { t } = useTranslation();
+  const tout = t("all");
+
   const skillsCategory = [
     {
       image: html,
@@ -30,7 +40,7 @@ const SkillsGrille = () => {
     {
       image: github,
       alt: "icon github",
-      category:  "Backend",
+      category: "Backend",
       key: "4",
     },
     {
@@ -70,7 +80,7 @@ const SkillsGrille = () => {
       key: "10",
     },
     {
-      image: kotlin ,
+      image: kotlin,
       alt: " icon Kotlin",
       category: "Mobile",
       key: "11",
@@ -99,21 +109,27 @@ const SkillsGrille = () => {
       category: "Frontend",
       key: "15",
     },
-   
   ];
 
-  return (
-  
-  <div className="skillsGrille" >  
-  {skillsCategory.map((skill) => (
-    <div className="skillsGrille_item" key={skill.key}>
-      <img src={skill.image} alt={skill.alt}  />
+  return user.user === tout ? (
+    <div className="skillsGrille">
+      {skillsCategory.map((skill) => (
+        <div className="skillsGrille_item" key={skill.key}>
+          <img src={skill.image} alt={skill.alt} />
+        </div>
+      ))}
     </div>
-    
-  ))};
-
-  </div>
-  )
+  ) : (
+    <div className="skillsGrille">
+      {skillsCategory
+        .filter((post) => post.category === user.user)
+        .map((skill) => (
+          <div className="skillsGrille_item" key={skill.key}>
+            <img src={skill.image} alt={skill.alt} />
+          </div>
+        ))}
+    </div>
+  );
 };
 
 export default SkillsGrille;

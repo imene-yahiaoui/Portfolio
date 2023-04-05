@@ -1,24 +1,64 @@
 import "./style.css";
 import { useTranslation } from "react-i18next";
+import { useDispatch } from "react-redux";
+import { login } from "../../helpers/features/userSlice.js";
 
 const Filtre = () => {
   const { t } = useTranslation();
+  const dispatch = useDispatch();
+
   return (
     <div>
       <select className="filtre">
-        <option value={t("all")} onClick={() => console.log(t("all"))}>
+        <option
+          value={t("all")}
+          onClick={() =>
+            dispatch(
+              login({
+                user: t("all"),
+              })
+            )
+          }
+        >
           {" "}
           {t("all")}{" "}
         </option>
-        <option value="Frontend" onClick={() => console.log("Frontend")}>
+        <option
+          value="Frontend"
+          onClick={() =>
+            dispatch(
+              login({
+                user: "Frontend",
+              })
+            )
+          }
+        >
           {" "}
           Frontend{" "}
         </option>
-        <option value="Backend" onClick={() => console.log("Backend")}>
+        <option
+          value="Backend"
+          onClick={() =>
+            dispatch(
+              login({
+                user: "Backend",
+              })
+            )
+          }
+        >
           {" "}
           Backend{" "}
         </option>
-        <option value="Mobile" onClick={() => console.log("Mobile")}>
+        <option
+          value="Mobile"
+          onClick={() =>
+            dispatch(
+              login({
+                user: "Mobile",
+              })
+            )
+          }
+        >
           {" "}
           Mobile{" "}
         </option>
