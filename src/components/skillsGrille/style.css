@@ -4,7 +4,7 @@ max-width: 950px;
 width: 80%;
 height:auto;
 margin: 30px auto;
-border: 1px solid #333;
+
  grid-template-columns: repeat(auto-fill,125px); 
 /* grid-template-columns: repeat(5, 1fr); */
 justify-content: center;

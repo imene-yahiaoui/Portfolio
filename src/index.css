@@ -1,20 +1,43 @@
 :root {
   --body_background: #f3ebf6;
-  /* --body_background: linear-gradient(#f9f8fa, #d4a9d6); */
+  --box_background: linear-gradient(#e9d3f19b, #d4a9d6);
   --body_color: rgba(16, 7, 51, 1);
   --transition: 0.25s;
   --spark: 1.8s;
   --lang_background: #e9d3f19b;
   --lang_color: #c996cc;
+  --hover: linear-gradient(
+    45deg,
+    #c996cc,
+    #f3ebf6,
+    #ebc7e6,
+    #c996cc,
+    #bface2,
+    #c996cc,
+    #fbf4f9,
+    #ebc7e6
+  );
 }
 
 [data-theme="dark"] {
   --body_background: rgba(16, 7, 51, 1);
-  /* --body_background: linear-gradient(rgba(16, 7, 51, 1), rgb(94, 79, 153)); */
+  --box_background: linear-gradient(#8552c4, #916bbf);
 
   --body_color: #f3ebf6;
   --lang_color: #3d2c8d;
   --lang_background: #916bbf33;
+
+  --hover: linear-gradient(
+    45deg,
+    #645cbb,
+    #1c0c5b,
+    #ebc7e6,
+    #3d2c8d,
+    #bface2,
+    #7a00ff,
+    #fbf4f9,
+    #a084dc
+  );
 }
 * {
   transition: all 0.3s ease-in-out;

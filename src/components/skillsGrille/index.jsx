@@ -13,6 +13,7 @@ import react from "../../assets/images/technologyIcons/react.png";
 import sass from "../../assets/images/technologyIcons/sass.png";
 import postman from "../../assets/images/technologyIcons/postman.png";
 import kotlin from "../../assets/images/technologyIcons/kotlin.png";
+import admobe from "../../assets/images/technologyIcons/admobe.png";
 import { useSelector } from "react-redux";
 import { selectUser } from "../../helpers/features/userSlice";
 
@@ -20,7 +21,7 @@ import { useTranslation } from "react-i18next";
 
 const SkillsGrille = () => {
   const user = useSelector(selectUser);
-  console.log("resu", user);
+  console.log(user);
   const { t } = useTranslation();
   const tout = t("all");
 
@@ -36,6 +37,12 @@ const SkillsGrille = () => {
       alt: " icon css",
       category: "Frontend",
       key: "2",
+    },
+    {
+      image: admobe,
+      alt: " icon admobe",
+      category: "Mobile",
+      key: "3",
     },
     {
       image: github,
@@ -111,7 +118,7 @@ const SkillsGrille = () => {
     },
   ];
 
-  return user.user === tout ||  user.user === undefined ||  user.user === null? (
+  return user.user === tout || user.user === undefined || user.user === null ? (
     <div className="skillsGrille">
       {skillsCategory.map((skill) => (
         <div className="skillsGrille_item" key={skill.key}>
