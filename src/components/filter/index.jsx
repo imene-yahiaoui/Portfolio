@@ -20,7 +20,10 @@ const Filtre = () => {
         <option value={t("all")}> {t("all")}</option>
         <option value="Frontend">Frontend</option>
         <option value="Backend">Backend</option>
+        <option value="Logiciel">Logiciel</option>
         <option value="Mobile">Mobile</option>
+
+       
       </select>
     </div>
   );
