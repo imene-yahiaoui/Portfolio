@@ -1,0 +1,23 @@
+.skillsGrille{
+display:grid;
+max-width: 950px;
+width: 80%;
+height:auto;
+margin: 30px auto;
+
+ grid-template-columns: repeat(auto-fill,125px); 
+/* grid-template-columns: repeat(5, 1fr); */
+justify-content: center;
+grid-gap: 70px;
+}
+
+.skillsGrille_item{
+
+width:125px;
+height:125px;
+
+}
+img{
+    height: 100%;
+    width: 100%
+}

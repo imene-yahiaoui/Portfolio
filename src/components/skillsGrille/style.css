@@ -1,23 +1,21 @@
-.skillsGrille{
-display:grid;
-max-width: 950px;
-width: 80%;
-height:auto;
-margin: 30px auto;
+.skillsGrille {
+  display: grid;
+  max-width: 950px;
+  width: 80%;
+  height: auto;
+  margin: 30px auto;
 
- grid-template-columns: repeat(auto-fill,125px); 
-/* grid-template-columns: repeat(5, 1fr); */
-justify-content: center;
-grid-gap: 70px;
+  grid-template-columns: repeat(auto-fill, 30px);
+  /* grid-template-columns: repeat(5, 1fr); */
+  justify-content: center;
+  grid-gap: 70px;
 }
 
-.skillsGrille_item{
-
-width:125px;
-height:125px;
-
+.skillsGrille_item {
+  width: 40px;
+  height: 40px;
 }
-img{
-    height: 100%;
-    width: 100%
+img {
+  height: 100%;
+  width: 100%;
 }

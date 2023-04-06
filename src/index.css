@@ -4,7 +4,7 @@
   --body_color: rgba(16, 7, 51, 1);
   --transition: 0.25s;
   --spark: 1.8s;
-  --lang_background: #e9d3f19b;
+  --lang_background: #e9d3f1;
   --lang_color: #c996cc;
   --hover: linear-gradient(
     45deg,
@@ -25,7 +25,7 @@
 
   --body_color: #f3ebf6;
   --lang_color: #3d2c8d;
-  --lang_background: #916bbf33;
+  --lang_background: #916bbf;
 
   --hover: linear-gradient(
     45deg,
