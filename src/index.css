@@ -25,7 +25,7 @@
 
   --body_color: #f3ebf6;
   --lang_color: #3d2c8d;
-  --lang_background: #916bbf;
+  --lang_background: rgb(67, 56, 113);
 
   --hover: linear-gradient(
     45deg,

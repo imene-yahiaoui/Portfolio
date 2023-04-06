@@ -3,7 +3,7 @@ import html from "../../assets/images/technologyIcons/html.png";
 import css from "../../assets/images/technologyIcons/css-3.png";
 import github from "../../assets/images/technologyIcons/github.png";
 import figma from "../../assets/images/technologyIcons/figma.png";
-import express from "../../assets/images/technologyIcons/express.png";
+import express from "../../assets/images/technologyIcons/express-1.png";
 import js from "../../assets/images/technologyIcons/js.png";
 import mongodb from "../../assets/images/technologyIcons/mongodb.png";
 import android from "../../assets/images/technologyIcons/Android_Studio.png";
