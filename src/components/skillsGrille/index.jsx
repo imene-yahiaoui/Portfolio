@@ -1,40 +1,40 @@
 import "./style.css";
 
 import { useSelector } from "react-redux";
-import { selectUser } from "../../helpers/features/userSlice";
+import { selectfiltre } from "../../helpers/features/filtreSlice";
 import { useState, useEffect } from "react";
 
 const SkillsGrille = () => {
-  const [posts, setPosts] = useState([]);
+  const [skills, setSkills] = useState([]);
 
-  const user = useSelector(selectUser);
-  console.log(user);
+  const filtre = useSelector(selectfiltre);
+  console.log(filtre);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchSkills = async () => {
       try {
-        const requete = await fetch("../../skills.json", {
+        const skills = await fetch("../../jsons/skills.json", {
           method: "GET",
         });
-        if (requete.ok) {
-          const response = await requete.json();
-          setPosts(response);
+        if (skills.ok) {
+          const response = await skills.json();
+          setSkills(response);
           console.log(response);
         }
       } catch (e) {
         console.log(e);
       }
     };
-    fetchData();
+    fetchSkills();
   }, []);
 
-  return user.user === undefined ||
-    user.user === null ||
-    user.user === "الكل" ||
-    user.user === "All" ||
-    user.user === "Tout" ? (
+  return filtre.filtre === undefined ||
+    filtre.filtre === null ||
+    filtre.filtre === "الكل" ||
+    filtre.filtre === "All" ||
+    filtre.filtre === "Tout" ? (
     <div className="skillsGrille">
-      {posts.map((skill) => (
+      {skills.map((skill) => (
         <div className="skillsGrille_item" key={skill.key}>
           <img src={skill.image} alt={skill.alt} />
           <b>{skill.name}</b>
@@ -43,8 +43,8 @@ const SkillsGrille = () => {
     </div>
   ) : (
     <div className="skillsGrille">
-      {posts
-        .filter((post) => post.category === user.user)
+      {skills
+        .filter((skill) => skill.category === filtre.filtre)
         .map((skill) => (
           <div className="skillsGrille_item" key={skill.key}>
             <img src={skill.image} alt={skill.alt} />

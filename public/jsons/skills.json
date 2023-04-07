@@ -88,7 +88,7 @@
     "alt": "icon vs",
     "name": "Visual Studio",
     "category": "Logiciel",
-    " key": "17"
+    "key": "17"
   },
   {
     "image": "./assets/technologyIcons/postman.png",
@@ -132,5 +132,12 @@
     "name": "Redux",
     "category": "Frontend",
     "key": "19"
+  },
+  {
+    "image": "./assets/technologyIcons/Notion.png",
+    "alt": "icon notion",
+    "name": "Notion",
+    "category": "Logiciel",
+    "key": "20"
   }
 ]
