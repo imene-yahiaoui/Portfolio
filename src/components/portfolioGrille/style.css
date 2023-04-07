@@ -1,23 +1,16 @@
-.skillsGrille{
-display:grid;
-max-width: 950px;
-width: 80%;
-height:auto;
-margin: 30px auto;
+.PortfolioGrille {
 
- grid-template-columns: repeat(auto-fill,125px); 
-/* grid-template-columns: repeat(5, 1fr); */
-justify-content: center;
-grid-gap: 70px;
+ 
+  display: grid;
+
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+  grid-template-columns: repeat(auto-fill, 400px);
+  justify-content: center;
+  grid-gap: 70px;
 }
-
-.skillsGrille_item{
-
-width:125px;
-height:125px;
-
-}
-img{
-    height: 100%;
-    width: 100%
-}
+.PortfolioGrille_item {
+    width: 350px;
+    height: 350px;
+  }

@@ -10,8 +10,8 @@ const Intro = () => {
      
       <h1> {t("main_heading.hello")} </h1>
       <h1 className="intro-name" data-text={t("main_heading.name")}  >{t("main_heading.name")} </h1>
-   
-      <div>
+
+      <div className="intro_des">
         <h3> {t("main_heading.static_desc")} </h3>
         <h3> {t("main_heading.dynamic_desc")} </h3>
       </div>

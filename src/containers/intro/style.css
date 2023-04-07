@@ -2,14 +2,19 @@
   color: var(--body_color);
   width: 50%;
 }
-
+.intro_des{
+  margin-top:20px;
+}
 h1 {
   display: inline;
+  font-size: 30px;
 }
 h3 {
   display: inline;
+  font-size: 25px;
 }
 .intro-name {
+  font-size: 30px;
   display: inline;
   position: absolute;
   letter-spacing: 2px;
