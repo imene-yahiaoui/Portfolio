@@ -33,91 +33,91 @@ const SkillsGrille = () => {
     {
       image: html,
       alt: "html icon ",
-      name:"Html",
+      name: "Html",
       category: "Frontend",
       key: "1",
     },
     {
       image: css,
       alt: " icon css",
-      name:"Css",
+      name: "Css",
       category: "Frontend",
       key: "2",
     },
     {
       image: admobe,
       alt: " icon admobe",
-      name:"Admob",
+      name: "Admob",
       category: "Logiciel",
       key: "3",
     },
     {
       image: github,
       alt: "icon github",
-      name:"Github",
+      name: "Github",
       category: "Logiciel",
       key: "4",
     },
     {
       image: figma,
       alt: " icon figma",
-      name:"Figma",
+      name: "Figma",
       category: "Frontend",
       key: "5",
     },
     {
       image: express,
       alt: "icon express",
-      name:"Express",
+      name: "Express",
       category: "Backend",
       key: "6",
     },
     {
       image: js,
       alt: "icon js",
-      name:"JavaScript",
+      name: "JavaScript",
       category: "Frontend",
       key: "7",
     },
     {
       image: mongodb,
       alt: "icon mongodb",
-      name:"Mongodb",
+      name: "Mongodb",
       category: "Backend",
       key: "8",
     },
     {
       image: node,
       alt: "icon node.js",
-      name:"Node.js",
+      name: "Node.js",
       category: "Backend",
       key: "9",
     },
     {
       image: bootstrap,
       alt: "icon bootstrap",
-      name:"Bootstrap",
+      name: "Bootstrap",
       category: "Frontend",
       key: "10",
     },
     {
       image: kotlin,
       alt: " icon Kotlin",
-      name:"Kotlin",
+      name: "Kotlin",
       category: "Mobile",
       key: "11",
     },
     {
       image: android,
       alt: "icon android stodio",
-      name:"Android Studio",
+      name: "Android Studio",
       category: "Logiciel",
       key: "12",
     },
     {
       image: postman,
       alt: "icon postman",
-      name:"Postman",
+      name: "Postman",
       category: "Logiciel",
       key: "13",
     },
@@ -130,41 +130,46 @@ const SkillsGrille = () => {
     {
       image: sass,
       alt: "icon sass",
-      name:"Sass",
+      name: "Sass",
       category: "Frontend",
       key: "15",
     },
     {
       image: git,
       alt: "icon git",
-      name:"Git",
+      name: "Git",
       category: "Logiciel",
       key: "16",
     },
     {
       image: VS,
       alt: "icon vs",
-      name:"Visual Studio",
+      name: "Visual Studio",
       category: "Logiciel",
       key: "17",
     },
     {
       image: seo,
       alt: "icon seo",
-      name:"Seo",
+      name: "Seo",
       category: "Logiciel",
       key: "18",
     },
     {
       image: redux,
       alt: "icon redux",
-      name:"Redux",
+      name: "Redux",
       category: "Frontend",
       key: "19",
     },
   ];
 
-  return user.user === tout || user.user === undefined || user.user === null ? (
+  return user.user === tout ||
+    user.user === undefined ||
+    user.user === null ||
+    user.user === "الكل" ||
+    user.user === "All" ||
+    user.user === "Tout" ? (
     <div className="skillsGrille">
       {skillsCategory.map((skill) => (
         <div className="skillsGrille_item" key={skill.key}>
