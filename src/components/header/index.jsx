@@ -90,28 +90,16 @@ const Header = () => {
                     <Link to={t("contact_path")}>{t("contact_title")}</Link>
                   </li>
                   <li>
-                    <select className="btn_lang">
-                      <option
-                        value="fr"
-                        onClick={() => i18n.changeLanguage("fr")}
-                      >
-                        {" "}
-                        fr{" "}
-                      </option>
-                      <option
-                        value="en"
-                        onClick={() => i18n.changeLanguage("en")}
-                      >
-                        {" "}
-                        en{" "}
-                      </option>
-                      <option
-                        value="ar"
-                        onClick={() => i18n.changeLanguage("ar")}
-                      >
-                        {" "}
-                        ar{" "}
-                      </option>
+                    <DarkMode />
+                  </li>
+                  <li>
+                    <select
+                      className="btn_lang"
+                      onChange={(e) => i18n.changeLanguage(e.target.value)}
+                    >
+                      <option value="fr">fr</option>
+                      <option value="en">en</option>
+                      <option value="ar">ar</option>
                     </select>
                   </li>
                 </ul>
