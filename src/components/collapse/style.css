@@ -51,7 +51,7 @@
       font-weight: 400;
       font-family: Montserrat;
       margin: 20px;
-      color:black;
+      color: var(--body_color);
       line-height: 25.67px;
     }
     .ArryText {
