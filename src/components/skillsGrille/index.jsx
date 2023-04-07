@@ -124,6 +124,7 @@ const SkillsGrille = () => {
     {
       image: react,
       alt: "React ",
+       name: "React",
       category: "Frontend",
       key: "14",
     },
