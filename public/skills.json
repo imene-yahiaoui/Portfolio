@@ -1,0 +1,135 @@
+  [
+    {
+      "image": "./assets/technologyIcons/html.png",
+      "alt": "html icon ",
+      "name": "Html",
+      "category": "Frontend",
+      "key": "1" 
+    },
+    {
+      "image":"./assets/technologyIcons/css-3.png",
+      "alt": " icon css",
+      "name": "Css",
+      "category": "Frontend",
+      "key": "2" 
+    },
+    {
+      "image": "./assets/technologyIcons/admobe.png",
+      "alt": " icon admobe",
+      "name": "Admob",
+      "category": "Logiciel",
+      "key": "3" 
+    },
+    {
+      "image": "./assets/technologyIcons/github.png",
+      "alt": "icon github",
+      "name": "Github",
+      "category": "Logiciel",
+      "key": "4" 
+    },
+    {
+      "image": "./assets/technologyIcons/figma.png",
+      "alt": " icon figma",
+      "name": "Figma",
+      "category": "Frontend",
+      "key": "5" 
+    },
+    {
+      "image": "./assets/technologyIcons/express-1.png",
+      "alt": "icon express",
+      "name": "Express",
+      "category": "Backend",
+     " key": "6" 
+    },
+    {
+      "image": "./assets/technologyIcons/js.png",
+     " alt": "icon js",
+      "name": "JavaScript",
+      "category": "Frontend",
+      "key": "7" 
+    },
+    {
+      "image": "./assets/technologyIcons/mongodb.png",
+      "alt": "icon mongodb",
+      "name": "Mongodb",
+      "category": "Backend",
+      "key": "8" 
+    },
+    {
+      "image": "./assets/technologyIcons/nodejs.png",
+      "alt": "icon node.js",
+      "name": "Node.js",
+      "category": "Backend",
+      "key": "9" },
+    {
+      "image":"./assets/technologyIcons/bootstrap.png",
+      "alt": "icon bootstrap",
+      "name": "Bootstrap",
+      "category": "Frontend",
+      "key": "10" 
+    },
+    {
+      "image": "./assets/technologyIcons/kotlin.png",
+      "alt": " icon Kotlin",
+      "name": "Kotlin",
+      "category": "Mobile",
+      "key": "11" 
+    },
+    {
+      "image": "./assets/technologyIcons/Android_Studio.png",
+      "alt": "icon android stodio",
+      "name": "Android Studio",
+      "category": "Logiciel",
+      "key": "12" 
+    },
+    {
+        "image":"./assets/technologyIcons/visualStudio.png",
+         "alt":"icon vs",
+         "name":"Visual Studio",
+         "category":"Logiciel",
+        " key":"17" 
+       },
+    {
+      "image": "./assets/technologyIcons/postman.png",
+      "alt": "icon postman",
+      "name": "Postman",
+     " category": "Logiciel",
+      "key": "13" 
+    },
+    {
+      "image": "./assets/technologyIcons/react.png",
+      "alt": "React ",
+       "name": "React",
+     " category": "Frontend",
+      "key": "14" 
+    },
+    {
+      "image": "./assets/technologyIcons/sass.png",
+      "alt": "icon sass",
+      "name": "Sass",
+      "category": "Frontend",
+      "key": "15" 
+    },
+    {
+        "image": "./assets/technologyIcons/git.png",
+      "alt": "icon git",
+      "name": "Git",
+     " category": "Logiciel",
+     " key": "16"
+    },
+   
+    {
+      "image": "./assets/technologyIcons/seo.png",
+     " alt": "icon seo",
+     " name": "Seo",
+      "category": "Frontend",
+     " key": "18" 
+    },
+    {
+      "image": "./assets/technologyIcons/redux.png",
+      "alt": "icon redux",
+      "name": "Redux",
+      "category": "Frontend",
+      "key": "19" 
+    } 
+]
