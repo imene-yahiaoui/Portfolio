@@ -3,7 +3,7 @@
     "title": "Booki",
     "image": "",
     "id": "1",
-    "description": "projectBooki.description",
+    "description": "projectBooki.brief_description",
     "technologyUsed": [
       "./assets/technologyIcons/html.png",
       "./assets/technologyIcons/css-3.png"

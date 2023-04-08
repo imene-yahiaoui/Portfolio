@@ -22,10 +22,10 @@
   },
   "Download": "Télécharger mon CV",
   "all": "Tout",
-"Technologies_used" : "Technologies utilisées",
+  "Technologies_used": "Technologies utilisées",
 
-  "projectBooki":{
-     "description":"booki est un projet"
-
+  "projectBooki": {
+    "brief_description":"Booki est le premier projet de développement web sur lequel j'ai travaillé dans la formation d'intégrateur web chez OpenClassrooms.\n Mon rôle a été d'intégrer les maquettes fournies par l'équipe de conception UI et de les transformer en une interface web fonctionnelle à l'aide de HTML et CSS.",
+    "description": "Booki est le premier projet de développement web sur lequel j'ai travaillé dans la formation d'intégrateur web chez OpenClassrooms.\n Mon rôle a été d'intégrer les maquettes fournies par l'équipe de conception UI et de les transformer en une interface web fonctionnelle à l'aide de HTML et CSS.\n Le projet a commencé par l'analyse des maquettes, fournies sous forme de fichiers Figma pour différentes tailles d'écran. En suivant les meilleures pratiques de développement web et en respectant les normes de qualité établies, j'ai travaillé sur l'intégration des maquettes en HTML et CSS.\n J'ai également veillé à ce que le site web soit adaptatif, c'est-à-dire qu'il s'adapte automatiquement à différents types et tailles d'écran."
   }
 }

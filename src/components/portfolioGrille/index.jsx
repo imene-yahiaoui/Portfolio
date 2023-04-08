@@ -28,17 +28,20 @@ const PortfolioGrille = () => {
     <div className="PortfolioGrille">
       {projects.map((project) => (
         <div className="PortfolioGrille_item" key={project.id}>
+          <h1> {project.title} </h1>
           <div className="PortfolioGrille_img">
             <img src={l} alt="ffff" />
           </div>
-          <h1> {project.title} </h1>
+
           <p> {t(project.description)} </p>
           <h6>{t("Technologies_used")} </h6>
           <div className="technologyUsed_icons">
-          {project.technologyUsed.map((icon) => (
-         <div className="img_item">
-<img src={icon} alt="icon"/>
-         </div>   ))} </div>
+            {project.technologyUsed.map((icon) => (
+              <div className="img_item">
+                <img src={icon} alt="icon" />
+              </div>
+            ))}{" "}
+          </div>
           <a href="/d">Click ici</a>
         </div>
       ))}
