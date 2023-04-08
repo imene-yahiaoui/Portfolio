@@ -21,5 +21,11 @@
     "main": "Curieuse et passionnée par le monde de développement web et web mobile . J’ai intégré en Sptembre 2022 l’école OpenClassrooms afin de parfaire mes connaissances et d’en acquérir de nouvelles."
   },
   "Download": "Télécharger mon CV",
-  "all": "Tout"
+  "all": "Tout",
+"Technologies_used" : "Technologies utilisées",
+
+  "projectBooki":{
+     "description":"booki est un projet"
+
+  }
 }

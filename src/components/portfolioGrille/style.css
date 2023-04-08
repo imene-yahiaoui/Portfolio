@@ -12,9 +12,25 @@
   width: 350px;
   height: 500px;
   background: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .PortfolioGrille_img {
   width: 100%;
   height: 180px;
   background: blue;
+}
+.technologyUsed_icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+}
+.img_item {
+  width: 25px;
+  height: 25px;
 }

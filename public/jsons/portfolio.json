@@ -1,5 +1,140 @@
 [
   {
-    "title": "skills_title"
+    "title": "Booki",
+    "image": "",
+    "id": "1",
+    "description": "projectBooki.description",
+    "technologyUsed": [
+      "./assets/technologyIcons/html.png",
+      "./assets/technologyIcons/css-3.png"
+    ],
+    "pictures": ["", "", ""]
+  },
+
+  {
+    "title": "Ohmyfood",
+    "image": "",
+    "id": "2",
+    "description": "",
+    "technologyUsed": [
+      "./assets/technologyIcons/html.png",
+      "./assets/technologyIcons/sass.png"
+    ],
+    "pictures": ["", "", ""]
+  },
+  {
+    "title": "Portfolio-architecte",
+    "image": "",
+    "id": "3",
+    "description": "",
+    "technologyUsed": [
+      "./assets/technologyIcons/html.png",
+      "./assets/technologyIcons/css-3.png",
+      "./assets/technologyIcons/js.png"
+    ],
+    "pictures": ["", "", ""]
+  },
+  {
+    "title": "Kasa",
+    "image": "",
+    "id": "4",
+    "description": "",
+    "technologyUsed": [
+      "./assets/technologyIcons/react.png",
+      "./assets/technologyIcons/sass.png"
+    ],
+    "pictures": ["", "", ""]
+  },
+  {
+    "title": "Nina-Carducci",
+    "image": "",
+    "id": "5",
+    "description": "",
+    "technologyUsed": [
+      "./assets/technologyIcons/html.png",
+      "./assets/technologyIcons/css-3.png",
+      "./assets/technologyIcons/seo.png",
+      "./assets/technologyIcons/bootstrap.png"
+    ],
+    "pictures": ["", "", ""]
+  },
+  {
+    "title": "ArgentBank-website",
+    "image": "",
+    "id": "6",
+    "description": "",
+    "technologyUsed": [
+      "./assets/technologyIcons/react.png",
+      "./assets/technologyIcons/redux.png",
+      "./assets/technologyIcons/css-3.png",
+      "./assets/technologyIcons/mongodb.png"
+    ],
+    "pictures": ["", "", ""]
+  },
+  {
+    "title": "724events",
+    "image": "",
+    "id": "7",
+    "description": "",
+    "technologyUsed": [
+      "./assets/technologyIcons/react.png",
+      "./assets/technologyIcons/css-3.png"
+    ],
+    "pictures": ["", "", ""]
+  },
+  {
+    "title": "Heberge_Moi",
+    "image": "",
+    "id": "8",
+    "description": "",
+    "technologyUsed": [
+      "./assets/technologyIcons/react.png",
+      "./assets/technologyIcons/express-1.png",
+      "./assets/technologyIcons/mongodb.png",
+      "./assets/technologyIcons/nodejs.png",
+      "./assets/technologyIcons/bootstrap.png",
+      "./assets/technologyIcons/postman.png",
+      "./assets/technologyIcons/sass.png",
+      "./assets/technologyIcons/redux.png"
+    ],
+    "pictures": ["", "", ""]
+  },
+  {
+    "title": "أصل المثل",
+    "image": "",
+    "id": "9",
+    "description": "",
+    "technologyUsed": [
+      "./assets/technologyIcons/kotlin.png",
+      "./assets/technologyIcons/Android_Studio.png",
+      "./assets/technologyIcons/admobe.png"
+    ],
+    "pictures": ["", "", ""]
+  },
+  {
+    "title": "36",
+    "image": "",
+    "id": "10",
+    "description": "",
+    "technologyUsed": [
+      "./assets/technologyIcons/kotlin.png",
+      "./assets/technologyIcons/Android_Studio.png",
+      "./assets/technologyIcons/admobe.png"
+    ],
+    "pictures": ["", "", ""]
+  },
+  {
+    "title": "Portfolio",
+    "image": "",
+    "id": "11",
+    "description": "",
+    "technologyUsed": [
+      "./assets/technologyIcons/react.png",
+      "./assets/technologyIcons/css-3.png",
+      "./assets/technologyIcons/figma.png",
+      "./assets/technologyIcons/seo.png",
+      "./assets/technologyIcons/redux.png"
+    ],
+    "pictures": ["", "", ""]
   }
 ]
