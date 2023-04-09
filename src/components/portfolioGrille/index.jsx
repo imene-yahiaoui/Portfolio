@@ -1,8 +1,10 @@
 import "./style.css";
-import l from "../../assets/images/logo.png";
+
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
-const PortfolioGrille = () => {
+import { NavLink } from "react-router-dom";
+
+const PortfolioGrille = (props) => {
   const { t } = useTranslation();
   const [projects, setProjects] = useState([]);
 
@@ -30,7 +32,7 @@ const PortfolioGrille = () => {
         <div className="PortfolioGrille_item" key={project.id}>
           <h1> {project.title} </h1>
           <div className="PortfolioGrille_img">
-            <img src={l} alt="ffff" />
+            <img src={project.image} alt="ffff" />
           </div>
 
           <p> {t(project.description)} </p>
@@ -42,7 +44,9 @@ const PortfolioGrille = () => {
               </div>
             ))}{" "}
           </div>
-          <a href="/d">Click ici</a>
+          <NavLink to={`/Project/${project.id}`} key={project.id}>
+            voir plus
+          </NavLink>
         </div>
       ))}
     </div>

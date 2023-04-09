@@ -1,10 +1,10 @@
-
+import "./style.css";
 
 
 const Footer = () => {
     return (
-      <div className="header">
-       
+      <div className="footer">
+       <h5> crée par Imene Yahiaoui Ikhlef </h5>
       </div>
     );
   };
