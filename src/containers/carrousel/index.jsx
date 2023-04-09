@@ -1,14 +1,40 @@
-import "./style.css"
-
-const Carrousel = ({slides}) => {
-    return (
-      <div className="carousel">
-        <div
-          className="carousel-img"
-          style={{ backgroundImage: `url(${slides})` }}
-        ></div>
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "./style.css";
+import logo from "../../assets/images/logoIntro.png";
+const Carrousel = ({ slides }) => {
+  return (
+    // <Carousel
+    //   autoPlay
+    //   // inreval={6000}
+    //   // infiniteloop
+    //   // thumbWidth={120}
+    //   // showIndicators={false}
+    //   // showStatue={false}
+    // >
+    //   <div style={{ backgroundImage: `url(${slides})` }}></div>
+    // </Carousel>
+    <Carousel autoPlay 
+    // inreval={6000}
+    // infiniteloop
+    // thumbWidth={120}
+    // showIndicators={false}
+    // showStatue={false}
+    >
+      <div>
+        <img src={logo} alt="photoicon" />
+        <p className="legend">Legend 1</p>
       </div>
-    );
-  };
-  
-  export default Carrousel;
+      <div>
+        <img src={logo} alt="photoicon" />
+        <p className="legend">Legend 2</p>
+      </div>
+      <div>
+        <img src={logo} alt="photoicon" />
+        <p className="legend">Legend 3</p>
+      </div>
+    </Carousel>
+  );
+};
+
+export default Carrousel;

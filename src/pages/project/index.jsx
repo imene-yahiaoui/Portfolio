@@ -1,129 +1,55 @@
 import "./style.css";
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
-import logo from "../../assets/images/logo.png";
-// import { useParams } from "react-router-dom";
-// import { useTranslation } from "react-i18next";
-// import { useState, useEffect } from "react";
-// import Carrousel from "../../containers/carrousel";
+  import { useParams } from "react-router-dom";
+  // import { useTranslation } from "react-i18next";
+  import { useState, useEffect } from "react";
+  import Carrousel from "../../containers/carrousel";
 const Project = () => {
-  //   const [projects, setProjects] = useState([]);
-  //   const [index, setCurrentindex] = useState(0);
-  //   useEffect(() => {
-  //     const fetchProjects = async () => {
-  //       try {
-  //         const requete = await fetch("../../jsons/portfolio.json", {
-  //           method: "GET",
-  //         });
-  //         if (requete.ok) {
-  //           const response = await requete.json();
-  //           setProjects(response);
-  //           console.log(response);
-  //         }
-  //       } catch (e) {
-  //         console.log(e);
-  //       }
-  //     };
-  //     fetchProjects();
-  //   }, []);
+    const [projects, setProjects] = useState([]);
+ 
+    useEffect(() => {
+      const fetchProjects = async () => {
+        try {
+          const requete = await fetch("../../jsons/portfolio.json", {
+            method: "GET",
+          });
+          if (requete.ok) {
+            const response = await requete.json();
+            setProjects(response);
+            console.log(response);
+          }
+        } catch (e) {
+          console.log(e);
+        }
+      };
+      fetchProjects();
+    }, []);
 
-  //   const { id } = useParams();
-  //   console.log(id);
+    const { id } = useParams();
+    console.log(id);
 
-  //   const { t } = useTranslation();
+    // const { t } = useTranslation();
 
-  //   ///slidesLenghth
-  //   const slidesLenghth = projects
-  //     .filter((project) => project.id === id)
-  //     .map((project) => project.pictures.length);
-
-  //   /// function presedent
-  //   const goToPrevious = () => {
-  //     const firstSlide = index === 0;
-
-  //     const newIndex = firstSlide ? slidesLenghth - 1 : index - 1;
-
-  //     setCurrentindex(newIndex);
-  //   };
-  //   ///function suivant
-  //   const goToNext = () => {
-  //     const lastSlide = index === slidesLenghth - 1;
-
-  //     const newIndex = lastSlide ? 0 : index + 1;
-  //     setCurrentindex(newIndex);
-  //   };
-
-  //   ////keyboard
-  //   function keyclavier(e) {
-  //     if (e.keyCode === 37) {
-  //       goToPrevious();
-  //     } else if (e.keyCode === 39) {
-  //       goToNext();
-  //     }
-  //   }
-  //   document.addEventListener("keydown", keyclavier);
-
-  // console.log(index);
+ 
   return (
-    //  <div className="project">
+  
+<div className="project">
+  <div className="project_top">
+ <div className="project_carousel">
+  {/* {projects
+              .filter((project) => project.id === id)
+              .map((project) => ( */}
+                <Carrousel   />
+              {/* ))} */}
+  </div>
+  <div className="project_desc">
+  <p>Booki est le premier projet de développement web sur lequel j'ai travaillé dans la formation d'intégrateur web chez OpenClassrooms.\n Mon rôle a été d'intégrer les maquettes fournies par l'équipe de conception UI et de les transformer en une interface web fonctionnelle à l'aide de HTML et CSS.\n Le projet a commencé par l'analyse des maquettes, fournies sous forme de fichiers Figma pour différentes tailles d'écran. En suivant les meilleures pratiques de développement web et en respectant les normes de qualité établies, j'ai travaillé sur l'intégration des maquettes en HTML et CSS.\n J'ai également veillé à ce que le site web soit adaptatif, c'est-à-dire qu'il s'adapte automatiquement à différents types et tailles d'écran.  </p>
+  </div>
+  </div>
 
-    //   <div className="carrousel_imgs">
-    //         {projects
-    //           .filter((project) => project.id === id)
-    //           .map((project) => (
-    //             <Carrousel slides={project.pictures[index]} key={project.id} />
-    //           ))}
 
-    //         {projects
-    //           .filter((project) => project.id === id)
-    //           .map((project) => (
-    //             <i
-    //               style={{
-    //                 display: project.pictures.length === 1 ? "none" : "block",
-    //               }}
-    //               key={project.id}
-    //               className="fa-solid fa-angle-left"
-    //               onClick={goToPrevious}
-    //             ></i>
-    //           ))}
-    //         {projects
-    //           .filter((project) => project.id === id)
-    //           .map((project) => (
-    //             <i
-    //               style={{
-    //                 display: project.pictures.length === 1 ? "none" : "block",
-    //               }}
-    //               key={project.id}
-    //               className="fa-solid fa-angle-right"
-    //               onClick={goToNext}
-    //             ></i>
-    //           ))}
-
-    // </div>
-    // <div className="disc">   </div>
-    //  </div>
-
-    <Carousel autoPlay 
-    // inreval={6000}
-    // infiniteloop
-    // thumbWidth={120}
-    // showIndicators={false}
-    // showStatue={false}
-    >
-      <div>
-        <img src={logo} alt="photoicon" />
-        <p className="legend">Legend 1</p>
-      </div>
-      <div>
-        <img src={logo} alt="photoicon" />
-        <p className="legend">Legend 2</p>
-      </div>
-      <div>
-        <img src={logo} alt="photoicon" />
-        <p className="legend">Legend 3</p>
-      </div>
-    </Carousel>
+  </div>
+  
   );
 };
 

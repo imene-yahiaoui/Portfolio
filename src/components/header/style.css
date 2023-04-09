@@ -74,8 +74,6 @@
 .btn_lang {
   width: 65px;
   display: inline-block;
- 
-  /* margin: 0 0.1em 0.1em 0; */
   border: 0.16em solid var(--lang_color);
   border-radius: 2em;
   box-sizing: border-box;
