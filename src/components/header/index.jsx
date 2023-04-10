@@ -34,16 +34,16 @@ const Header = () => {
             <div className="nav-elements">
               <ul>
                 <li className="nav_list">
-                  <Link to={t("home_path")}>{t("home_title")}</Link>
+                  <a href={t("home_path")}>{t("home_title")}</a>
                 </li>
                 <li className="nav_list">
-                  <Link to={t("skills_path")}>{t("skills_title")}</Link>
+                  <a href={t("skills_path")}>{t("skills_title")}</a>
                 </li>
                 <li className="nav_list">
-                  <Link to={t("portfolio_path")}>{t("portfolio_title")}</Link>
+                <a href={t("portfolio_path")}>{t("portfolio_title")}</a>
                 </li>
                 <li className="nav_list">
-                  <Link to={t("contact_path")}>{t("contact_title")}</Link>
+                  <a href={t("contact_path")}>{t("contact_title")}</a>
                 </li>
                 <li>
                   <DarkMode />

@@ -5,11 +5,11 @@
   "home_title": "Accueil",
   "home_path": "/",
   "skills_title": "Compétences",
-  "skills_path": "#competences",
+  "skills_path": "#Compétences",
   "portfolio_title": "Portfolio",
-  "portfolio_path": "#portfolio",
+  "portfolio_path": "#Portfolio",
   "contact_title": "Contact",
-  "contact_path": "#contact",
+  "contact_path": "#Contact",
 
   "main_heading": {
     "hello": "Bonjour👋 ",

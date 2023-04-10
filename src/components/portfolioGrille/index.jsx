@@ -27,26 +27,42 @@ const PortfolioGrille = (props) => {
   }, []);
 
   return (
+    // <div className="PortfolioGrille_item" key={project.id}>
+    //   <h1> {project.title} </h1>
+    //   <div className="PortfolioGrille_img">
+    //     <img src={project.image} alt="ffff" />
+    //   </div>
+
+    //   <p> {t(project.description)} </p>
+    //   <h6>{t("Technologies_used")} </h6>
+    //   <div className="technologyUsed_icons">
+    //     {project.technologyUsed.map((icon) => (
+    //       <div className="img_item">
+    //         <img src={icon} alt="icon" />
+    //       </div>
+    //     ))}{" "}
+    //   </div>
+    //   <NavLink to={`/Project/${project.id}`} key={project.id}>
+    //     voir plus
+    //   </NavLink>
+    // </div>
+    // {projects.map((project) => (
     <div className="PortfolioGrille">
       {projects.map((project) => (
-        <div className="PortfolioGrille_item" key={project.id}>
-          <h1> {project.title} </h1>
-          <div className="PortfolioGrille_img">
-            <img src={project.image} alt="ffff" />
+        <div className="card" key={project.id}>
+            <h1 className="card_title"> {project.title} </h1>
+          <div className="card_img">
+            <img src={project.image} alt="" />
           </div>
-
-          <p> {t(project.description)} </p>
-          <h6>{t("Technologies_used")} </h6>
-          <div className="technologyUsed_icons">
-            {project.technologyUsed.map((icon) => (
-              <div className="img_item">
-                <img src={icon} alt="icon" />
-              </div>
-            ))}{" "}
+          <div className="card_body">
+            <h2>Joy</h2>
+            <p>{t(project.description)}</p>
           </div>
+          <div className="card_footer">
           <NavLink to={`/Project/${project.id}`} key={project.id}>
-            voir plus
-          </NavLink>
+         voir plus
+       </NavLink>
+          </div>
         </div>
       ))}
     </div>

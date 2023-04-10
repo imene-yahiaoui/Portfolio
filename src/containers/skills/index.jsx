@@ -8,7 +8,7 @@ const Skills = () => {
 
   
   return (
-    <div className="skills" id={t("skills_path")} >
+    <div className="skills" id={t("skills_title")} >
       <h1 className="title"> {t("skills_title")} </h1>
       <Filtre />
       <SkillsGrille />
