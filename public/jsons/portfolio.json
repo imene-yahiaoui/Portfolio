@@ -5,8 +5,8 @@
     "id": "1",
     "description": "projectBooki.brief_description",
     "technologyUsed": [
-      "./assets/technologyIcons/html.png",
-      "./assets/technologyIcons/css-3.png"
+      "../assets/technologyIcons/html.png",
+      "../assets/technologyIcons/css-3.png"
     ],
     "pictures": [
       "../assets/projects/booki1.png",

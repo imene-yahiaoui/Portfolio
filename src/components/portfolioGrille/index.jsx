@@ -55,7 +55,7 @@ const PortfolioGrille = (props) => {
             <img src={project.image} alt="" />
           </div>
           <div className="card_body">
-            <h2>Joy</h2>
+         
             <p>{t(project.description)}</p>
           </div>
           <div className="card_footer">
