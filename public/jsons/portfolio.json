@@ -5,8 +5,14 @@
     "id": "1",
     "description": "projectBooki.brief_description",
     "technologyUsed": [
-      "../assets/technologyIcons/html.png",
-      "../assets/technologyIcons/css-3.png"
+      {
+        "icon": "../assets/technologyIcons/html.png",
+        "name": "HTML"
+      },
+      {
+        "icon": "../assets/technologyIcons/css-3.png",
+        "name": "CSS"
+      }
     ],
     "pictures": [
       "../assets/projects/booki1.png",
@@ -28,8 +34,14 @@
     "id": "2",
     "description": "",
     "technologyUsed": [
-      "./assets/technologyIcons/html.png",
-      "./assets/technologyIcons/sass.png"
+      {
+        "icon": "../assets/technologyIcons/html.png",
+        "name": "HTML"
+      },
+      {
+        "icon": "../assets/technologyIcons/sass.png",
+        "name": "Sass"
+      }
     ],
     "pictures": ["", "", ""]
   },
@@ -39,9 +51,18 @@
     "id": "3",
     "description": "",
     "technologyUsed": [
-      "./assets/technologyIcons/html.png",
-      "./assets/technologyIcons/css-3.png",
-      "./assets/technologyIcons/js.png"
+      {
+        "icon": "../assets/technologyIcons/html.png",
+        "name": "HTML"
+      },
+      {
+        "icon": "../assets/technologyIcons/css-3.png",
+        "name": "CSS"
+      },
+      {
+        "icon": "../assets/technologyIcons/js.png",
+        "name": "JavaScript"
+      }
     ],
     "pictures": ["", "", ""]
   },
@@ -51,8 +72,14 @@
     "id": "4",
     "description": "",
     "technologyUsed": [
-      "./assets/technologyIcons/react.png",
-      "./assets/technologyIcons/sass.png"
+      {
+        "icon": "../assets/technologyIcons/react.png",
+        "name": "React"
+      },
+      {
+        "icon": "../assets/technologyIcons/sass.png",
+        "name": "Sass"
+      }
     ],
     "pictures": ["", "", ""]
   },
@@ -62,10 +89,18 @@
     "id": "5",
     "description": "",
     "technologyUsed": [
-      "./assets/technologyIcons/html.png",
-      "./assets/technologyIcons/css-3.png",
-      "./assets/technologyIcons/seo.png",
-      "./assets/technologyIcons/bootstrap.png"
+      {
+        "icon": "./assets/technologyIcons/seo.png",
+        "name": "Seo"
+      },
+      {
+        "icon": "../assets/technologyIcons/html.png",
+        "name": "HTML"
+      },
+      {
+        "icon": "../assets/technologyIcons/css-3.png",
+        "name": "CSS"
+      }
     ],
     "pictures": ["", "", ""]
   },
@@ -75,69 +110,115 @@
     "id": "6",
     "description": "",
     "technologyUsed": [
-      "./assets/technologyIcons/react.png",
-      "./assets/technologyIcons/redux.png",
-      "./assets/technologyIcons/css-3.png",
-      "./assets/technologyIcons/mongodb.png"
-    ],
-    "pictures": ["", "", ""]
-  },
-  {
-    "title": "724events",
-    "image": "",
-    "id": "7",
-    "description": "",
-    "technologyUsed": [
-      "./assets/technologyIcons/react.png",
-      "./assets/technologyIcons/css-3.png"
+      {
+        "icon": "../assets/technologyIcons/react.png",
+        "name": "React"
+      },
+      {
+        "icon": "../assets/technologyIcons/redux.png",
+        "name": "Redux"
+      },
+      {
+        "icon": "../assets/technologyIcons/css-3.png",
+        "name": "CSS"
+      },
+      {
+        "icon": "../assets/technologyIcons/mongodb.png",
+        "name": "Mongodb"
+      }
     ],
     "pictures": ["", "", ""]
   },
   {
     "title": "Heberge_Moi",
     "image": "",
-    "id": "8",
+    "id": "7",
     "description": "",
     "technologyUsed": [
-      "./assets/technologyIcons/react.png",
-      "./assets/technologyIcons/express-1.png",
-      "./assets/technologyIcons/mongodb.png",
-      "./assets/technologyIcons/nodejs.png",
-      "./assets/technologyIcons/bootstrap.png",
-      "./assets/technologyIcons/postman.png",
-      "./assets/technologyIcons/sass.png",
-      "./assets/technologyIcons/redux.png"
+      {
+        "icon": "../assets/technologyIcons/react.png",
+        "name": "React"
+      },
+      {
+        "icon": "../assets/technologyIcons/redux.png",
+        "name": "Redux"
+      },
+      {
+        "icon": "../assets/technologyIcons/sass.png",
+        "name": "Sass"
+      },
+      {
+        "icon": "../assets/technologyIcons/mongodb.png",
+        "name": "Mongodb"
+      },
+      {
+        "icon": "../assets/technologyIcons/bootstrap.png",
+        "name": "Bootstrap"
+      },
+      {
+        "icon": "../assets/technologyIcons/express-1.png",
+        "name": "Express"
+      },
+      {
+        "icon": "../assets/technologyIcons/nodejs.png",
+        "name": "Node.js"
+      },
+      {
+        "icon": "../assets/technologyIcons/mongodb.png",
+        "name": "Mongodb"
+      }
     ],
     "pictures": ["", "", ""]
   },
   {
     "title": "أصل المثل",
     "image": "",
-    "id": "9",
+    "id": "8",
     "description": "",
     "technologyUsed": [
-      "./assets/technologyIcons/kotlin.png",
-      "./assets/technologyIcons/Android_Studio.png",
-      "./assets/technologyIcons/admobe.png"
+      {
+        "icon":   "../assets/technologyIcons/kotlin.png",
+        "name": "Kotlin"
+      },
+      {
+        "icon":  "../assets/technologyIcons/Android_Studio.png",
+        "name": "Android Studio"
+      },
+      {
+        "icon":  "../assets/technologyIcons/admobe.png",
+        "name": "Admob"
+      }
+    
+     
+     
     ],
     "pictures": ["", "", ""]
   },
   {
     "title": "36",
     "image": "",
-    "id": "10",
+    "id": "9",
     "description": "",
     "technologyUsed": [
-      "./assets/technologyIcons/kotlin.png",
-      "./assets/technologyIcons/Android_Studio.png",
-      "./assets/technologyIcons/admobe.png"
+      {
+        "icon":   "../assets/technologyIcons/kotlin.png",
+        "name": "Kotlin"
+      },
+      {
+        "icon":  "../assets/technologyIcons/Android_Studio.png",
+        "name": "Android Studio"
+      },
+      {
+        "icon":  "../assets/technologyIcons/admobe.png",
+        "name": "Admob"
+      }
     ],
     "pictures": ["", "", ""]
   },
-  {
+    {
     "title": "Portfolio",
     "image": "",
-    "id": "11",
+    "id": "10",
     "description": "",
     "technologyUsed": [
       "./assets/technologyIcons/react.png",
