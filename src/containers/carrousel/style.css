@@ -1,15 +1,17 @@
 .carousel {
   position: relative;
+
 }
-.carousel .thumbs {
+.carousel {
   display: flex;
   justify-content: center;
   margin: 0;
   padding: 10px;
 }
-.carousel .thumb {
+.carousel  {
   margin: 0 5px;
   cursor: pointer;
+  height: 400px;
 }
 .carousel .overlay {
   width: 80%;
@@ -25,7 +27,13 @@
 .carousel .overlay_title {
   margin: 0.8rem 0 1rem;
 }
-
+.thumbs{
+  display: none !important;
+}
+img{
+  height: 400px;
+  object-fit: contain;
+}
 @media screen and(max-width:600px) {
   .carousel .slide img {
     width: 1000vw !important;
