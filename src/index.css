@@ -6,6 +6,7 @@
   --spark: 1.8s;
   --lang_background: #e9d3f1;
   --lang_color: #c996cc;
+  --background_icons:#a084dc;
   --hover: linear-gradient(
     45deg,
     #c996cc,
@@ -26,7 +27,7 @@
   --body_color: #f3ebf6;
   --lang_color: #22165b;
   --lang_background: rgb(67, 56, 113);
-
+--background_icons:#c996cc;
   --hover: linear-gradient(
     45deg,
     #645cbb,

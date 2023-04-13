@@ -15,7 +15,7 @@ const SocialMedia = () => {
             color="var(--body_color)"
             size="50px"
             onMouseOver={({ target }) =>
-              (target.style.color = "var(--lang_color)")
+              (target.style.color = "var(--background_icons)")
             }
             onMouseOut={({ target }) =>
               (target.style.color = "var(--body_color)")
@@ -25,14 +25,15 @@ const SocialMedia = () => {
       </li>
       <li>
         <a href="https://discord.gg/#1420" target="_blank" rel="noreferrer">
-          <FaDiscord color="var(--body_color)" size="40px" 
-           onMouseOver={({ target }) =>
-           (target.style.color = "var(--lang_color)")
-         }
-         onMouseOut={({ target }) =>
-           (target.style.color = "var(--body_color)")
-         }
-          
+          <FaDiscord
+            color="var(--body_color)"
+            size="40px"
+            onMouseOver={({ target }) =>
+              (target.style.color = "var(--background_icons)")
+            }
+            onMouseOut={({ target }) =>
+              (target.style.color = "var(--body_color)")
+            }
           />
         </a>
       </li>
@@ -42,14 +43,15 @@ const SocialMedia = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <TiSocialLinkedinCircular  color="var(--body_color)" size="50px" 
-           onMouseOver={({ target }) =>
-           (target.style.color = "var(--lang_color)")
-         }
-         onMouseOut={({ target }) =>
-           (target.style.color = "var(--body_color)")
-         }
-          
+          <TiSocialLinkedinCircular
+            color="var(--body_color)"
+            size="50px"
+            onMouseOver={({ target }) =>
+              (target.style.color = "var(--background_icons)")
+            }
+            onMouseOut={({ target }) =>
+              (target.style.color = "var(--body_color)")
+            }
           />
         </a>
       </li>

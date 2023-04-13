@@ -161,11 +161,8 @@
       {
         "icon": "../assets/technologyIcons/nodejs.png",
         "name": "Node.js"
-      },
-      {
-        "icon": "../assets/technologyIcons/mongodb.png",
-        "name": "Mongodb"
       }
+     
     ],
     "pictures": ["", "", ""]
   },
