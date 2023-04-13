@@ -33,7 +33,7 @@ const Project = () => {
        {projects
             .filter((project) => project.id === id)
             .map((project) =>
-         <h6 className="project_title">{project.title} </h6> )}
+         <h6 className="project_title"  key={ project.id}>{project.title}</h6> )}
       <div className="project_top">
         <div className="project_carousel">
           <Carrousel className="carousel" />
@@ -55,17 +55,15 @@ const Project = () => {
             c'est-à-dire qu'il s'adapte automatiquement à différents types et
             tailles d'écran.{" "}
           </p>
-        </div>
-      </div>
-      <div className="Technologies">
+          <div className="Technologies">
         <h6>{t("Technologies_used")} </h6>
         <div className="technologyUsed_icons">
         {projects
             .filter((project) => project.id === id)
             .map((project) =>
               project.technologyUsed.map((icon) => (
-                <ul className="wrapper">
-                  <li className="icon twitter">
+                <ul className="wrapper"key={icon.name}>
+                  <li className="icon twitter" >
                     <span className="tooltip">{icon.name}</span>
                     <span>
                       <img src={icon.icon} alt="icon" />
@@ -76,6 +74,9 @@ const Project = () => {
             )}
         </div>
       </div>
+        </div>
+      </div>
+      
     </div>
   );
 };
