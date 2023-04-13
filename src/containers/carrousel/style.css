@@ -1,38 +1,39 @@
 .carousel {
   position: relative;
-
 }
 .carousel {
   display: flex;
   justify-content: center;
   margin: 0;
-  padding: 10px;
 }
-.carousel  {
-  margin: 0 5px;
-  cursor: pointer;
-  height: 400px;
+.carousel {
+  margin: 0 30px;
+  max-height: 500px;
+  /* min-height: 200px; */
+  max-width: 500px;
+  /* min-width: 300px; */
+ 
 }
 .carousel .overlay {
-  width: 80%;
-  position: absolute;
-  top: 50%;
+  width: 100%;
   transform: translateY(-50);
-  left: 10%;
-  padding: 0.4rem 1.5rem;
-  text-align: left;
-  background-color: black;
-  color: aliceblue;
+  
 }
-.carousel .overlay_title {
-  margin: 0.8rem 0 1rem;
+.img_carousel {
+  height: 500px;
+  width: 500px;
+  
 }
-.thumbs{
+.thumbs {
   display: none !important;
 }
-img{
-  height: 400px;
-  object-fit: contain;
+.carousel img {
+ height: 100%;
+ width: 100%;
+  object-fit:contain;
+}
+.control-arrow {
+  display: none !important;
 }
 @media screen and(max-width:600px) {
   .carousel .slide img {

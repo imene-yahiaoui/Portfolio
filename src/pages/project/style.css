@@ -1,40 +1,51 @@
-.project{
-  width:90%;
-  height : 100vh;
+.project {
+  width: 90%;
 
+  height: 100vh;
   margin: 0 auto;
+  margin-bottom: 0px;
 }
 
-
-.project_top{
-width:99%;
-height:700px;
-
-margin-top: 71px;
-display: flex;
-flex-direction: row-reverse;
-    align-items: center;
+.project_top {
+  width: 99%;
+  height: 700px;
+  /* margin-top: 71px; */
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
-.project_carousel{
-  width: 40%;
-  height: 400px;
-}
-.project_desc{
+.project_desc {
   width: 60%;
-
+  
 }
 
-.project_desc p{
-  width:80%;
-  height:auto;
-  border:3px solid red ;
+.carousel {
+  /* width: 100%;
+  height: 100%; */
+  position: absolute;
+}
+.project_desc p {
+  width: 80%;
+  height: auto;
+  border: 3px solid red;
 
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+.project_title{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: #0891e6;
+  font-size: 20px;
+  /* padding-top: 87px; */
+  margin-bottom: 0;
+  margin-top: 90px;
 
 }
-.Technologies{
+.Technologies {
   display: flex;
   flex-direction: column;
 }
@@ -51,9 +62,6 @@ justify-content: center;
   width: 25px;
   height: 25px;
 }
-
-
-
 
 .wrapper {
   display: inline-flex;
@@ -118,6 +126,6 @@ justify-content: center;
 .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
-  background: #1DA1F2;
+  background: #1da1f2;
   color: #ffffff;
 }

@@ -20,7 +20,6 @@
       "../assets/projects/booki3.png",
       "../assets/projects/booki4.png",
       "../assets/projects/booki5.png",
-      "../assets/projects/booki6.png",
       "../assets/projects/booki7.png",
       "../assets/projects/booki8.png"
     ],
@@ -177,20 +176,17 @@
     "description": "",
     "technologyUsed": [
       {
-        "icon":   "../assets/technologyIcons/kotlin.png",
+        "icon": "../assets/technologyIcons/kotlin.png",
         "name": "Kotlin"
       },
       {
-        "icon":  "../assets/technologyIcons/Android_Studio.png",
+        "icon": "../assets/technologyIcons/Android_Studio.png",
         "name": "Android Studio"
       },
       {
-        "icon":  "../assets/technologyIcons/admobe.png",
+        "icon": "../assets/technologyIcons/admobe.png",
         "name": "Admob"
       }
-    
-     
-     
     ],
     "pictures": ["", "", ""]
   },
@@ -201,21 +197,21 @@
     "description": "",
     "technologyUsed": [
       {
-        "icon":   "../assets/technologyIcons/kotlin.png",
+        "icon": "../assets/technologyIcons/kotlin.png",
         "name": "Kotlin"
       },
       {
-        "icon":  "../assets/technologyIcons/Android_Studio.png",
+        "icon": "../assets/technologyIcons/Android_Studio.png",
         "name": "Android Studio"
       },
       {
-        "icon":  "../assets/technologyIcons/admobe.png",
+        "icon": "../assets/technologyIcons/admobe.png",
         "name": "Admob"
       }
     ],
     "pictures": ["", "", ""]
   },
-    {
+  {
     "title": "Portfolio",
     "image": "",
     "id": "10",

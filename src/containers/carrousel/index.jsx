@@ -46,16 +46,15 @@ const Carrousel = () => {
     .filter((project) => project.id === id)
     .map((project) => (
       <Carousel
-        autoPlay
+        showControls={false}
         key={project.id}
-        inreval={6000}
         infiniteloop
         thumbWidth={120}
         showIndicators={false}
         showStatus={false}
-        
+        type="slider"
       >
-        <div>
+        <div className="img_carousel">
           <img src={project.pictures[index]} alt="photoicon" />
         </div>
       </Carousel>
