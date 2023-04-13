@@ -1,16 +1,10 @@
 {
-  "extends": [
-    "development"
-  ],
+  "extends": ["development"],
   "hints": {
     "compat-api/css": [
       "default",
       {
-        "ignore": [
-          "-webkit-mask-image",
-          "-webkit-text-size-adjust",
-          "zoom"
-        ]
+        "ignore": ["-webkit-mask-image", "-webkit-text-size-adjust", "zoom"]
       }
     ]
   },

@@ -32,7 +32,7 @@ const NotFound = () => {
             <h1 className="message__title">{t("notFound.message__title")}</h1>
             <p className="message__text">{t("notFound.message__text")}</p>
           </div>
-          <div className="error__nav e-nav">
+          <div className="error__nav   ">
             <a href="/" className="e-nav__link">
               {t("notFound.message__btn")}
             </a>

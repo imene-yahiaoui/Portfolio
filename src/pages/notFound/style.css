@@ -1,4 +1,4 @@
-.top-header:before {
+ .top-header:before {
   content: "";
   display: block;
   width: 100%;
@@ -185,21 +185,13 @@
 
 @keyframes animStar {
   0% {
-    transform: translateY(0px);
+    transform: translateY(-2000px);
   }
   100% {
-    transform: translateY(-2000px);
+    transform: translateY(0px);
   }
 }
 
-button {
-  border: none;
-  padding: 0;
-  font-size: 0;
-  line-height: 0;
-  background: none;
-  cursor: pointer;
-}
 
 :focus {
   outline: 0;
@@ -274,9 +266,11 @@ button {
 }
 
 .error__nav {
-  max-width: 600px;
+   max-width: 600px;  
   margin: 40px auto 0;
   text-align: center;
+  border: none;
+ 
 }
 
 .e-nav__form {
@@ -333,42 +327,8 @@ button {
 .e-nav__link:nth-child(2):hover:after {
   color: #fff;
 }
-/* 2.1. END Section Error */
 
-/* 2.2. Social style */
-.error__social {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  left: 20px;
-  z-index: 10;
-}
-
-.e-social__list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.e-social__icon {
-  padding-bottom: 30px;
-}
-
-.e-social__icon:last-child {
-  padding-bottom: 0;
-}
-
-.e-social__link {
-  color: #fff;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-  display: block;
-}
-
-.e-social__link:hover {
-  opacity: 0.7;
-}
+ 
 
 .lamp {
   position: absolute;
@@ -551,6 +511,7 @@ button {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 15px;
+    
   }
   .error__nav {
     margin-top: 20px;

@@ -6,8 +6,8 @@ const DownloadBtn = () => {
   const { t } = useTranslation();
   return (
     <button className="glow-on-hover" type="button">
-      <a href={cv} download>
-      {t("Download")}
+      <a className="download" href={cv} download>
+        {t("Download")}
       </a>
     </button>
   );
