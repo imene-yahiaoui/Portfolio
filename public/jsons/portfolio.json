@@ -42,7 +42,13 @@
         "name": "Sass"
       }
     ],
-    "pictures": ["", "", ""]
+    "pictures": [  "../assets/projects/booki1.png",
+    "../assets/projects/booki2.png",
+    "../assets/projects/booki3.png",
+    "../assets/projects/booki4.png",
+    "../assets/projects/booki5.png",
+    "../assets/projects/booki7.png",
+    "../assets/projects/booki8.png"]
   },
   {
     "title": "Portfolio-architecte",
@@ -63,7 +69,13 @@
         "name": "JavaScript"
       }
     ],
-    "pictures": ["", "", ""]
+    "pictures": [  "../assets/projects/booki1.png",
+    "../assets/projects/booki2.png",
+    "../assets/projects/booki3.png",
+    "../assets/projects/booki4.png",
+    "../assets/projects/booki5.png",
+    "../assets/projects/booki7.png",
+    "../assets/projects/booki8.png"]
   },
   {
     "title": "Kasa",
@@ -80,7 +92,13 @@
         "name": "Sass"
       }
     ],
-    "pictures": ["", "", ""]
+    "pictures": [  "../assets/projects/booki1.png",
+    "../assets/projects/booki2.png",
+    "../assets/projects/booki3.png",
+    "../assets/projects/booki4.png",
+    "../assets/projects/booki5.png",
+    "../assets/projects/booki7.png",
+    "../assets/projects/booki8.png"]
   },
   {
     "title": "Nina-Carducci",
