@@ -3,7 +3,8 @@
     "title": "Booki",
     "image": "./assets/projects/booki1.png",
     "id": "1",
-    "description": "projectBooki.brief_description",
+    "brief_description": "projectBooki.brief_description",
+    "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
         "icon": "../assets/technologyIcons/html.png",
@@ -14,6 +15,7 @@
         "name": "CSS"
       }
     ],
+
     "pictures": [
       "../assets/projects/booki1.png",
       "../assets/projects/booki2.png",
@@ -31,7 +33,8 @@
     "title": "Ohmyfood",
     "image": "",
     "id": "2",
-    "description": "",
+    "brief_description": "projectOhMyFood.brief_description",
+    "description_project": "projectOhMyFood.description_project",
     "technologyUsed": [
       {
         "icon": "../assets/technologyIcons/html.png",
@@ -42,19 +45,22 @@
         "name": "Sass"
       }
     ],
-    "pictures": [  "../assets/projects/booki1.png",
-    "../assets/projects/booki2.png",
-    "../assets/projects/booki3.png",
-    "../assets/projects/booki4.png",
-    "../assets/projects/booki5.png",
-    "../assets/projects/booki7.png",
-    "../assets/projects/booki8.png"]
+    "pictures": [
+      "../assets/projects/booki1.png",
+      "../assets/projects/booki2.png",
+      "../assets/projects/booki3.png",
+      "../assets/projects/booki4.png",
+      "../assets/projects/booki5.png",
+      "../assets/projects/booki7.png",
+      "../assets/projects/booki8.png"
+    ]
   },
   {
     "title": "Portfolio-architecte",
     "image": "",
     "id": "3",
-    "description": "",
+    "brief_description": "projectBooki.brief_description",
+    "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
         "icon": "../assets/technologyIcons/html.png",
@@ -69,19 +75,22 @@
         "name": "JavaScript"
       }
     ],
-    "pictures": [  "../assets/projects/booki1.png",
-    "../assets/projects/booki2.png",
-    "../assets/projects/booki3.png",
-    "../assets/projects/booki4.png",
-    "../assets/projects/booki5.png",
-    "../assets/projects/booki7.png",
-    "../assets/projects/booki8.png"]
+    "pictures": [
+      "../assets/projects/booki1.png",
+      "../assets/projects/booki2.png",
+      "../assets/projects/booki3.png",
+      "../assets/projects/booki4.png",
+      "../assets/projects/booki5.png",
+      "../assets/projects/booki7.png",
+      "../assets/projects/booki8.png"
+    ]
   },
   {
     "title": "Kasa",
     "image": "",
     "id": "4",
-    "description": "",
+    "brief_description": "projectBooki.brief_description",
+    "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
         "icon": "../assets/technologyIcons/react.png",
@@ -92,19 +101,22 @@
         "name": "Sass"
       }
     ],
-    "pictures": [  "../assets/projects/booki1.png",
-    "../assets/projects/booki2.png",
-    "../assets/projects/booki3.png",
-    "../assets/projects/booki4.png",
-    "../assets/projects/booki5.png",
-    "../assets/projects/booki7.png",
-    "../assets/projects/booki8.png"]
+    "pictures": [
+      "../assets/projects/booki1.png",
+      "../assets/projects/booki2.png",
+      "../assets/projects/booki3.png",
+      "../assets/projects/booki4.png",
+      "../assets/projects/booki5.png",
+      "../assets/projects/booki7.png",
+      "../assets/projects/booki8.png"
+    ]
   },
   {
     "title": "Nina-Carducci",
     "image": "",
     "id": "5",
-    "description": "",
+    "brief_description": "projectBooki.brief_description",
+    "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
         "icon": "./assets/technologyIcons/seo.png",
@@ -125,7 +137,8 @@
     "title": "ArgentBank-website",
     "image": "",
     "id": "6",
-    "description": "",
+    "brief_description": "projectBooki.brief_description",
+    "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
         "icon": "../assets/technologyIcons/react.png",
@@ -150,7 +163,8 @@
     "title": "Heberge_Moi",
     "image": "",
     "id": "7",
-    "description": "",
+    "brief_description": "projectBooki.brief_description",
+    "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
         "icon": "../assets/technologyIcons/react.png",
@@ -180,7 +194,6 @@
         "icon": "../assets/technologyIcons/nodejs.png",
         "name": "Node.js"
       }
-     
     ],
     "pictures": ["", "", ""]
   },
@@ -188,7 +201,8 @@
     "title": "أصل المثل",
     "image": "",
     "id": "8",
-    "description": "",
+    "brief_description": "projectBooki.brief_description",
+    "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
         "icon": "../assets/technologyIcons/kotlin.png",
@@ -209,7 +223,8 @@
     "title": "36",
     "image": "",
     "id": "9",
-    "description": "",
+    "brief_description": "projectBooki.brief_description",
+    "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
         "icon": "../assets/technologyIcons/kotlin.png",
@@ -225,19 +240,6 @@
       }
     ],
     "pictures": ["", "", ""]
-  },
-  {
-    "title": "Portfolio",
-    "image": "",
-    "id": "10",
-    "description": "",
-    "technologyUsed": [
-      "./assets/technologyIcons/react.png",
-      "./assets/technologyIcons/css-3.png",
-      "./assets/technologyIcons/figma.png",
-      "./assets/technologyIcons/seo.png",
-      "./assets/technologyIcons/redux.png"
-    ],
-    "pictures": ["", "", ""]
   }
+
 ]

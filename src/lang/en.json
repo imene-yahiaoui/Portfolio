@@ -26,7 +26,7 @@
 
   "projectBooki": {
     "brief_description": "Booki is the first web development project on which I worked during my training as a web integrator at OpenClassrooms.\n My role was to integrate the mockups provided by the UI design team and transform them into a functional web interface using HTML and CSS",
-    "main_description": "Booki is the first web development project on which I worked during my training as a web integrator at OpenClassrooms.\n My role was to integrate the mockups provided by the UI design team and transform them into a functional web interface using HTML and CSS. The project started with the analysis of mockups, provided in the form of Figma files for different screen sizes.\n Following the best practices of web development and adhering to established quality standards, I worked on integrating the mockups using HTML and CSS.\n I also ensured that the website was responsive, meaning that it automatically adapts to different screen types and sizes."
+    "description_project": "Booki is the first web development project on which I worked during my training as a web integrator at OpenClassrooms.\n My role was to integrate the mockups provided by the UI design team and transform them into a functional web interface using HTML and CSS. The project started with the analysis of mockups, provided in the form of Figma files for different screen sizes.\n Following the best practices of web development and adhering to established quality standards, I worked on integrating the mockups using HTML and CSS.\n I also ensured that the website was responsive, meaning that it automatically adapts to different screen types and sizes."
   },
 
   "notFound": {
