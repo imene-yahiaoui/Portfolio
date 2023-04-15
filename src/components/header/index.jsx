@@ -10,6 +10,11 @@ import DarkMode from "../darkMode";
 const Header = () => {
   const matches = useMediaQuery("(max-width:767px)");
   const { t, i18n } = useTranslation();
+  // const value= localStorage.getItem('i18nextLng')
+  //   if (localStorage.getItem('i18nextLng')) {
+  //     i18n.changeLanguage(value)
+  //   }
+  const lang = localStorage.getItem("i18nextLng");
 
   const [showMenu, setShowMenu] = useState(false);
 
@@ -40,7 +45,7 @@ const Header = () => {
                   <a href={t("skills_path")}>{t("skills_title")}</a>
                 </li>
                 <li className="nav_list">
-                <a href={t("portfolio_path")}>{t("portfolio_title")}</a>
+                  <a href={t("portfolio_path")}>{t("portfolio_title")}</a>
                 </li>
                 <li className="nav_list">
                   <a href={t("contact_path")}>{t("contact_title")}</a>
@@ -53,6 +58,11 @@ const Header = () => {
                     className="btn_lang"
                     onChange={(e) => i18n.changeLanguage(e.target.value)}
                   >
+                    <option value={lang} selected="selected">
+                      {lang}
+                     
+                    </option>
+                     
                     <option value="fr">fr</option>
                     <option value="en">en</option>
                     <option value="ar">ar</option>

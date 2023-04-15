@@ -17,7 +17,7 @@ const resources = {
   },
 };
 
-const lang = localStorage.getItem('lang') || 'fr'; // Récupère la langue préférée depuis le local storage, ou utilise la langue par défaut "fr" si elle n'est pas définie
+const lang = localStorage.getItem('i18nextLng') || 'fr'; // Récupère la langue préférée depuis le local storage, ou utilise la langue par défaut "fr" si elle n'est pas définie
 
 i18n
   .use(LanguageDetector)

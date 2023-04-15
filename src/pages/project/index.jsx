@@ -3,7 +3,8 @@ import "./style.css";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
-import Carrousel from "../../containers/carrousel";
+ import Carrousel from "../../containers/carrousel";
+// import Alboume from "../../components/albume"
 const Project = () => {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
@@ -36,7 +37,8 @@ const Project = () => {
          <h6 className="project_title"  key={ project.id}>{project.title}</h6> )}
       <div className="project_top">
         <div className="project_carousel">
-          <Carrousel className="carousel" />
+          <Carrousel className="carousel" /> 
+           
         </div>
        
         <div className="project_desc">
