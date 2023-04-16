@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 import Carrousel from "../../containers/carrousel";
-// import Alboume from "../../components/albume"
+import ProjectBtn from "../../components/projectBtn";
 const Project = () => {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
@@ -49,33 +49,39 @@ const Project = () => {
             .map((project) => (
               <p key={project.id}>{t(project.description_project)}</p>
             ))}
-            <div className="project_boutom">
-          <div className="Technologies">
-            <h6>{t("Technologies_used")} </h6>
-            <div className="technologyUsed_icons">
-              {projects
-                .filter((project) => project.id === id)
-                .map((project) =>
-                  project.technologyUsed.map((icon) => (
-                    <ul className="wrapper" key={icon.name}>
-                      <li className="icon icons">
-                        <span className="tooltip">{icon.name}</span>
-                        <span>
-                          <img src={icon.icon} alt="icon" />
-                        </span>
-                      </li>
-                    </ul>
-                  ))
-                )}
+          <div className="project_boutom">
+            <div className="Technologies">
+              <h6>{t("Technologies_used")} </h6>
+              <div className="technologyUsed_icons">
+                {projects
+                  .filter((project) => project.id === id)
+                  .map((project) =>
+                    project.technologyUsed.map((icon) => (
+                      <ul className="wrapper" key={icon.name}>
+                        <li className="icon icons">
+                          <span className="tooltip">{icon.name}</span>
+                          <span>
+                            <img src={icon.icon} alt="icon" />
+                          </span>
+                        </li>
+                      </ul>
+                    ))
+                  )}
+              </div>
             </div>
+            {projects
+              .filter((project) => project.id === id)
+              .map((project) =>
+                project.site ? (
+                  <div className="project_btn">
+                    <ProjectBtn destination={project.site} title="Site" />
+                    <ProjectBtn destination={project.github} title="Github" />
+                  </div>
+                ) : (
+                  <ProjectBtn destination={project.github} title="Github" />
+                )
+              )}
           </div>
-<div className="project_btn">
-
-  </div>
-
-
-          </div>
-         
         </div>
       </div>
     </div>

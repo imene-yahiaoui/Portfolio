@@ -18,6 +18,10 @@
     #fbf4f9,
     #ebc7e6
   );
+  --box-shadow:4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+  -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+  inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+  inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
 [data-theme="dark"] {
@@ -39,6 +43,11 @@
     #fbf4f9,
     #a084dc
   );
+
+  --box-shadow:4px 4px 6px 0 rgba(255, 255, 255, 0.36),
+  -4px -4px 6px 0 rgba(225, 179, 252, 0.582),
+  inset -4px -4px 6px 0 rgba(255, 255, 255, 0.37),
+  inset 4px 4px 6px 0 rgba(248, 246, 246, 0.452);
 }
 * {
   transition: all 0.3s ease-in-out;
