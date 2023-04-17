@@ -1,4 +1,5 @@
 import "./style.css";
+import { IoArrowBackOutline } from "react-icons/io5";
 
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -31,13 +32,25 @@ const Project = () => {
 
   return (
     <div className="project">
-      {projects
-        .filter((project) => project.id === id)
-        .map((project) => (
-          <h6 className="project_title" key={project.id}>
-            {project.title}
-          </h6>
-        ))}
+      <div className="project_header">
+        <a href ="/">
+        <IoArrowBackOutline className="iconBack" 
+         onMouseOver={({ target }) =>
+         (target.style.color = "var(--background_icons)")
+       }
+       onMouseOut={({ target }) =>
+         (target.style.color = "var(--body_color)")
+       }
+        />
+        </a>
+        {projects
+          .filter((project) => project.id === id)
+          .map((project) => (
+            <h6 className="project_title" key={project.id}>
+              {project.title}
+            </h6>
+          ))}
+      </div>
       <div className="project_top">
         <div className="project_carousel">
           <Carrousel className="carousel" />
@@ -74,11 +87,17 @@ const Project = () => {
               .map((project) =>
                 project.site ? (
                   <div className="project_btn">
-                    <ProjectBtn destination={project.site} title="Site" />
-                    <ProjectBtn destination={project.github} title="Github" />
+                    <ProjectBtn destination={project.site} title="Site Web" />
+                    <ProjectBtn
+                      destination={project.github}
+                      title="Code source"
+                    />
                   </div>
                 ) : (
-                  <ProjectBtn destination={project.github} title="Github" />
+                  <ProjectBtn
+                    destination={project.github}
+                    title="Code source"
+                  />
                 )
               )}
           </div>

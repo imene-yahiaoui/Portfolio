@@ -1,12 +1,12 @@
 :root {
   --body_background: #f3ebf6;
-  --box_background: linear-gradient(#e9d3f19b, #d4a9d6);
+  --box_background: linear-gradient(#e9d3f1, #d4a9d6);
   --body_color: rgba(16, 7, 51, 1);
   --transition: 0.25s;
   --spark: 1.8s;
   --lang_background: #e9d3f1;
   --lang_color: #c996cc;
-  --background_icons:#a084dc;
+   --background_icons:#a084dc;  
   --hover: linear-gradient(
     45deg,
     #c996cc,
@@ -31,7 +31,7 @@
   --body_color: #f3ebf6;
   --lang_color: #22165b;
   --lang_background: rgb(67, 56, 113);
---background_icons:#c996cc;
+ --background_icons:#c996cc;  
   --hover: linear-gradient(
     45deg,
     #645cbb,
