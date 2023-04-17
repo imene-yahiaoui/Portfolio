@@ -72,7 +72,7 @@ const Project = () => {
                     project.technologyUsed.map((icon) => (
                       <ul className="wrapper" key={icon.name}>
                         <li className="icon icons">
-                          <span className="tooltip">{icon.name}</span>
+                          <span className="tooltip">{icon.name} </span>
                           <span>
                             <img src={icon.icon} alt="icon" />
                           </span>
@@ -86,7 +86,7 @@ const Project = () => {
               .filter((project) => project.id === id)
               .map((project) =>
                 project.site ? (
-                  <div className="project_btn">
+                  <div className="project_btn" key={project.id}>
                     <ProjectBtn destination={project.site} title="Site Web" />
                     <ProjectBtn
                       destination={project.github}
@@ -94,7 +94,7 @@ const Project = () => {
                     />
                   </div>
                 ) : (
-                  <ProjectBtn
+                  <ProjectBtn 
                     destination={project.github}
                     title="Code source"
                   />
