@@ -5,20 +5,21 @@
   "home_title": "Home",
   "home_path": "/",
   "skills_title": "Skills",
-  "skills_path": "#Skills",
+  "skills_path": "/#Skills",
   "portfolio_title": "Portfolio",
-  "portfolio_path": "#portfolio",
+  "portfolio_path": "/#portfolio",
   "contact_title": "Contact",
-  "contact_path": "#contact",
+  "contact_path": "/#contact",
 
   "main_heading": {
     "hello": "Hello 👋",
     "name": "I'm Imene",
-    "static_desc": "I'am a frontend developer",
-    "dynamic_desc": "with a passion for Backend"
+    "static_desc": "I'am a Front-End developer",
+    "dynamic_desc": "Passionate about the world of web development."
   },
   "description_info": {
-    "main": "Curious and passionate about the world of web development and mobile web development. I joined the OpenClassrooms school in September 2022 in order to perfect my knowledge and acquire new ones."
+    "main": "I am a self-taught individual who is constantly learning new technologies and approaches to improve my skills and provide unique user experiences. In addition, I hold a degree in web integration at the Bac+2 level. My passion for back-end development also drives me to explore technologies such as Node.js and MongoDB to expand my skills and create innovative web applications",
+    "introduction":"My name is Imene and I am a web integrator and front-end developer passionate about the world of web development. As a self-taught individual, I am constantly learning new technologies and approaches to improve my skills and provide unique user experiences. I hold a degree in web integration at the Bac+2 level. I have worked on several personal projects to strengthen my skills as a web integrator and front-end developer. My goal is to continue learning and evolving as a web professional while offering creative and innovative solutions for any web project.As a web integrator, I have gained strong expertise in developing modern and functional websites using the latest web development technologies. I am also passionate about designing attractive and intuitive user interfaces to provide optimal user experiences. Currently looking for a position in permanent or temporary employment, I am open to new opportunities to continue developing my skills and contribute to the field of web development."
   },
   "Download": "Download my CV",
   "all": "All",

@@ -120,7 +120,7 @@
     "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
-        "icon": "./assets/technologyIcons/seo.png",
+        "icon": "../assets/technologyIcons/seo.png",
         "name": "Seo"
       },
       {

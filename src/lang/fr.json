@@ -14,11 +14,14 @@
   "main_heading": {
     "hello": "Bonjour👋 ",
     "name": " c'est Imene",
-    "static_desc": "Je suis développeuse ",
-    "dynamic_desc": "frontend passionnée par le backend "
+    "static_desc": " Je suis intégratrice web et développeuse de Front-end ",
+    "dynamic_desc": "passionnée par le monde du développement web"
   },
   "description_info": {
-    "main": "Curieuse et passionnée par le monde de développement web et web mobile . J’ai intégré en Sptembre 2022 l’école OpenClassrooms afin de parfaire mes connaissances et d’en acquérir de nouvelles."
+    "main": "Je suis une personne autodidacte qui apprend constamment de nouvelles technologies et approches pour améliorer mes compétences et offrir des expériences utilisateur uniques. De plus, j'ai un diplôme en intégration web au niveau Bac+2. Ma passion pour le développement back-end me pousse également à explorer des technologies telles que Node.js et MongoDB pour élargir mes compétences et créer des applications web innovantes.",
+    "introduction":
+     " Je m'appelle Imene, et je suis une intégratrice web et développeuse de Front-end passionnée par le monde du développement web. En tant qu'autodidacte, je suis constamment en train d'apprendre de nouvelles technologies et de nouvelles approches pour améliorer mes compétences et offrir des expériences utilisateur uniques.j'ai un diplôme en intégration web au niveau Bac+2, j'ai travaillé sur plusieurs projets personnels pour renforcer mes compétences en tant qu'intégratrice web et développeuse de Front-end. Mon objectif est de continuer à apprendre et à évoluer en tant que professionnelle du web, tout en offrant des solutions créatives et innovantes pour tout projet web.En tant qu'intégratrice web, j'ai acquis une solide expertise dans le développement de sites web modernes et fonctionnels en utilisant les dernières technologies en matière de développement web. Je suis également passionnée par la conception d'interfaces utilisateur attrayantes et intuitives pour offrir des expériences utilisateur optimales. Actuellement à la recherche d'un poste en CDI ou CDD, je suis ouverte à de nouvelles opportunités pour continuer à développer mes compétences et apporter ma contribution dans le domaine du développement web."
+    
   },
   "Download": "Télécharger mon CV",
   "all": "Tout",
