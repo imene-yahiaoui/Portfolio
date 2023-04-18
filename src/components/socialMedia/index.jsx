@@ -1,6 +1,8 @@
 import { DiGithubBadge } from "react-icons/di";
 import { FaDiscord } from "react-icons/fa";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { GrCodepen } from "react-icons/gr";
+
 import "./style.css";
 const SocialMedia = () => {
   return (
@@ -46,6 +48,24 @@ const SocialMedia = () => {
           <TiSocialLinkedinCircular
             color="var(--body_color)"
             size="50px"
+            onMouseOver={({ target }) =>
+              (target.style.color = "var(--background_icons)")
+            }
+            onMouseOut={({ target }) =>
+              (target.style.color = "var(--body_color)")
+            }
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://codepen.io/ImeneYahiaoui"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <GrCodepen
+            color="var(--body_color)"
+            size="40px"
             onMouseOver={({ target }) =>
               (target.style.color = "var(--background_icons)")
             }
