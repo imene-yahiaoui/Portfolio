@@ -57,12 +57,8 @@ const Header = () => {
                   <select
                     className="btn_lang"
                     onChange={(e) => i18n.changeLanguage(e.target.value)}
+                    value={lang} // Ajouter cet attribut value
                   >
-                    <option value={lang} selected="selected">
-                      {lang}
-                     
-                    </option>
-                     
                     <option value="fr">fr</option>
                     <option value="en">en</option>
                     <option value="ar">ar</option>
