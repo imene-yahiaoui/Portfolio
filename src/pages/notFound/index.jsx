@@ -9,10 +9,10 @@ const NotFound = () => {
       <header className="top-header"></header>
 
       <div>
-        <div className="starsec"></div>
-        <div className="starthird"></div>
-        <div className="starfourth"></div>
-        <div className="starfifth"></div>
+        <div className="stars"></div>
+        <div className="stars_secend"></div>
+        <div className="stars_three"></div>
+        <div className="stars_four"></div>
       </div>
 
       <div className="lamp__wrap">
@@ -32,7 +32,7 @@ const NotFound = () => {
             <h1 className="message__title">{t("notFound.message__title")}</h1>
             <p className="message__text">{t("notFound.message__text")}</p>
           </div>
-          <div className="error__nav   ">
+          <div className="error__nav">
             <a href="/" className="e-nav__link">
               {t("notFound.message__btn")}
             </a>

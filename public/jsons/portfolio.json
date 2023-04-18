@@ -54,7 +54,9 @@
       "../assets/projects/booki5.png",
       "../assets/projects/booki7.png",
       "../assets/projects/booki8.png"
-    ]
+    ],
+    "site": "https://imene-yahiaoui.github.io/Ohmyfood-/index.html",
+    "github": "https://github.com/imene-yahiaoui/Ohmyfood-"
   },
   {
     "title": "Portfolio-architecte",
@@ -84,7 +86,9 @@
       "../assets/projects/booki5.png",
       "../assets/projects/booki7.png",
       "../assets/projects/booki8.png"
-    ]
+    ],
+
+    "github": "https://github.com/imene-yahiaoui/Portfolio-architecte-sophie-bluel"
   },
   {
     "title": "Kasa",
@@ -110,7 +114,9 @@
       "../assets/projects/booki5.png",
       "../assets/projects/booki7.png",
       "../assets/projects/booki8.png"
-    ]
+    ],
+    "site": "https://kasakasakasa.netlify.app/",
+    "github": "https://github.com/imene-yahiaoui/Kasa"
   },
   {
     "title": "Nina-Carducci",
@@ -132,7 +138,9 @@
         "name": "CSS"
       }
     ],
-    "pictures": ["", "", ""]
+    "pictures": ["", "", ""],
+    "site": "https://imene-yahiaoui.github.io/Nina-Carducci/",
+    "github": "https://github.com/imene-yahiaoui/Nina-Carducci"
   },
   {
     "title": "ArgentBank-website",
@@ -158,7 +166,9 @@
         "name": "Mongodb"
       }
     ],
-    "pictures": ["", "", ""]
+    "pictures": ["", "", ""],
+   
+    "github": "https://github.com/imene-yahiaoui/ArgentBank-website"
   },
   {
     "title": "Heberge_Moi",
@@ -196,7 +206,9 @@
         "name": "Node.js"
       }
     ],
-    "pictures": ["", "", ""]
+    "pictures": ["", "", ""],
+ 
+    "github": "https://github.com/imene-yahiaoui/Heberge_Moi"
   },
   {
     "title": "أصل المثل",
@@ -218,7 +230,9 @@
         "name": "Admob"
       }
     ],
-    "pictures": ["", "", ""]
+    "pictures": ["", "", ""],
+    "site": "https://play.google.com/store/apps/details?id=com.bftservices.asselmatel"
+ 
   },
   {
     "title": "36",
@@ -240,7 +254,8 @@
         "name": "Admob"
       }
     ],
-    "pictures": ["", "", ""]
+    "pictures": ["", "", ""],
+    "site": "https://play.google.com/store/apps/details?id=com.bftservices.game36"
+  
   }
-
 ]

@@ -11,7 +11,7 @@
   opacity: 0.5;
 }
 
-.starsec {
+.stars{
   content: " ";
   position: absolute;
   width: 3px;
@@ -54,7 +54,7 @@
   animation: animStar 150s linear infinite;
 }
 
-.starthird {
+.stars_secend {
   content: " ";
   position: absolute;
   width: 3px;
@@ -97,7 +97,7 @@
   animation: animStar 10s linear infinite;
 }
 
-.starfourth {
+.stars_three {
   content: " ";
   position: absolute;
   width: 2px;
@@ -140,7 +140,7 @@
   animation: animStar 50s linear infinite;
 }
 
-.starfifth {
+.stars_four {
   content: " ";
   position: absolute;
   width: 1px;
