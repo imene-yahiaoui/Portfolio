@@ -85,7 +85,7 @@ const Project = () => {
             {projects
               .filter((project) => project.id === id)
               .map((project) =>
-                project.site ? (
+                project.site && project.github? (
                   <div className="project_btn" key={project.id}>
                     <ProjectBtn destination={project.site} title="Site Web" />
                     <ProjectBtn
@@ -93,13 +93,26 @@ const Project = () => {
                       title="Code source"
                     />
                   </div>
-                ) : (
-                  <ProjectBtn 
+                ) : project.github  && !project.site?   (
+                  <div className="project_btn" key={project.id}>
+                  
+                  <ProjectBtn
                     destination={project.github}
                     title="Code source"
                   />
-                )
-              )}
+                </div>
+                ):
+
+                (
+                  <div className="project_btn" key={project.id}>
+                    <ProjectBtn destination={project.site} title="Site Web" />
+                    {/* <ProjectBtn
+                      destination={project.github}
+                      title="Code source"
+                    /> */}
+                  </div>
+
+              ))}
           </div>
         </div>
       </div>

@@ -167,7 +167,7 @@
       }
     ],
     "pictures": ["", "", ""],
-   
+
     "github": "https://github.com/imene-yahiaoui/ArgentBank-website"
   },
   {
@@ -207,7 +207,7 @@
       }
     ],
     "pictures": ["", "", ""],
- 
+
     "github": "https://github.com/imene-yahiaoui/Heberge_Moi"
   },
   {
@@ -232,7 +232,6 @@
     ],
     "pictures": ["", "", ""],
     "site": "https://play.google.com/store/apps/details?id=com.bftservices.asselmatel"
- 
   },
   {
     "title": "36",
@@ -256,6 +255,5 @@
     ],
     "pictures": ["", "", ""],
     "site": "https://play.google.com/store/apps/details?id=com.bftservices.game36"
-  
   }
 ]
