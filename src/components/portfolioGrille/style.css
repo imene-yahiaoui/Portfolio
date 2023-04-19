@@ -39,6 +39,7 @@
   color: var(--body_color);
 }
 .card_img {
+  
   position: absolute;
   height: 150px;
   width: 279px;
