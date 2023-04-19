@@ -32,7 +32,7 @@
 
   {
     "title": "Ohmyfood",
-    "image": "",
+    "image": "../assets/projects/ohmyfood/ohmyfood1.webp",
     "id": "2",
     "brief_description": "projectOhMyFood.brief_description",
     "description_project": "projectOhMyFood.description_project",
@@ -47,13 +47,16 @@
       }
     ],
     "pictures": [
-      "../assets/projects/booki1.png",
-      "../assets/projects/booki2.png",
-      "../assets/projects/booki3.png",
-      "../assets/projects/booki4.png",
-      "../assets/projects/booki5.png",
-      "../assets/projects/booki7.png",
-      "../assets/projects/booki8.png"
+      "../assets/projects/ohmyfood/ohmyfood.webp",
+      "../assets/projects/ohmyfood/ohmyfood1.webp",
+      "../assets/projects/ohmyfood/ohmyfood2.webp",
+      "../assets/projects/ohmyfood/ohmyfood10.webp",
+      "../assets/projects/ohmyfood/ohmyfood4.webp",
+      "../assets/projects/ohmyfood/ohmyfood5.webp",
+      "../assets/projects/ohmyfood/ohmyfood6.webp",
+      "../assets/projects/ohmyfood/ohmyfood7.webp",
+      "../assets/projects/ohmyfood/ohmyfood8.webp",
+      "../assets/projects/ohmyfood/ohmyfood9.webp"
     ],
     "site": "https://imene-yahiaoui.github.io/Ohmyfood-/index.html",
     "github": "https://github.com/imene-yahiaoui/Ohmyfood-"
