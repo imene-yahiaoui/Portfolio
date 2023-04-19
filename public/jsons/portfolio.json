@@ -1,7 +1,7 @@
 [
   {
     "title": "Booki",
-    "image": "./assets/projects/booki1.png",
+    "image": "../assets/projects/booki/booki3.webp",
     "id": "1",
     "brief_description": "projectBooki.brief_description",
     "description_project": "projectBooki.description_project",
@@ -17,14 +17,14 @@
     ],
 
     "pictures": [
-      "../assets/projects/booki1.png",
-      "../assets/projects/booki2.png",
-      "../assets/projects/booki3.png",
-      "../assets/projects/booki4.png",
-      "../assets/projects/booki5.png",
-      "../assets/projects/booki7.png",
-      "../assets/projects/booki8.png",
-      "../assets/projects/booki10.png"
+      "../assets/projects/booki/booki1.webp",
+      "../assets/projects/booki/booki2.webp",
+      "../assets/projects/booki/booki3.webp",
+      "../assets/projects/booki/booki4.webp",
+      "../assets/projects/booki/booki5.webp",
+      "../assets/projects/booki/booki7.webp",
+      "../assets/projects/booki/booki.webp",
+      "../assets/projects/booki/booki6.webp"
     ],
     "site": "https://imene-yahiaoui.github.io/Booki/",
     "github": "https://github.com/imene-yahiaoui/Booki"
