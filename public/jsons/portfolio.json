@@ -7,11 +7,11 @@
     "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
-        "icon": "../assets/technologyIcons/html.png",
+        "icon": "../assets/technologyIcons/html.webp",
         "name": "HTML"
       },
       {
-        "icon": "../assets/technologyIcons/css-3.png",
+        "icon": "../assets/technologyIcons/css-3.webp",
         "name": "CSS"
       }
     ],
@@ -38,11 +38,11 @@
     "description_project": "projectOhMyFood.description_project",
     "technologyUsed": [
       {
-        "icon": "../assets/technologyIcons/html.png",
+        "icon": "../assets/technologyIcons/html.webp",
         "name": "HTML"
       },
       {
-        "icon": "../assets/technologyIcons/sass.png",
+        "icon": "../assets/technologyIcons/sass.webp",
         "name": "Sass"
       }
     ],
@@ -69,26 +69,26 @@
     "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
-        "icon": "../assets/technologyIcons/html.png",
+        "icon": "../assets/technologyIcons/html.webp",
         "name": "HTML"
       },
       {
-        "icon": "../assets/technologyIcons/css-3.png",
+        "icon": "../assets/technologyIcons/css-3.webp",
         "name": "CSS"
       },
       {
-        "icon": "../assets/technologyIcons/js.png",
+        "icon": "../assets/technologyIcons/js.webp",
         "name": "JavaScript"
       }
     ],
     "pictures": [
-      "../assets/projects/booki1.png",
-      "../assets/projects/booki2.png",
-      "../assets/projects/booki3.png",
-      "../assets/projects/booki4.png",
-      "../assets/projects/booki5.png",
-      "../assets/projects/booki7.png",
-      "../assets/projects/booki8.png"
+      "../assets/projects/booki1.webp",
+      "../assets/projects/booki2.webp",
+      "../assets/projects/booki3.webp",
+      "../assets/projects/booki4.webp",
+      "../assets/projects/booki5.webp",
+      "../assets/projects/booki7.webp",
+      "../assets/projects/booki8.webp"
     ],
 
     "github": "https://github.com/imene-yahiaoui/Portfolio-architecte-sophie-bluel"
@@ -101,22 +101,22 @@
     "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
-        "icon": "../assets/technologyIcons/react.png",
+        "icon": "../assets/technologyIcons/react.webp",
         "name": "React"
       },
       {
-        "icon": "../assets/technologyIcons/sass.png",
+        "icon": "../assets/technologyIcons/sass.webp",
         "name": "Sass"
       }
     ],
     "pictures": [
-      "../assets/projects/booki1.png",
-      "../assets/projects/booki2.png",
-      "../assets/projects/booki3.png",
-      "../assets/projects/booki4.png",
-      "../assets/projects/booki5.png",
-      "../assets/projects/booki7.png",
-      "../assets/projects/booki8.png"
+      "../assets/projects/booki1.webp",
+      "../assets/projects/booki2.webp",
+      "../assets/projects/booki3.webp",
+      "../assets/projects/booki4.webp",
+      "../assets/projects/booki5.webp",
+      "../assets/projects/booki7.webp",
+      "../assets/projects/booki8.webp"
     ],
     "site": "https://kasakasakasa.netlify.app/",
     "github": "https://github.com/imene-yahiaoui/Kasa"
@@ -129,15 +129,15 @@
     "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
-        "icon": "../assets/technologyIcons/seo.png",
+        "icon": "../assets/technologyIcons/seo.webp",
         "name": "Seo"
       },
       {
-        "icon": "../assets/technologyIcons/html.png",
+        "icon": "../assets/technologyIcons/html.webp",
         "name": "HTML"
       },
       {
-        "icon": "../assets/technologyIcons/css-3.png",
+        "icon": "../assets/technologyIcons/css-3.webp",
         "name": "CSS"
       }
     ],
@@ -153,19 +153,19 @@
     "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
-        "icon": "../assets/technologyIcons/react.png",
+        "icon": "../assets/technologyIcons/react.webp",
         "name": "React"
       },
       {
-        "icon": "../assets/technologyIcons/redux.png",
+        "icon": "../assets/technologyIcons/redux.webp",
         "name": "Redux"
       },
       {
-        "icon": "../assets/technologyIcons/css-3.png",
+        "icon": "../assets/technologyIcons/css-3.webp",
         "name": "CSS"
       },
       {
-        "icon": "../assets/technologyIcons/mongodb.png",
+        "icon": "../assets/technologyIcons/mongodb.webp",
         "name": "Mongodb"
       }
     ],
@@ -181,31 +181,31 @@
     "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
-        "icon": "../assets/technologyIcons/react.png",
+        "icon": "../assets/technologyIcons/react.webp",
         "name": "React"
       },
       {
-        "icon": "../assets/technologyIcons/redux.png",
+        "icon": "../assets/technologyIcons/redux.webp",
         "name": "Redux"
       },
       {
-        "icon": "../assets/technologyIcons/sass.png",
+        "icon": "../assets/technologyIcons/sass.webp",
         "name": "Sass"
       },
       {
-        "icon": "../assets/technologyIcons/mongodb.png",
+        "icon": "../assets/technologyIcons/mongodb.webp",
         "name": "Mongodb"
       },
       {
-        "icon": "../assets/technologyIcons/bootstrap.png",
+        "icon": "../assets/technologyIcons/bootstrap.webp",
         "name": "Bootstrap"
       },
       {
-        "icon": "../assets/technologyIcons/express-1.png",
+        "icon": "../assets/technologyIcons/express-1.webp",
         "name": "Express"
       },
       {
-        "icon": "../assets/technologyIcons/nodejs.png",
+        "icon": "../assets/technologyIcons/nodejs.webp",
         "name": "Node.js"
       }
     ],
@@ -221,15 +221,15 @@
     "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
-        "icon": "../assets/technologyIcons/kotlin.png",
+        "icon": "../assets/technologyIcons/kotlin.webp",
         "name": "Kotlin"
       },
       {
-        "icon": "../assets/technologyIcons/Android_Studio.png",
+        "icon": "../assets/technologyIcons/Android_Studio.webp",
         "name": "Android Studio"
       },
       {
-        "icon": "../assets/technologyIcons/admobe.png",
+        "icon": "../assets/technologyIcons/admobe.webp",
         "name": "Admob"
       }
     ],
@@ -244,15 +244,15 @@
     "description_project": "projectBooki.description_project",
     "technologyUsed": [
       {
-        "icon": "../assets/technologyIcons/kotlin.png",
+        "icon": "../assets/technologyIcons/kotlin.webp",
         "name": "Kotlin"
       },
       {
-        "icon": "../assets/technologyIcons/Android_Studio.png",
+        "icon": "../assets/technologyIcons/Android_Studio.webp",
         "name": "Android Studio"
       },
       {
-        "icon": "../assets/technologyIcons/admobe.png",
+        "icon": "../assets/technologyIcons/admobe.webp",
         "name": "Admob"
       }
     ],
