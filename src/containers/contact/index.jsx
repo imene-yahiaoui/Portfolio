@@ -3,27 +3,20 @@ import "./style.css";
 const Contact = () => {
   return (
     <div className="container_contact">
-      <form method="post" name="contact">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="name" placeholder="Your name.." />
-
-        <label for="email">adresse email</label>
-        <input
-          type="text"
-          id="email"
-          name="email"
-          placeholder="Your adresse email.."
-        />
-
-        <label for="subject">Subject</label>
-        <textarea
-          id="subject"
-          name="message"
-          placeholder="Write something.."
-        ></textarea>
-
-        <input type="submit" />
-      </form>
+       <form name="contact" method="post">
+          <p>
+            <label>Your Name: <input type="text" name="name"/></label>
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email"/></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>,
     </div>
   );
 };
