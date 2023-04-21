@@ -63,15 +63,15 @@ const Contact = () => {
           <ul className="contact-list">
             <li className="list-item">
               <i className="fa fa-map-marker fa-2x">
-                <span className="contact-text place">City, State</span>
+                <span className="contact-text place">Ile de France , Paris</span>
               </i>
             </li>
 
             <li className="list-item">
               <i className="fa fa-phone fa-2x">
                 <span className="contact-text phone">
-                  <a href="tel:1-212-555-5555" title="Give me a call">
-                    (212) 555-2368
+                  <a href="tel:0033612218389" title="Give me a call">
+                    (33) 6 12 21 83 89
                   </a>
                 </span>
               </i>
@@ -80,8 +80,8 @@ const Contact = () => {
             <li className="list-item">
               <i className="fa fa-envelope fa-2x">
                 <span className="contact-text gmail">
-                  <a href="mailto:#" title="Send me an email">
-                    hitmeup@gmail.com
+                  <a href="mailto:Imaniman4848@gamil.com" title="Send me an email">
+                    Imaniman4848@gamil.com
                   </a>
                 </span>
               </i>
