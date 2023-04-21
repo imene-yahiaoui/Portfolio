@@ -1,6 +1,5 @@
 import "./style.css";
-import SkillsGrille from "../../components/skillsGrille";
-import Filtre from "../../components/filter";
+import SkillsPage from "../../components/skillsPage"
 import { useTranslation } from "react-i18next";
 
 const Skills = () => {
@@ -10,8 +9,8 @@ const Skills = () => {
   return (
     <div className="skills" id={t("skills_title")} >
       <h1 className="title"> {t("skills_title")} </h1>
-      <Filtre />
-      <SkillsGrille />
+   
+      <SkillsPage/>
     </div>
   );
 };
