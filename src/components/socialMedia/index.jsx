@@ -12,6 +12,7 @@ const SocialMedia = () => {
           href="https://github.com/imene-yahiaoui"
           target="_blank"
           rel="noreferrer"
+          aria-label="github"
         >
           <DiGithubBadge
             color="var(--body_color)"
@@ -26,7 +27,12 @@ const SocialMedia = () => {
         </a>
       </li>
       <li>
-        <a href="https://discord.gg/#1420" target="_blank" rel="noreferrer">
+        <a
+          href="https://discord.gg/#1420"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="discord"
+        >
           <FaDiscord
             color="var(--body_color)"
             size="40px"
@@ -44,6 +50,7 @@ const SocialMedia = () => {
           href="https://www.linkedin.com/in/imene-ikhlef-yahiaoui"
           target="_blank"
           rel="noreferrer"
+          aria-label="linkedin"
         >
           <TiSocialLinkedinCircular
             color="var(--body_color)"
@@ -62,6 +69,7 @@ const SocialMedia = () => {
           href="https://codepen.io/ImeneYahiaoui"
           target="_blank"
           rel="noreferrer"
+          aria-label="codepen"
         >
           <GrCodepen
             color="var(--body_color)"
