@@ -69,7 +69,9 @@ const SkillsGrille = ({ filtre }) => {
     <div className="skillsGrille">
       {skills.map((skill) => (
         <div className="skillsGrille_item" key={skill.key}>
-          <img src={skill.image} alt={skill.alt} />
+          <div className="skillsGrille_img">
+            <img src={skill.image} alt={skill.alt} />
+          </div>
           <b>{skill.name}</b>
         </div>
       ))}
@@ -80,7 +82,9 @@ const SkillsGrille = ({ filtre }) => {
         .filter((skill) => skill.category === filtre)
         .map((skill) => (
           <div className="skillsGrille_item" key={skill.key}>
-            <img src={skill.image} alt={skill.alt} />
+            <div className="skillsGrille_img">
+              <img src={skill.image} alt={skill.alt} />
+            </div>
             <b>{skill.name}</b>
           </div>
         ))}
