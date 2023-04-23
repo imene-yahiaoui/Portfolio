@@ -82,13 +82,16 @@
       }
     ],
     "pictures": [
-      "../assets/projects/booki1.webp",
-      "../assets/projects/booki2.webp",
-      "../assets/projects/booki3.webp",
-      "../assets/projects/booki4.webp",
-      "../assets/projects/booki5.webp",
-      "../assets/projects/booki7.webp",
-      "../assets/projects/booki8.webp"
+      "../assets/projects/portfolioArchitecte/portfolioArchitecte.webp",
+      "../assets/projects/portfolioArchitecte/portfolioArchitecte1.webp",
+      "../assets/projects/portfolioArchitecte/portfolioArchitecte2.webp",
+      "../assets/projects/portfolioArchitecte/portfolioArchitecte3.webp",
+      "../assets/projects/portfolioArchitecte/portfolioArchitecte4.webp",
+      "../assets/projects/portfolioArchitecte/portfolioArchitecte5.webp",
+      "../assets/projects/portfolioArchitecte/portfolioArchitecte6.webp",
+      "../assets/projects/portfolioArchitecte/portfolioArchitecte7.webp",
+      "../assets/projects/portfolioArchitecte/portfolioArchitecte8.webp"
+
     ],
 
     "github": "https://github.com/imene-yahiaoui/Portfolio-architecte-sophie-bluel"
