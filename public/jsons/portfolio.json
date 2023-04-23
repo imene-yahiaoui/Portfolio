@@ -232,7 +232,15 @@
         "name": "Node.js"
       }
     ],
-    "pictures": ["", "", ""],
+    "pictures": [
+      "../assets/projects/hebergeMoi/hebergeMoi.webp",
+      "../assets/projects/hebergeMoi/hebergeMoi1.webp",
+      "../assets/projects/hebergeMoi/hebergeMoi2.webp",
+      "../assets/projects/hebergeMoi/hebergeMoi3.webp",
+      "../assets/projects/hebergeMoi/hebergeMoi4.webp",
+      "../assets/projects/hebergeMoi/hebergeMoi5.webp",
+      "../assets/projects/hebergeMoi/hebergeMoi6.webp"
+    ],
 
     "github": "https://github.com/imene-yahiaoui/Heberge_Moi"
   },
