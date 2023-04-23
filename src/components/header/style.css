@@ -23,10 +23,11 @@
 }
 
 .logo {
-  height: 51px;
+  height: 46px;
 }
 .logo img {
-  height: 90%;
+  height: 100%;
+  width: 45px;
 }
 .menu-icon {
   display: none;
