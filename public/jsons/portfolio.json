@@ -145,7 +145,16 @@
         "name": "CSS"
       }
     ],
-    "pictures": ["", "", ""],
+    "pictures": [ "../assets/projects/ninaCarducci/ninaCarducci.webp",
+    "../assets/projects/ninaCarducci/ninaCarducci1.webp",
+    "../assets/projects/ninaCarducci/ninaCarducci2.webp",
+    "../assets/projects/ninaCarducci/ninaCarducci3.webp",
+    "../assets/projects/ninaCarducci/ninaCarducci4.webp",
+    "../assets/projects/ninaCarducci/ninaCarducci5.webp",
+    "../assets/projects/ninaCarducci/ninaCarducci6.webp",
+    "../assets/projects/ninaCarducci/ninaCarducci7.webp",
+    "../assets/projects/ninaCarducci/ninaCarducci8.webp"  
+  ],
     "site": "https://imene-yahiaoui.github.io/Nina-Carducci/",
     "github": "https://github.com/imene-yahiaoui/Nina-Carducci"
   },
