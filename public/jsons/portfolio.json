@@ -113,13 +113,14 @@
       }
     ],
     "pictures": [
-      "../assets/projects/booki1.webp",
-      "../assets/projects/booki2.webp",
-      "../assets/projects/booki3.webp",
-      "../assets/projects/booki4.webp",
-      "../assets/projects/booki5.webp",
-      "../assets/projects/booki7.webp",
-      "../assets/projects/booki8.webp"
+      "../assets/projects/kasa/kasa.webp",
+      "../assets/projects/kasa/kasa1.webp",     
+      "../assets/projects/kasa/kasa2.webp",     
+      "../assets/projects/kasa/kasa3.webp",
+      "../assets/projects/kasa/kasa4.webp",
+      "../assets/projects/kasa/kasa5.webp",
+      "../assets/projects/kasa/kasa6.webp",
+      "../assets/projects/kasa/kasa7.webp"
     ],
     "site": "https://kasakasakasa.netlify.app/",
     "github": "https://github.com/imene-yahiaoui/Kasa"
