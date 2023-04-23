@@ -2,7 +2,8 @@
   width: auto;
   height: auto;
   display: flex;
-  text-align-last: center;
+  /* text-align-last: center; */
+  text-align: center;
   justify-content: space-between;
   align-items: center;
   padding: 6px;
