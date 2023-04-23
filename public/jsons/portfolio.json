@@ -91,7 +91,6 @@
       "../assets/projects/portfolioArchitecte/portfolioArchitecte6.webp",
       "../assets/projects/portfolioArchitecte/portfolioArchitecte7.webp",
       "../assets/projects/portfolioArchitecte/portfolioArchitecte8.webp"
-
     ],
 
     "github": "https://github.com/imene-yahiaoui/Portfolio-architecte-sophie-bluel"
@@ -114,8 +113,8 @@
     ],
     "pictures": [
       "../assets/projects/kasa/kasa.webp",
-      "../assets/projects/kasa/kasa1.webp",     
-      "../assets/projects/kasa/kasa2.webp",     
+      "../assets/projects/kasa/kasa1.webp",
+      "../assets/projects/kasa/kasa2.webp",
       "../assets/projects/kasa/kasa3.webp",
       "../assets/projects/kasa/kasa4.webp",
       "../assets/projects/kasa/kasa5.webp",
@@ -145,16 +144,17 @@
         "name": "CSS"
       }
     ],
-    "pictures": [ "../assets/projects/ninaCarducci/ninaCarducci.webp",
-    "../assets/projects/ninaCarducci/ninaCarducci1.webp",
-    "../assets/projects/ninaCarducci/ninaCarducci2.webp",
-    "../assets/projects/ninaCarducci/ninaCarducci3.webp",
-    "../assets/projects/ninaCarducci/ninaCarducci4.webp",
-    "../assets/projects/ninaCarducci/ninaCarducci5.webp",
-    "../assets/projects/ninaCarducci/ninaCarducci6.webp",
-    "../assets/projects/ninaCarducci/ninaCarducci7.webp",
-    "../assets/projects/ninaCarducci/ninaCarducci8.webp"  
-  ],
+    "pictures": [
+      "../assets/projects/ninaCarducci/ninaCarducci.webp",
+      "../assets/projects/ninaCarducci/ninaCarducci1.webp",
+      "../assets/projects/ninaCarducci/ninaCarducci2.webp",
+      "../assets/projects/ninaCarducci/ninaCarducci3.webp",
+      "../assets/projects/ninaCarducci/ninaCarducci4.webp",
+      "../assets/projects/ninaCarducci/ninaCarducci5.webp",
+      "../assets/projects/ninaCarducci/ninaCarducci6.webp",
+      "../assets/projects/ninaCarducci/ninaCarducci7.webp",
+      "../assets/projects/ninaCarducci/ninaCarducci8.webp"
+    ],
     "site": "https://imene-yahiaoui.github.io/Nina-Carducci/",
     "github": "https://github.com/imene-yahiaoui/Nina-Carducci"
   },
@@ -182,7 +182,17 @@
         "name": "Mongodb"
       }
     ],
-    "pictures": ["", "", ""],
+    "pictures": [
+      "../assets/projects/ArgentBankWebsite/ArgentBankWebsite.webp",
+      "../assets/projects/ArgentBankWebsite/ArgentBankWebsite1.webp",
+      "../assets/projects/ArgentBankWebsite/ArgentBankWebsite2.webp",
+      "../assets/projects/ArgentBankWebsite/ArgentBankWebsite3.webp",
+      "../assets/projects/ArgentBankWebsite/ArgentBankWebsite4.webp",
+      "../assets/projects/ArgentBankWebsite/ArgentBankWebsite5.webp",
+      "../assets/projects/ArgentBankWebsite/ArgentBankWebsite6.webp",
+      "../assets/projects/ArgentBankWebsite/ArgentBankWebsite7.webp",
+      "../assets/projects/ArgentBankWebsite/ArgentBankWebsite8.webp"
+    ],
 
     "github": "https://github.com/imene-yahiaoui/ArgentBank-website"
   },
