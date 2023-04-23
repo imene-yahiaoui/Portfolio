@@ -32,7 +32,7 @@
 
   {
     "title": "Ohmyfood",
-    "image": "../assets/projects/ohmyfood/ohmyfood1.webp",
+    "image": "../assets/projects/ohmyfood/ohmyfood6.webp",
     "id": "2",
     "brief_description": "projectOhMyFood.brief_description",
     "description_project": "projectOhMyFood.description_project",
@@ -63,7 +63,7 @@
   },
   {
     "title": "Portfolio-architecte",
-    "image": "",
+    "image": "../assets/projects/portfolioArchitecte/portfolioArchitecte3.webp",
     "id": "3",
     "brief_description": "projectBooki.brief_description",
     "description_project": "projectBooki.description_project",
@@ -97,7 +97,7 @@
   },
   {
     "title": "Kasa",
-    "image": "",
+    "image": "../assets/projects/kasa/kasa2.webp",
     "id": "4",
     "brief_description": "projectBooki.brief_description",
     "description_project": "projectBooki.description_project",
@@ -126,7 +126,7 @@
   },
   {
     "title": "Nina-Carducci",
-    "image": "",
+    "image": "../assets/projects/ninaCarducci/ninaCarducci7.webp",
     "id": "5",
     "brief_description": "projectBooki.brief_description",
     "description_project": "projectBooki.description_project",
@@ -160,7 +160,7 @@
   },
   {
     "title": "ArgentBank-website",
-    "image": "",
+    "image": "../assets/projects/ArgentBankWebsite/ArgentBankWebsite8.webp",
     "id": "6",
     "brief_description": "projectBooki.brief_description",
     "description_project": "projectBooki.description_project",
@@ -198,7 +198,7 @@
   },
   {
     "title": "Heberge_Moi",
-    "image": "",
+    "image": "../assets/projects/hebergeMoi/hebergeMoi.webp",
     "id": "7",
     "brief_description": "projectBooki.brief_description",
     "description_project": "projectBooki.description_project",
@@ -247,7 +247,7 @@
   },
   {
     "title": "أصل المثل",
-    "image": "",
+    "image": "../assets/projects/asselelmatell/asselelmatell1.webp",
     "id": "8",
     "brief_description": "projectBooki.brief_description",
     "description_project": "projectBooki.description_project",
@@ -278,7 +278,7 @@
   },
   {
     "title": "36",
-    "image": "",
+    "image": "../assets/projects/36/36.webp",
     "id": "9",
     "brief_description": "projectBooki.brief_description",
     "description_project": "projectBooki.description_project",

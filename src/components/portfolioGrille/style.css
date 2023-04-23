@@ -7,24 +7,16 @@
   justify-content: center;
   grid-gap: 70px;
 }
-.PortfolioGrille_item {
-  width: 350px;
-  height: 500px;
-  background: red;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .card {
   position: relative;
-  background: #b19cd9;
+  background: #b19cd90f;
   margin: 30px;
   height: 500px;
   width: 340px;
   border-radius: 20px;
   transition: 0.2s linear;
-  box-shadow: -6px -6px 25px 0 rgba(205, 177, 255, 0.8),
+  box-shadow: -6px -6px 25px 0 rgb(206, 177, 255),
     6px 6px 25px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -39,15 +31,13 @@
   color: var(--body_color);
 }
 .card_img {
-  
   position: absolute;
-  height: 150px;
-  width: 279px;
+  height: 177px;
   left: 50%;
   top: 45px;
   transform: translateX(-50%);
   border-radius: 5%;
-  box-shadow: inset -6px -6px 10px 0 rgba(205, 177, 255, 0.8),
+  box-shadow: inset -6px -6px 10px 0 rgba(206, 177, 255, 0.716),
     inset 10px 10px 10px 0 rgba(0, 0, 0, 0.2);
   transition: 0.4s linear;
 }
@@ -66,6 +56,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  height: 100%;
+  width: 279px;
 }
 
 .card_body {

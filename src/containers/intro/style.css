@@ -13,6 +13,9 @@ h3 {
   display: inline;
   font-size: 25px;
 }
+p{
+  text-align: justify;
+}
 .intro-name {
   font-size: 30px;
   display: inline;
