@@ -239,7 +239,8 @@
       "../assets/projects/hebergeMoi/hebergeMoi3.webp",
       "../assets/projects/hebergeMoi/hebergeMoi4.webp",
       "../assets/projects/hebergeMoi/hebergeMoi5.webp",
-      "../assets/projects/hebergeMoi/hebergeMoi6.webp"
+      "../assets/projects/hebergeMoi/hebergeMoi6.webp",
+      "../assets/projects/hebergeMoi/hebergeMoi7.webp"
     ],
 
     "github": "https://github.com/imene-yahiaoui/Heberge_Moi"
@@ -264,7 +265,15 @@
         "name": "Admob"
       }
     ],
-    "pictures": ["", "", ""],
+    "pictures": [
+      "../assets/projects/asselelmatell/asselelmatell.webp",
+      "../assets/projects/asselelmatell/asselelmatell1.webp",
+      "../assets/projects/asselelmatell/asselelmatell2.webp",
+      "../assets/projects/asselelmatell/asselelmatell3.webp",
+      "../assets/projects/asselelmatell/asselelmatell4.webp",
+      "../assets/projects/asselelmatell/asselelmatell5.webp",
+      "../assets/projects/asselelmatell/asselelmatell6.webp"
+    ],
     "site": "https://play.google.com/store/apps/details?id=com.bftservices.asselmatel"
   },
   {
@@ -287,7 +296,13 @@
         "name": "Admob"
       }
     ],
-    "pictures": ["", "", ""],
+    "pictures": [
+      "../assets/projects/36/361.webp",
+      "../assets/projects/36/362.webp",
+      "../assets/projects/36/363.webp",
+      "../assets/projects/36/364.webp",
+      "../assets/projects/36/365.webp"
+    ],
     "site": "https://play.google.com/store/apps/details?id=com.bftservices.game36"
   }
 ]
