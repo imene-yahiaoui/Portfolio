@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
-// import SkillsGrille from "../skillsGrille";
-// import Filtre from "../components/filter";
+
 import { useState, useEffect } from "react";
 
 import "./style.css";
@@ -33,8 +32,8 @@ const Filtre = ({ onFiltreChange }) => {
         <option value={t("all")}> {t("all")}</option>
         <option value="Frontend">Frontend</option>
         <option value="Backend">Backend</option>
-        <option value="Logiciel">Logiciel</option>
-        <option value="Mobile">Mobile</option>
+        <option value="Logiciel">{t("software")}</option>
+        <option value="Mobile">{t("Mobile")}</option>
       </select>
     </div>
   );

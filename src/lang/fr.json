@@ -25,6 +25,8 @@
   },
   "Download": "Télécharger mon CV",
   "all": "Tout",
+ "software":"Logiciel",
+ "Mobile":"Mobile",
   "Technologies_used": "Technologies utilisées",
   "notFound": {
     "message__title": "Page non trouvée",
