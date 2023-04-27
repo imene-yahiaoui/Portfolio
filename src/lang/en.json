@@ -19,22 +19,54 @@
   },
   "description_info": {
     "main": "I am a self-taught individual who is constantly learning new technologies and approaches to improve my skills and provide unique user experiences. In addition, I hold a degree in web integration at the Bac+2 level. My passion for back-end development also drives me to explore technologies such as Node.js and MongoDB to expand my skills and create innovative web applications",
-    "introduction":"My name is Imene and I am a web integrator and front-end developer passionate about the world of web development. As a self-taught individual, I am constantly learning new technologies and approaches to improve my skills and provide unique user experiences. I hold a degree in web integration at the Bac+2 level. I have worked on several personal projects to strengthen my skills as a web integrator and front-end developer. My goal is to continue learning and evolving as a web professional while offering creative and innovative solutions for any web project.As a web integrator, I have gained strong expertise in developing modern and functional websites using the latest web development technologies. I am also passionate about designing attractive and intuitive user interfaces to provide optimal user experiences. Currently looking for a position in permanent or temporary employment, I am open to new opportunities to continue developing my skills and contribute to the field of web development."
+    "introduction": "My name is Imene and I am a web integrator and front-end developer passionate about the world of web development. As a self-taught individual, I am constantly learning new technologies and approaches to improve my skills and provide unique user experiences. I hold a degree in web integration at the Bac+2 level. I have worked on several personal projects to strengthen my skills as a web integrator and front-end developer. My goal is to continue learning and evolving as a web professional while offering creative and innovative solutions for any web project.As a web integrator, I have gained strong expertise in developing modern and functional websites using the latest web development technologies. I am also passionate about designing attractive and intuitive user interfaces to provide optimal user experiences. Currently looking for a position in permanent or temporary employment, I am open to new opportunities to continue developing my skills and contribute to the field of web development."
   },
   "Download": "Download my CV",
   "all": "All",
-  "software":"Software",
-  "Mobile":"Mobile",
+  "software": "Software",
+  "Mobile": "Mobile",
   "Technologies_used": "Technologies used",
-
-  "projectBooki": {
-    "brief_description": "Booki is the first web development project on which I worked during my training as a web integrator at OpenClassrooms.\n My role was to integrate the mockups provided by the UI design team and transform them into a functional web interface using HTML and CSS",
-    "description_project": "Booki is the first web development project on which I worked during my training as a web integrator at OpenClassrooms.\n My role was to integrate the mockups provided by the UI design team and transform them into a functional web interface using HTML and CSS. The project started with the analysis of mockups, provided in the form of Figma files for different screen sizes.\n Following the best practices of web development and adhering to established quality standards, I worked on integrating the mockups using HTML and CSS.\n I also ensured that the website was responsive, meaning that it automatically adapts to different screen types and sizes."
-  },
 
   "notFound": {
     "message__title": "Page Not Found",
     "message__text": " We're sorry, the page you were looking for isn't found here.",
     "message__btn": "Return to the home page"
+  },
+
+  "projectBooki": {
+    "brief_description": "Booki is the first web development project on which I worked during my training as a web integrator at OpenClassrooms.\n My role was to integrate the mockups provided by the UI design team and transform them into a functional web interface using HTML and CSS",
+    "description_project": "Booki is the first web development project on which I worked during my training as a web integrator at OpenClassrooms.\n My role was to integrate the mockups provided by the UI design team and transform them into a functional web interface using HTML and CSS. The project started with the analysis of mockups, provided in the form of Figma files for different screen sizes.\n Following the best practices of web development and adhering to established quality standards, I worked on integrating the mockups using HTML and CSS.\n I also ensured that the website was responsive, meaning that it automatically adapts to different screen types and sizes."
+  },
+  "projectOhMyFood": {
+    "brief_description": "OhMyFood is a mobile-first website dedicated to presenting menus offered by gourmet restaurants. As a web integrator, my role was to transform the mockups provided by the design team into a functional and responsive website",
+    "description_project": "OhMyFood is a mobile-first website dedicated to presenting menus offered by gourmet restaurants. As a web integrator, my role was to transform the mockups provided by the design team into a functional and responsive website, suitable for various devices such as smartphones, tablets, and desktop computers. As part of this project, I was also tasked with integrating the animations and behaviors specified in the site's prototype to provide an optimal and attractive user experience. This professional experience allowed me to put my web integration skills into practice and deliver a quality result within the given timeframe."
+  },
+  "projectPortfolioArchitecte": {
+    "brief_description": "As a web integrator, I worked on developing the portfolio website for an interior architect. My mission was to design the front-end of the site. My work improved the user experience and made the site more interactive",
+    "description_project": "As a web integrator, I worked on developing the portfolio website of an interior architect. My mission consisted of designing the front-end part of the site. Using my JavaScript skills, I managed to retrieve the architect's work from the API and integrated them into a dynamic gallery. I also designed a secure login page to allow users to access the site's administration interface. I implemented features to allow logged-in users to delete or add works without the need to reload the page. My work improved the user experience and made the site more interactive."
+  },
+  "projectKasa": {
+    "brief_description": "oh my food",
+    "description_project": "my fooood "
+  },
+  "projectNinaCarducci": {
+    "brief_description": "oh my food",
+    "description_project": "my fooood "
+  },
+  "projectArgentBankWebsite": {
+    "brief_description": "oh my food",
+    "description_project": "my fooood "
+  },
+  "projectHebergeMoi": {
+    "brief_description": "oh my food",
+    "description_project": "my fooood "
+  },
+  "projectAsselelmatell": {
+    "brief_description": "oh my food",
+    "description_project": "my fooood "
+  },
+  "project36": {
+    "brief_description": "oh my food",
+    "description_project": "my fooood "
   }
 }

@@ -19,14 +19,12 @@
   },
   "description_info": {
     "main": "Je suis une personne autodidacte qui apprend constamment de nouvelles technologies et approches pour améliorer mes compétences et offrir des expériences utilisateur uniques. De plus, j'ai un diplôme en intégration web au niveau Bac+2. Ma passion pour le développement back-end me pousse également à explorer des technologies telles que Node.js et MongoDB pour élargir mes compétences et créer des applications web innovantes.",
-    "introduction":
-     " Je m'appelle Imene, et je suis une intégratrice web et développeuse de Front-end passionnée par le monde du développement web. En tant qu'autodidacte, je suis constamment en train d'apprendre de nouvelles technologies et de nouvelles approches pour améliorer mes compétences et offrir des expériences utilisateur uniques.j'ai un diplôme en intégration web au niveau Bac+2, j'ai travaillé sur plusieurs projets personnels pour renforcer mes compétences en tant qu'intégratrice web et développeuse de Front-end. Mon objectif est de continuer à apprendre et à évoluer en tant que professionnelle du web, tout en offrant des solutions créatives et innovantes pour tout projet web.En tant qu'intégratrice web, j'ai acquis une solide expertise dans le développement de sites web modernes et fonctionnels en utilisant les dernières technologies en matière de développement web. Je suis également passionnée par la conception d'interfaces utilisateur attrayantes et intuitives pour offrir des expériences utilisateur optimales. Actuellement à la recherche d'un poste en CDI ou CDD, je suis ouverte à de nouvelles opportunités pour continuer à développer mes compétences et apporter ma contribution dans le domaine du développement web."
-    
+    "introduction": " Je m'appelle Imene, et je suis une intégratrice web et développeuse de Front-end passionnée par le monde du développement web. En tant qu'autodidacte, je suis constamment en train d'apprendre de nouvelles technologies et de nouvelles approches pour améliorer mes compétences et offrir des expériences utilisateur uniques.j'ai un diplôme en intégration web au niveau Bac+2, j'ai travaillé sur plusieurs projets personnels pour renforcer mes compétences en tant qu'intégratrice web et développeuse de Front-end. Mon objectif est de continuer à apprendre et à évoluer en tant que professionnelle du web, tout en offrant des solutions créatives et innovantes pour tout projet web.En tant qu'intégratrice web, j'ai acquis une solide expertise dans le développement de sites web modernes et fonctionnels en utilisant les dernières technologies en matière de développement web. Je suis également passionnée par la conception d'interfaces utilisateur attrayantes et intuitives pour offrir des expériences utilisateur optimales. Actuellement à la recherche d'un poste en CDI ou CDD, je suis ouverte à de nouvelles opportunités pour continuer à développer mes compétences et apporter ma contribution dans le domaine du développement web."
   },
   "Download": "Télécharger mon CV",
   "all": "Tout",
- "software":"Logiciel",
- "Mobile":"Mobile",
+  "software": "Logiciel",
+  "Mobile": "Mobile",
   "Technologies_used": "Technologies utilisées",
   "notFound": {
     "message__title": "Page non trouvée",
@@ -35,10 +33,38 @@
   },
   "projectBooki": {
     "brief_description": "Booki est le premier projet de développement web sur lequel j'ai travaillé dans la formation d'intégrateur web chez OpenClassrooms.Mon rôle a été d'intégrer les maquettes fournies par l'équipe de conception UI et de les transformer en une interface web fonctionnelle à l'aide de HTML et CSS.",
-    "description_project": "Booki est {pipe} le premier projet de développement web sur lequel j'ai travaillé dans la formation d'intégrateur web chez OpenClassrooms.Mon rôle a été d'intégrer les maquettes fournies par l'équipe de conception UI et de les transformer en une interface web fonctionnelle à l'aide de HTML et CSS. Le projet a commencé par l'analyse des maquettes, fournies sous forme de fichiers Figma pour différentes tailles d'écran. En suivant les meilleures pratiques de développement web et en respectant les normes de qualité établies. j'ai travaillé sur l'intégration des maquettes en HTML et CSS. J'ai également veillé à ce que le site web soit adaptatif, c'est-à-dire qu'il s'adapte automatiquement à différents types et tailles d'écran."
+    "description_project": "Booki est le premier projet de développement web sur lequel j'ai travaillé dans la formation d'intégrateur web chez OpenClassrooms.Mon rôle a été d'intégrer les maquettes fournies par l'équipe de conception UI et de les transformer en une interface web fonctionnelle à l'aide de HTML et CSS. Le projet a commencé par l'analyse des maquettes fournies sous forme de fichiers Figma pour différentes tailles d'écran, En suivant les meilleures pratiques de développement web et en respectant les normes de qualité établies. j'ai travaillé sur l'intégration des maquettes en HTML et CSS. J'ai également veillé à ce que le site web soit adaptatif, c'est-à-dire qu'il s'adapte automatiquement à différents types et tailles d'écran."
   },
   "projectOhMyFood": {
-    "brief_description": "oh my food",
+    "brief_description": "OhMyFood est un site web mobile-first dédié à la présentation des menus proposés par les restaurants gastronomiques,  Mon rôle en tant qu'intégrateur web était de transformer les maquettes fournies par l'équipe de conception en un site web fonctionnel et responsive",
+    "description_project": "OhMyFood est un site web mobile-first dédié à la présentation des menus proposés par les restaurants gastronomiques. Mon rôle en tant qu'intégrateur web était de transformer les maquettes fournies par l'équipe de conception en un site web fonctionnel et responsive, adapté aux différents dispositifs tels que les smartphones, tablettes et ordinateurs de bureau. Dans le cadre de ce projet, j'ai également eu pour mission d'intégrer les animations et comportements spécifiés dans le prototype du site pour offrir une expérience utilisateur optimale et attrayante. Cette expérience professionnelle m'a permis de mettre en pratique mes compétences en matière d'intégration web et de livrer un résultat de qualité dans les délais impartis."
+  },
+  "projectPortfolioArchitecte": {
+    "brief_description": "En tant qu'intégrateur web, j'ai travaillé sur le développement du site portfolio d'une architecte d'intérieur. Ma mission a consisté à concevoir la partie front-end du site, Mon travail a permis d'améliorer l'expérience utilisateur et de rendre le site plus interactif ",
+    "description_project": "En tant qu'intégrateur web, j'ai travaillé sur le développement du site portfolio d'une architecte d'intérieur. Ma mission a consisté à concevoir la partie front-end du site. Grâce à mes compétences en JavaScript, j'ai réussi à récupérer les travaux de l'architecte depuis l'API et les ai intégrés dans une galerie dynamique. J'ai également conçu une page de connexion sécurisée pour permettre aux utilisateurs d'accéder à l'interface d'administration du site. J'ai implémenté des fonctionnalités pour permettre aux utilisateurs connectés de supprimer ou ajouter des travaux sans avoir besoin de recharger la page. Mon travail a permis d'améliorer l'expérience utilisateur et de rendre le site plus interactif. "
+  },
+  "projectKasa": {
+    "brief_description": "kasa",
+    "description_project": "my fooood "
+  },
+  "projectNinaCarducci": {
+    "brief_description": "nina",
+    "description_project": "my fooood "
+  },
+  "projectArgentBankWebsite": {
+    "brief_description": "ArgentBankWebsite",
+    "description_project": "my fooood "
+  },
+  "projectHebergeMoi": {
+    "brief_description": "HebergeMoi",
+    "description_project": "my fooood "
+  },
+  "projectAsselelmatell": {
+    "brief_description": "Asselelmatell",
+    "description_project": "my fooood "
+  },
+  "project36": {
+    "brief_description": "36",
     "description_project": "my fooood "
   }
 }
