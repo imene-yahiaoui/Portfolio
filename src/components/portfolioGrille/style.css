@@ -57,6 +57,7 @@
 
 .card-face p {
   padding: 16px;
+  text-align: center;
 }
 
 .card:hover .front {
