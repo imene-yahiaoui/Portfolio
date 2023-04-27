@@ -27,14 +27,15 @@
   "Mobile": "Mobile",
   "Technologies_used": "Technologies utilisées",
   "Readmore":"En savoir plus",
+  "Send":"Envoyer",
   "notFound": {
     "message__title": "Page non trouvée",
     "message__text": " Nous sommes désolés, la page que vous recherchez n'existe pas.",
     "message__btn": "Retourner sur la page d'accueil"
   },
   "projectBooki": {
-    "brief_description": "Booki est le premier projet de développement web sur lequel j'ai travaillé dans la formation d'intégrateur web chez OpenClassrooms.Mon rôle a été d'intégrer les maquettes fournies par l'équipe de conception UI et de les transformer en une interface web fonctionnelle à l'aide de HTML et CSS.",
-    "description_project": "Booki est le premier projet de développement web sur lequel j'ai travaillé dans la formation d'intégrateur web chez OpenClassrooms.Mon rôle a été d'intégrer les maquettes fournies par l'équipe de conception UI et de les transformer en une interface web fonctionnelle à l'aide de HTML et CSS. Le projet a commencé par l'analyse des maquettes fournies sous forme de fichiers Figma pour différentes tailles d'écran, En suivant les meilleures pratiques de développement web et en respectant les normes de qualité établies. j'ai travaillé sur l'intégration des maquettes en HTML et CSS. J'ai également veillé à ce que le site web soit adaptatif, c'est-à-dire qu'il s'adapte automatiquement à différents types et tailles d'écran."
+    "brief_description": "site web de réservation d'hôtels en ligne , le site s'adapte automatiquement à différents types et tailles d'écran ",
+    "description_project": "Booki est le premier projet de développement web sur lequel j'ai travaillé dans la formation d'intégrateur web chez OpenClassrooms. | Mon rôle a été d'intégrer les maquettes fournies par l'équipe de conception UI et de les transformer en une interface web fonctionnelle à l'aide de HTML et CSS. Le projet a commencé par l'analyse des maquettes fournies sous forme de fichiers Figma pour différentes tailles d'écran, En suivant les meilleures pratiques de développement web et en respectant les normes de qualité établies. j'ai travaillé sur l'intégration des maquettes en HTML et CSS. J'ai également veillé à ce que le site web soit adaptatif, c'est-à-dire qu'il s'adapte automatiquement à différents types et tailles d'écran."
   },
   "projectOhMyFood": {
     "brief_description": "site web mobile-first dédié à la présentation des menus proposés par les restaurants gastronomiques",

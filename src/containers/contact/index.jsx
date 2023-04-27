@@ -56,7 +56,7 @@ const Contact = () => {
             rows="10"
           />
 
-          <input type="submit" value="Send" className="send-text" />
+          <input type="submit" value={t("Send")} className="send-text" />
         </form>
 
         <div className="direct-contact-container">

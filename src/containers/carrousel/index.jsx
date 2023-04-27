@@ -55,7 +55,7 @@ const Carrousel = () => {
         type="slider"
       >
         <div className="img_carousel">
-          <img src={project.pictures[index]} alt="photoicon" />
+          <img src={project.pictures[index]} alt={`photoicon${index}`} />
         </div>
       </Carousel>
     ));

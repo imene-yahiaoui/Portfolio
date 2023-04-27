@@ -106,10 +106,7 @@ const Project = () => {
                 (
                   <div className="project_btn" key={project.id}>
                     <ProjectBtn destination={project.site} title="Site Web" />
-                    {/* <ProjectBtn
-                      destination={project.github}
-                      title="Code source"
-                    /> */}
+                   
                   </div>
 
               ))}

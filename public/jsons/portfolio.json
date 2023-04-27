@@ -1,7 +1,7 @@
 [
   {
     "title": "Booki",
-    "image": "../assets/projects/booki/bookiIcon.webp",
+    "image": "../assets/projects/booki/bookiCover.webp",
     "id": "1",
     "brief_description": "projectBooki.brief_description",
     "description_project": "projectBooki.description_project",
@@ -48,7 +48,6 @@
     ],
     "pictures": [
       "../assets/projects/ohmyfood/ohmyfood.webp",
-      "../assets/projects/ohmyfood/ohmyfood1.webp",
       "../assets/projects/ohmyfood/ohmyfood2.webp",
       "../assets/projects/ohmyfood/ohmyfood10.webp",
       "../assets/projects/ohmyfood/ohmyfood4.webp",
@@ -62,7 +61,7 @@
     "github": "https://github.com/imene-yahiaoui/Ohmyfood-"
   },
   {
-    "title": "Portfolio-architecte",
+    "title": "Portfolio Architecte",
     "image": "../assets/projects/portfolioArchitecte/sofi.webp",
     "id": "3",
     "brief_description": "projectPortfolioArchitecte.brief_description",
@@ -125,7 +124,7 @@
     "github": "https://github.com/imene-yahiaoui/Kasa"
   },
   {
-    "title": "Nina-Carducci",
+    "title": "Nina Carducci",
     "image": "../assets/projects/ninaCarducci/nina.webp",
     "id": "5",
     "brief_description": "projectNinaCarducci.brief_description",
@@ -159,7 +158,7 @@
     "github": "https://github.com/imene-yahiaoui/Nina-Carducci"
   },
   {
-    "title": "ArgentBank-website",
+    "title": "ArgentBank Website",
     "image": "../assets/projects/ArgentBankWebsite/banck.webp",
     "id": "6",
     "brief_description": "projectArgentBankWebsite.brief_description",
@@ -197,7 +196,7 @@
     "github": "https://github.com/imene-yahiaoui/ArgentBank-website"
   },
   {
-    "title": "Heberge_Moi",
+    "title": "Héberge Moi",
     "image": "../assets/projects/hebergeMoi/hebergemoiIcon.webp",
     "id": "7",
     "brief_description": "projectHebergeMoi.brief_description",
