@@ -8,6 +8,7 @@ const Portfolio = () => {
     <div id={t("portfolio_title")} className="portfoloi">
       <h1 className="title"> {t("portfolio_title")} </h1>
       <PortfolioGrille />
+      
     </div>
   );
 };

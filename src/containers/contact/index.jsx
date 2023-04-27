@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <section id={t("contact_title")} className=" contact">
       <h1 className="title">{t("contact_title")}</h1>
-      <div className="card contact-wrapper">
+      <div className="card_contact contact-wrapper">
         <form ref={form} onSubmit={sendEmail} className="form-horizontal">
           <input
             type="text"
