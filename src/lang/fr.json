@@ -26,24 +26,24 @@
   "software": "Logiciel",
   "Mobile": "Mobile",
   "Technologies_used": "Technologies utilisées",
-  "Readmore":"En savoir plus",
-  "Send":"Envoyer",
+  "Readmore": "En savoir plus",
+  "Send": "Envoyer",
   "notFound": {
     "message__title": "Page non trouvée",
     "message__text": " Nous sommes désolés, la page que vous recherchez n'existe pas.",
     "message__btn": "Retourner sur la page d'accueil"
   },
   "projectBooki": {
-    "brief_description": "site web de réservation d'hôtels en ligne , le site s'adapte automatiquement à différents types et tailles d'écran ",
+    "brief_description": "Site web qui permet de réserver un hôtel n'importe où et de découvrir les activités disponibles dans cette région",
     "description_project": "Booki est le premier projet de développement web sur lequel j'ai travaillé dans la formation d'intégrateur web chez OpenClassrooms. | Mon rôle a été d'intégrer les maquettes fournies par l'équipe de conception UI et de les transformer en une interface web fonctionnelle à l'aide de HTML et CSS. Le projet a commencé par l'analyse des maquettes fournies sous forme de fichiers Figma pour différentes tailles d'écran, En suivant les meilleures pratiques de développement web et en respectant les normes de qualité établies. j'ai travaillé sur l'intégration des maquettes en HTML et CSS. J'ai également veillé à ce que le site web soit adaptatif, c'est-à-dire qu'il s'adapte automatiquement à différents types et tailles d'écran."
   },
   "projectOhMyFood": {
-    "brief_description": "site web mobile-first dédié à la présentation des menus proposés par les restaurants gastronomiques",
-    "description_project": "OhMyFood est un site web mobile-first dédié à la présentation des menus proposés par les restaurants gastronomiques. Mon rôle en tant qu'intégrateur web était de transformer les maquettes fournies par l'équipe de conception en un site web fonctionnel et responsive, adapté aux différents dispositifs tels que les smartphones, tablettes et ordinateurs de bureau. Dans le cadre de ce projet, j'ai également eu pour mission d'intégrer les animations et comportements spécifiés dans le prototype du site pour offrir une expérience utilisateur optimale et attrayante. Cette expérience professionnelle m'a permis de mettre en pratique mes compétences en matière d'intégration web et de livrer un résultat de qualité dans les délais impartis."
+    "brief_description": "Un site web pour les restaurants gastronomiques. Les clients peuvent composer leur propre menu avant leur arrivée pour que les plats soient prêts à leur convenance",
+    "description_project": "OhMyFood est un site web mobile-first dédié à la présentation des menus proposés par les restaurants gastronomiques. Mon rôle en tant qu'intégratrice web était de transformer les maquettes fournies par l'équipe de conception en un site web fonctionnel et responsive, adapté aux différents dispositifs tels que les smartphones, tablettes et ordinateurs de bureau. Dans le cadre de ce projet, j'ai également eu pour mission d'intégrer les animations et comportements spécifiés dans le prototype du site pour offrir une expérience utilisateur optimale et attrayante. Cette expérience professionnelle m'a permis de mettre en pratique mes compétences en matière d'intégration web et de livrer un résultat de qualité dans les délais impartis."
   },
   "projectPortfolioArchitecte": {
-    "brief_description": "En tant qu'intégrateur web, j'ai travaillé sur le développement du site portfolio d'une architecte d'intérieur. Ma mission a consisté à concevoir la partie front-end du site, Mon travail a permis d'améliorer l'expérience utilisateur et de rendre le site plus interactif ",
-    "description_project": "En tant qu'intégrateur web, j'ai travaillé sur le développement du site portfolio d'une architecte d'intérieur. Ma mission a consisté à concevoir la partie front-end du site. Grâce à mes compétences en JavaScript, j'ai réussi à récupérer les travaux de l'architecte depuis l'API et les ai intégrés dans une galerie dynamique. J'ai également conçu une page de connexion sécurisée pour permettre aux utilisateurs d'accéder à l'interface d'administration du site. J'ai implémenté des fonctionnalités pour permettre aux utilisateurs connectés de supprimer ou ajouter des travaux sans avoir besoin de recharger la page. Mon travail a permis d'améliorer l'expérience utilisateur et de rendre le site plus interactif. "
+    "brief_description": "Un site personnel pour une une architecte d'intérieur, qui lui permet de présenter ses réalisations de manière cohérente.",
+    "description_project": "En tant qu'intégratrice web, j'ai travaillé sur le développement du site portfolio d'une architecte d'intérieur. Ma mission a consisté à concevoir la partie front-end du site. Grâce à mes compétences en JavaScript, j'ai réussi à récupérer les travaux de l'architecte depuis l'API et les ai intégrés dans une galerie dynamique. J'ai également conçu une page de connexion sécurisée pour permettre aux utilisateurs d'accéder à l'interface d'administration du site. J'ai implémenté des fonctionnalités pour permettre aux utilisateurs connectés de supprimer ou ajouter des travaux sans avoir besoin de recharger la page. Mon travail a permis d'améliorer l'expérience utilisateur et de rendre le site plus interactif. "
   },
   "projectKasa": {
     "brief_description": "kasa",
