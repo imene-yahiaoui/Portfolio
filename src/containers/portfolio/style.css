@@ -4,11 +4,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-image: var(--box_background); */
   z-index: 3;
   width: 100%;
-  margin: 100px auto;
-  border-radius: 34px;
+  margin: 60px auto;
 }
 .title {
   color: var(--body_color);

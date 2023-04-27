@@ -37,8 +37,8 @@ const PortfolioGrille = (props) => {
           <div className="card_body">
             <p>{t(project.brief_description)}</p>
           </div>
-          <div className="card_footer">
-            <NavLink to={`/Project/${project.id}`} key={project.id}>
+          <div className="glow-on-hover card_footer">
+            <NavLink  className="btn_text" to={`/Project/${project.id}`} key={project.id}>
               voir plus
             </NavLink>
           </div>

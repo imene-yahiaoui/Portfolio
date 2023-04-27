@@ -32,7 +32,7 @@
 
   {
     "title": "Ohmyfood",
-    "image": "../assets/projects/ohmyfood/ohmyfood6.webp",
+    "image": "../assets/projects/ohmyfood/alafrançaisee.jpg",
     "id": "2",
     "brief_description": "projectOhMyFood.brief_description",
     "description_project": "projectOhMyFood.description_project",
@@ -247,7 +247,7 @@
   },
   {
     "title": "أصل المثل",
-    "image": "../assets/projects/asselelmatell/asselelmatell1.webp",
+    "image": "../assets/projects/asselelmatell/image.jpg",
     "id": "8",
     "brief_description": "projectAsselelmatell.brief_description",
     "description_project": "projectAsselelmatell.description_project",
@@ -278,7 +278,7 @@
   },
   {
     "title": "36",
-    "image": "../assets/projects/36/36.webp",
+    "image": "../assets/projects/36/icon.png",
     "id": "9",
     "brief_description": "project36.brief_description",
     "description_project": "project36.description_project",

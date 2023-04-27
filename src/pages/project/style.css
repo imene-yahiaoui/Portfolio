@@ -33,18 +33,17 @@
   display: flex;
   justify-content: center;
   padding: 10px;
-
 }
-.project_header{
+.project_header {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.iconBack{
+.iconBack {
   margin-bottom: 0;
   margin-top: 90px;
   font-weight: 800;
-  font-size: 2.5vw; 
+  font-size: 2.5vw;
   color: var(--body_color);
   cursor: pointer;
 }
@@ -108,7 +107,7 @@
   position: absolute;
   top: 0;
   font-size: 14px;
-  background: #ffffff;
+  background: var(--box_background);
   color: #ffffff;
   padding: 5px 8px;
   border-radius: 5px;
@@ -123,7 +122,7 @@
   content: "";
   height: 8px;
   width: 8px;
-  background: #ffffff;
+  background: var(--box_background);
   bottom: -3px;
   left: 50%;
   transform: translate(-50%) rotate(45deg);
@@ -141,14 +140,12 @@
 .wrapper .icon:hover span,
 .wrapper .icon:hover .tooltip {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-  
 }
 .wrapper .icons:hover,
 .wrapper .icons:hover .tooltip,
 .wrapper .icons:hover .tooltip::before {
-  background: var(--box_background);
+  /* background: var(--box_background); */
   color: var(--body_color);
- 
 }
 .project_boutom {
   display: flex;

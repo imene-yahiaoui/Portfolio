@@ -29,9 +29,9 @@ const Contact = () => {
   };
 
   return (
-    <section id={t("contact_title")} className="contact">
+    <section id={t("contact_title")} className=" contact">
       <h1 className="title">{t("contact_title")}</h1>
-      <div className="contact-wrapper">
+      <div className="card contact-wrapper">
         <form ref={form} onSubmit={sendEmail} className="form-horizontal">
           <input
             type="text"

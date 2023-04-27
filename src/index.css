@@ -22,6 +22,8 @@
   -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
   inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
   inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+
+
 }
 
 [data-theme="dark"] {
@@ -48,6 +50,17 @@
   -4px -4px 6px 0 rgba(225, 179, 252, 0.582),
   inset -4px -4px 6px 0 rgba(255, 255, 255, 0.37),
   inset 4px 4px 6px 0 rgba(248, 246, 246, 0.452);
+}
+.btn_text{
+color: var(--body_color);
+/* background-color: var(--body_background); */
+text-decoration: none;
+display:flex;
+justify-content: center;
+width:100%;
+height:100%;
+align-items: center;
+border-radius: 20px;
 }
 * {
   transition: all 0.3s ease-in-out;
