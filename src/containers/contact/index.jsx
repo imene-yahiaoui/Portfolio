@@ -80,8 +80,8 @@ const Contact = () => {
             <li className="list-item">
               <i className="fa fa-envelope fa-2x">
                 <span className="contact-text gmail">
-                  <a href="mailto:Imaniman4848@gamil.com" title="Send me an email">
-                    Imaniman4848@gamil.com
+                  <a href="mailto:Imaniman4848@gmail.com" title="Send me an email">
+                    Imaniman4848@gmail.com
                   </a>
                 </span>
               </i>
