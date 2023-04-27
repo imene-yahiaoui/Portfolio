@@ -26,6 +26,7 @@
   "software": "Logiciel",
   "Mobile": "Mobile",
   "Technologies_used": "Technologies utilisées",
+  "Readmore":"En savoir plus",
   "notFound": {
     "message__title": "Page non trouvée",
     "message__text": " Nous sommes désolés, la page que vous recherchez n'existe pas.",

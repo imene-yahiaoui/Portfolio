@@ -10,7 +10,8 @@
           "-webkit-mask-image",
           "-webkit-text-size-adjust",
           "zoom",
-          "text-align-last"
+          "text-align-last",
+          "backface-visibility"
         ]
       }
     ]

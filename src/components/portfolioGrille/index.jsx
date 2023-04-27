@@ -29,18 +29,25 @@ const PortfolioGrille = (props) => {
   return (
     <div className="PortfolioGrille">
       {projects.map((project) => (
-        <div className="card" key={project.id}>
-          <img src={project.image} alt={project.title} />
-
-          <div className="card-content">
+        <figure className="card" key={project.id}>
+          <div className="card-face front">
+            <img src={project.image} alt={project.title} />
+            <h2 className="card_title "> {project.title} </h2>
+          </div>
+          <figcaption className="card-face back">
             <h2> {project.title} </h2>
             <p>{t(project.brief_description)}</p>
-
-            <NavLink to={`/Project/${project.id}`} key={project.id}>
-              voir plus
-            </NavLink>
-          </div>
-        </div>
+            <div className="glow-on-hover">
+              <NavLink
+                className="btn_text"
+                to={`/Project/${project.id}`}
+                key={project.id}
+              >
+                {t("Readmore")}
+              </NavLink>
+            </div>
+          </figcaption>
+        </figure>
       ))}
     </div>
   );
