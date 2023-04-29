@@ -5,14 +5,14 @@
   flex-direction: column;
 }
 
-.project_top {
+.project_page {
   width: 99%;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
 }
 
-.project_desc {
+.project_descreption {
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -22,10 +22,9 @@
 .carousel {
   position: absolute;
 }
-.project_desc p {
+.project_descreption p {
   width: 80%;
   height: auto;
-  /* border: 3px solid rgb(147, 73, 217);  */
   border-radius: 40px;
   color: var(--body_color);
   display: flex;
@@ -68,12 +67,13 @@
   font-weight: 400;
 }
 .technologyUsed_icons {
-  display: flex;
+  display: grid;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  grid-template-columns: repeat(auto-fill, 70px);
 }
+
 .img_item {
   width: 25px;
   height: 25px;

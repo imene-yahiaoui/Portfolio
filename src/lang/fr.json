@@ -67,6 +67,6 @@
   },
   "project36": {
     "brief_description": "un jeu consiste à progresser à travers un tableau de cases numérotées en partant du numéro 1 et en atteignant le numéro 36",
-    "description_project": "Le jeu débute à partir du numéro 1 et se poursuit jusqu'à l'atteinte du nombre 36, cependant, des règles simples régissent la   rogression :Le déplacement horizontal ↔ et vertical ↕ correspond à deux cases.Le déplacement en diagonale ⤭⤪ équivaut à une case.Si vous parvenez à un nombre et que toutes les cases de déplacement autorisées sont déjà occupées, vous perdez la partie."
+    "description_project": "Le jeu débute à partir du numéro 1 et se poursuit jusqu'à l'atteinte du nombre 36, cependant, des règles simples régissent la   rogression :Le déplacement horizontal ↔ et vertical ↕ correspond à deux cases.Le déplacement en diagonale ⤭⤪ équivaut à une case.  Si vous parvenez à un nombre et que toutes les cases de déplacement autorisées sont déjà occupées, vous perdez la partie."
   }
 }

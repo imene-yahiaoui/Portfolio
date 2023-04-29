@@ -1,16 +1,7 @@
 .socialMedia {
-  display: flex;
-  flex-direction: row;
+  display: grid;
   align-items: center;
-  padding-left: 0px;
   list-style-type: none;
-}
-
-.socialMedia li:not(:last-child) {
-  margin-right: 40px;
-
-}
-.socialMedia_icon:hover{
-  /* background-color: aqua; */
-color: aqua;
+  grid-template-columns: repeat(auto-fill, 60px);
+  padding: 0;
 }

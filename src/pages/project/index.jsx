@@ -1,12 +1,12 @@
 import "./style.css";
 import { IoArrowBackOutline } from "react-icons/io5";
-
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 import Carrousel from "../../containers/carrousel";
 import ProjectBtn from "../../components/projectBtn";
 const Project = () => {
+  const lang = localStorage.getItem("i18nextLng");
   const [projects, setProjects] = useState([]);
   useEffect(() => {
     const fetchProjects = async () => {
@@ -33,15 +33,16 @@ const Project = () => {
   return (
     <div className="project">
       <div className="project_header">
-        <a href ="/">
-        <IoArrowBackOutline className="iconBack" 
-         onMouseOver={({ target }) =>
-         (target.style.color = "var(--background_icons)")
-       }
-       onMouseOut={({ target }) =>
-         (target.style.color = "var(--body_color)")
-       }
-        />
+        <a href="/">
+          <IoArrowBackOutline
+            className="iconBack"
+            onMouseOver={({ target }) =>
+              (target.style.color = "var(--background_icons)")
+            }
+            onMouseOut={({ target }) =>
+              (target.style.color = "var(--body_color)")
+            }
+          />
         </a>
         {projects
           .filter((project) => project.id === id)
@@ -51,12 +52,18 @@ const Project = () => {
             </h6>
           ))}
       </div>
-      <div className="project_top">
+      <div
+        style={{ flexDirection: lang === "ar" ? "row" : "row-reverse" }}
+        className="project_page"
+      >
         <div className="project_carousel">
           <Carrousel className="carousel" />
         </div>
 
-        <div className="project_desc">
+        <div
+          style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
+          className="project_descreption"
+        >
           {projects
             .filter((project) => project.id === id)
             .map((project) => (
@@ -85,7 +92,7 @@ const Project = () => {
             {projects
               .filter((project) => project.id === id)
               .map((project) =>
-                project.site && project.github? (
+                project.site && project.github ? (
                   <div className="project_btn" key={project.id}>
                     <ProjectBtn destination={project.site} title="Site Web" />
                     <ProjectBtn
@@ -93,23 +100,19 @@ const Project = () => {
                       title="Code source"
                     />
                   </div>
-                ) : project.github  && !project.site?   (
+                ) : project.github && !project.site ? (
                   <div className="project_btn" key={project.id}>
-                  
-                  <ProjectBtn
-                    destination={project.github}
-                    title="Code source"
-                  />
-                </div>
-                ):
-
-                (
+                    <ProjectBtn
+                      destination={project.github}
+                      title="Code source"
+                    />
+                  </div>
+                ) : (
                   <div className="project_btn" key={project.id}>
                     <ProjectBtn destination={project.site} title="Site Web" />
-                   
                   </div>
-
-              ))}
+                )
+              )}
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import SocialMedia from "../../components/socialMedia";
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const lang = localStorage.getItem("i18nextLng");
   const { t } = useTranslation();
   const form = useRef();
 
@@ -31,7 +32,10 @@ const Contact = () => {
   return (
     <section id={t("contact_title")} className=" contact">
       <h1 className="title">{t("contact_title")}</h1>
-      <div className="card_contact contact-wrapper">
+      <div
+        style={{ flexDirection: lang === "ar" ? "row" : "row-reverse" }}
+        className="card_contact contact-wrapper"
+      >
         <form ref={form} onSubmit={sendEmail} className="form-horizontal">
           <input
             type="text"
@@ -63,7 +67,9 @@ const Contact = () => {
           <ul className="contact-list">
             <li className="list-item">
               <i className="fa fa-map-marker fa-2x">
-                <span className="contact-text place">Ile de France , Paris</span>
+                <span className="contact-text place">
+                  Ile de France , Paris
+                </span>
               </i>
             </li>
 
@@ -80,7 +86,10 @@ const Contact = () => {
             <li className="list-item">
               <i className="fa fa-envelope fa-2x">
                 <span className="contact-text gmail">
-                  <a href="mailto:Imaniman4848@gmail.com" title="Send me an email">
+                  <a
+                    href="mailto:Imaniman4848@gmail.com"
+                    title="Send me an email"
+                  >
                     Imaniman4848@gmail.com
                   </a>
                 </span>

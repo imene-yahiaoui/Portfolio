@@ -10,12 +10,7 @@ import DarkMode from "../darkMode";
 const Header = () => {
   const matches = useMediaQuery("(max-width:767px)");
   const { t, i18n } = useTranslation();
-  // const value= localStorage.getItem('i18nextLng')
-  //   if (localStorage.getItem('i18nextLng')) {
-  //     i18n.changeLanguage(value)
-  //   }
   const lang = localStorage.getItem("i18nextLng");
-
   const [showMenu, setShowMenu] = useState(false);
 
   const handleToggleMenu = () => {
@@ -25,10 +20,14 @@ const Header = () => {
     setShowMenu(!showMenu);
   };
   console.log(showMenu);
+
   return (
     <div className="header" id={t("home_path")}>
       <div className="navbar">
-        <nav className="container">
+        <nav
+          style={{ flexDirection: lang === "ar" ? "row-reverse" : "row" }}
+          className="container"
+        >
           <div className="logo">
             <Link to="/">
               <img src={logo} alt={t("logo_alt")} />
