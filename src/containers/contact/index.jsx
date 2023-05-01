@@ -22,7 +22,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-           // Reset the form inputs
+           // suprime les inputs
         form.current.user_name.value = "";
         form.current.user_email.value = "";
         form.current.message.value = "";
@@ -41,26 +41,26 @@ const Contact = () => {
         className="card_contact contact-wrapper"
       >
         <form ref={form} onSubmit={sendEmail} className="form-horizontal">
-          <input
+          <input  style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
             type="text"
             name="user_name"
             className="form-control"
-            placeholder="Name"
+            placeholder={t("Name")}
             required
           />
 
-          <input
+          <input  style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
             type="email"
             name="user_email"
             className="form-control"
-            placeholder="EMAIL"
+            placeholder={t("Email")}
             required
           />
 
-          <textarea
+          <textarea  style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
             name="message"
             className="form-control"
-            placeholder="msg"
+            placeholder={t("Message")}
             rows="10"
             required
           />

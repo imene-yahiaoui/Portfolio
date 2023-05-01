@@ -28,6 +28,9 @@
   "Technologies_used": "Technologies used",
   "Readmore": "Read more",
   "Send": "Submit",
+  "Name":"Name",
+  "Email":"Email",
+  "Message":"Message",
   "notFound": {
     "message__title": "Page Not Found",
     "message__text": " We're sorry, the page you were looking for isn't found here.",
