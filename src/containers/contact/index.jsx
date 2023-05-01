@@ -22,7 +22,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-        },
+           // Reset the form inputs
+        form.current.user_name.value = "";
+        form.current.user_email.value = "";
+        form.current.message.value = "";
+              },
         (error) => {
           console.log(error.text);
         }
@@ -58,6 +62,7 @@ const Contact = () => {
             className="form-control"
             placeholder="msg"
             rows="10"
+            required
           />
 
           <input type="submit" value={t("Send")} className="send-text" />

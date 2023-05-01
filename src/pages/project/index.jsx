@@ -38,7 +38,6 @@ const Project = () => {
   const { t } = useTranslation();
   console.log(projects);
 
-
   console.log(id);
 
   return (
