@@ -110,25 +110,25 @@ const Project = () => {
                       <div className="project_btn" key={project.id}>
                         <ProjectBtn
                           destination={project.site}
-                          title="Site Web"
+                          title={t("Demo")}
                         />
                         <ProjectBtn
                           destination={project.github}
-                          title="Code source"
+                          title={t("source_code")}
                         />
                       </div>
                     ) : project.github && !project.site ? (
                       <div className="project_btn" key={project.id}>
                         <ProjectBtn
                           destination={project.github}
-                          title="Code source"
+                          title={t("source_code")}
                         />
                       </div>
                     ) : (
                       <div className="project_btn" key={project.id}>
                         <ProjectBtn
                           destination={project.site}
-                          title="Site Web"
+                          title={t("Demo")}
                         />
                       </div>
                     )

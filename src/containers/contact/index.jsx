@@ -22,11 +22,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-           // suprime les inputs
-        form.current.user_name.value = "";
-        form.current.user_email.value = "";
-        form.current.message.value = "";
-              },
+          // suprime les inputs
+          form.current.user_name.value = "";
+          form.current.user_email.value = "";
+          form.current.message.value = "";
+        },
         (error) => {
           console.log(error.text);
         }
@@ -41,7 +41,8 @@ const Contact = () => {
         className="card_contact contact-wrapper"
       >
         <form ref={form} onSubmit={sendEmail} className="form-horizontal">
-          <input  style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
+          <input
+            style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
             type="text"
             name="user_name"
             className="form-control"
@@ -49,7 +50,8 @@ const Contact = () => {
             required
           />
 
-          <input  style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
+          <input
+            style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
             type="email"
             name="user_email"
             className="form-control"
@@ -57,7 +59,8 @@ const Contact = () => {
             required
           />
 
-          <textarea  style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
+          <textarea
+            style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
             name="message"
             className="form-control"
             placeholder={t("Message")}
@@ -81,9 +84,7 @@ const Contact = () => {
             <li className="list-item">
               <i className="fa fa-phone fa-2x">
                 <span className="contact-text phone">
-                  <a href="tel:0033612218389" title="Give me a call">
-                    (33) 6 12 21 83 89
-                  </a>
+                  <a href="tel:0033612218389">(33) 6 12 21 83 89</a>
                 </span>
               </i>
             </li>
@@ -91,18 +92,16 @@ const Contact = () => {
             <li className="list-item">
               <i className="fa fa-envelope fa-2x">
                 <span className="contact-text gmail">
-                  <a
-                    href="mailto:Imaniman4848@gmail.com"
-                    title="Send me an email"
-                  >
+                  <a href="mailto:Imaniman4848@gmail.com">
                     Imaniman4848@gmail.com
                   </a>
                 </span>
               </i>
             </li>
           </ul>
-
+          <hr/> 
           <SocialMedia />
+          <hr/> 
         </div>
       </div>
     </section>

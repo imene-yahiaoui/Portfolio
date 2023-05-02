@@ -5,8 +5,9 @@ import { GrCodepen } from "react-icons/gr";
 
 import "./style.css";
 const SocialMedia = () => {
+  const lang = localStorage.getItem("i18nextLng");
   return (
-    <ul className="socialMedia">
+    <ul    style={{ direction: lang === "ar" ? "rtl" : "ltr" }} className="socialMedia">
       <li>
         <a
           href="https://github.com/imene-yahiaoui"

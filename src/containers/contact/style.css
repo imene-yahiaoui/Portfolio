@@ -1,7 +1,6 @@
 .contact {
   display: flex;
   flex-direction: column;
-
 }
 .title {
   text-align: center;
@@ -90,7 +89,7 @@ textarea {
 .contact-text {
   font: 300 18px "Lato", sans-serif;
   letter-spacing: 1.9px;
-  color:var( --body_color);
+  color: var(--body_color);
 }
 
 .place {
@@ -106,7 +105,7 @@ textarea {
 }
 
 .contact-text a {
-  color:var( --body_color);
+  color: var(--body_color);
   text-decoration: none;
   transition-duration: 0.2s;
 }
@@ -171,7 +170,9 @@ textarea {
 .social-media-list li:hover a {
   color: #000;
 }
-
+hr {
+  border-color: white;
+}
 .copyright {
   font: 200 14px "Oswald", sans-serif;
   color: #555;

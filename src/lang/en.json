@@ -31,6 +31,8 @@
   "Name":"Name",
   "Email":"Email",
   "Message":"Message",
+  "Demo":"Demo",
+  "source_code":"Source code",
   "notFound": {
     "message__title": "Page Not Found",
     "message__text": " We're sorry, the page you were looking for isn't found here.",
