@@ -15,7 +15,12 @@
   transform-style: preserve-3d;
   background: transparent;
   border: none;
+
+
+ 
 }
+
+
 .card-face {
   position: absolute;
   top: 0;

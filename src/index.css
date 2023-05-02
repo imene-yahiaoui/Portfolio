@@ -1,5 +1,5 @@
 :root {
- 
+  white-space: pre-line;
   --body_background: #f3ebf6;
   --box_background: linear-gradient(#e9d3f1, #d4a9d6);
   --body_color: rgba(16, 7, 51, 1);

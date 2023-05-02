@@ -1,5 +1,6 @@
 import "./style.css";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
@@ -25,11 +26,13 @@ const PortfolioGrille = (props) => {
     };
     fetchProjects();
   }, []);
-
+  useEffect(() => {
+AOS.init({duration:2000})
+  }, []);
   return (
     <div className="PortfolioGrille">
       {projects.map((project) => (
-        <figure className="card" key={project.id}>
+        <figure className="card" key={project.id} data-aos="fade-right">
           <div className="card-face front">
             <img src={project.image} alt={project.title} />
             <h2 className="card_title "> {project.title} </h2>
