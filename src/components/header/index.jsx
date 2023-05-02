@@ -22,10 +22,14 @@ const Header = () => {
   console.log(showMenu);
 
   return (
-    <div className="header" id={t("home_path")}>
+    <div
+      style={{ flexDirection: lang === "ar" ? "row-reverse" : "row" }}
+      className="header"
+      id={t("home_path")}
+    >
       <div className="navbar">
         <nav
-          style={{ flexDirection: lang === "ar" ? "row-reverse" : "row" }}
+          style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
           className="container"
         >
           <div className="logo">
