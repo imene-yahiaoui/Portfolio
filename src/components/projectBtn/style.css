@@ -2,20 +2,8 @@
 
   min-width:55px;
   min-height:30px;
-  padding: 10px 20px;
-
-  background: var( --box_background);
-  border: none;
-  border-radius: 10px;
+  width: auto;
+  padding: 0px 26px;
+ 
 }
-.ProjectBtn a{
-  color:var(--body_color);
-  text-decoration: none;
-}
-.ProjectBtn:before {
-  height: 0%;
-  width: 2px;
-}
-.ProjectBtn:hover {
-  box-shadow:var(--box-shadow);
-}
+ 

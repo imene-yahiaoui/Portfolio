@@ -114,7 +114,7 @@ const Project = () => {
                         />
                         <ProjectBtn
                           destination={project.github}
-                          title={t("source_code")}
+                            title={t("source_code")}
                         />
                       </div>
                     ) : project.github && !project.site ? (
