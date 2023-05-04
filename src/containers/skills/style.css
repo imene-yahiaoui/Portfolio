@@ -15,6 +15,9 @@
   margin-bottom: 50px;
 }
 
-/* .skills:hover {
-  background: var(--hover);
-} */
+ /*media phone */
+@media (max-width: 767px) {
+  .skills {
+    padding: 10px;
+  }
+}

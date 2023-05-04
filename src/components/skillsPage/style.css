@@ -58,3 +58,10 @@ img {
 .skillsGrille_item b {
   color: var(--body_color);
 }
+
+/*media phone */
+@media (max-width: 767px) {
+  .skillsGrille {
+    grid-template-columns: repeat(auto-fill, 76px);
+  }
+}
