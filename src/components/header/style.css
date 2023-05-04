@@ -95,9 +95,15 @@
     display: block;
     margin: 0.2em auto;
   }
+  .navbar-menu ul a {
+    color: var(--body_color);
+  }
 }
-
+/*media phone */
 @media (max-width: 767px) {
+  .navbar-menu ul a {
+    color: var(--body_color);
+  }
   .navbar-menu {
     display: flex;
     flex-direction: column;
@@ -146,6 +152,8 @@
     margin: 0px !important;
   }
 }
+
+/*media tablete */
 @media (max-width: 991px) {
   .nav-elements ul li:not(:last-child) {
     margin-right: 20px;
@@ -153,5 +161,6 @@
   .nav-elements ul a {
     font-size: 12px;
     font-weight: 600;
+    color: var(--body_color);
   }
 }

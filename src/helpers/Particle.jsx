@@ -1,13 +1,15 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import "../index.css";
 
+import "../index.css";
 function Particle() {
   const particlesInit = async (main) => {
     await loadFull(main);
   };
 
   return (
-    <div className="particle" style={{ width: "500px", height: "800px" }}>
+    <div className="particle" style={{ width: "500px", height: "500px" }}>
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -17,7 +19,7 @@ function Particle() {
           },
           particles: {
             number: {
-              value: 10,
+              value: 13,
               density: {
                 enable: false,
                 value_area: 800,
@@ -27,9 +29,9 @@ function Particle() {
               value: "#c996cc",
             },
             shape: {
-              type: "polygon",
+              type: "",
               options: {
-                sides: 5,
+                sides: 8,
               },
             },
             opacity: {
@@ -53,7 +55,7 @@ function Particle() {
               },
             },
             rotate: {
-              value: 0,
+              value: 3,
               random: true,
               direction: "clockwise",
               animation: {
@@ -65,7 +67,10 @@ function Particle() {
             line_linked: {
               enable: true,
               distance: 600,
-              color: "#7a00ff",
+              color: {
+                value: ["#a084dc", "#c996cc", "#3d2c8d", "#ebc7e6"],
+              },
+
               opacity: 0.4,
               width: 2,
             },

@@ -19,7 +19,6 @@ const Header = () => {
   const handleToggleMenux = () => {
     setShowMenu(!showMenu);
   };
-  console.log(showMenu);
 
   return (
     <div
