@@ -3,7 +3,9 @@ import emailjs from "@emailjs/browser";
 import "./style.css";
 import SocialMedia from "../../components/socialMedia";
 import { useTranslation } from "react-i18next";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const Contact = () => {
   const lang = localStorage.getItem("i18nextLng");
   const { t } = useTranslation();
@@ -32,7 +34,9 @@ const Contact = () => {
         }
       );
   };
-
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <section id={t("contact_title")} className=" contact">
       <h1 className="title">{t("contact_title")}</h1>
@@ -40,7 +44,12 @@ const Contact = () => {
         style={{ flexDirection: lang === "ar" ? "row" : "row-reverse" }}
         className=" contact-wrapper"
       >
-        <form ref={form} onSubmit={sendEmail} className="form-horizontal">
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className="form-horizontal"
+          data-aos="fade-left"
+        >
           <input
             style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
             type="text"
@@ -71,7 +80,7 @@ const Contact = () => {
           <input type="submit" value={t("Send")} className="send-text" />
         </form>
 
-        <div className="direct-contact-container">
+        <div className="direct-contact-container" data-aos="fade-right">
           <ul className="contact-list">
             <li className="list-item">
               <i className="fa fa-map-marker fa-2x"></i>

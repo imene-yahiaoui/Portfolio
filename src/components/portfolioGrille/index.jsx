@@ -27,14 +27,18 @@ const PortfolioGrille = (props) => {
     fetchProjects();
   }, []);
   useEffect(() => {
-AOS.init({duration:2000})
+    AOS.init({ duration: 2000 });
   }, []);
   return (
     <div className="PortfolioGrille">
       {projects.map((project) => (
-        <figure className="card" key={project.id}data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">
+        <figure
+          className="card"
+          key={project.id}
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <div className="card-face front">
             <img src={project.image} alt={project.title} />
             <h2 className="card_title "> {project.title} </h2>
