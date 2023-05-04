@@ -2,8 +2,8 @@
   color: var(--body_color);
   width: 50%;
 }
-.intro_des{
-  margin-top:20px;
+.intro_des {
+  margin-top: 20px;
   margin-bottom: 50px;
 }
 h1 {
@@ -14,8 +14,8 @@ h3 {
   display: inline;
   font-size: 25px;
 }
-p{
-  text-align: justify;
+p {
+  /* text-align: justify; */
   word-spacing: 6px;
 }
 .intro-name {
@@ -30,7 +30,6 @@ p{
 }
 
 .intro-name:before {
- 
   content: attr(data-text);
   position: absolute;
   color: var(--body_color);
@@ -59,5 +58,24 @@ p{
   }
 }
 
-
-
+@media (max-width: 767px) {
+  .intro-continer {
+    width: 100%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .intro-name {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .intro_contact{
+    display: grid;
+    justify-content: space-around;
+  }
+}

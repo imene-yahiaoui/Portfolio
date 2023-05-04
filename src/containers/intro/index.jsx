@@ -26,11 +26,13 @@ const Intro = () => {
       <div>
         <p> {t("description_info.main")} </p>
       </div>
-      <div>
+      <div className="intro_contact">
+        <div>
         <SocialMedia />
       </div>
 
       <DownloadBtn />
+      </div>
     </div>
   );
 };

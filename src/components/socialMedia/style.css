@@ -5,3 +5,9 @@
   grid-template-columns: repeat(auto-fill, 60px);
   padding: 0;
 }
+
+@media (max-width: 767px) {
+  .socialMedia {
+grid-template-columns: repeat(auto-fill, 55px);
+  }
+}
