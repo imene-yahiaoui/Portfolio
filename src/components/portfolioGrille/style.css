@@ -15,11 +15,7 @@
   transform-style: preserve-3d;
   background: transparent;
   border: none;
-
-
- 
 }
-
 
 .card-face {
   position: absolute;
@@ -71,9 +67,28 @@
 .card:hover .back {
   transform: rotateY(0);
 }
+.card-container {
+  flex-wrap: wrap;
+}
 
-@media (max-width: 1200px) {
-  .card-container {
-    flex-wrap: wrap;
+/*media phone */
+@media (max-width: 767px) {
+  .PortfolioGrille {
+    justify-items: center;
+  }
+  .card {
+    height: 244px;
+    width: 295px;
+  }
+}
+
+/*media tablete */
+@media (max-width: 991px) {
+  .PortfolioGrille {
+    grid-template-columns: repeat(auto-fill, 300px);
+  }
+  .card {
+    height: 244px;
+    width: 295px;
   }
 }
