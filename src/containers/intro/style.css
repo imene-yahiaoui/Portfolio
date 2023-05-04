@@ -1,6 +1,11 @@
+Particle {
+  width: 100%;
+  height: 230px;
+}
+
 .intro-continer {
   color: var(--body_color);
-  width: 50%;
+  width: 70%;
 }
 .intro_des {
   margin-top: 20px;
@@ -74,8 +79,8 @@ p {
   p {
     font-size: 15px;
   }
-  .intro_contact{
+  /* .intro_contact{
     display: grid;
     justify-content: space-around;
-  }
+  } */
 }

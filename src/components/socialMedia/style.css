@@ -4,6 +4,7 @@
   list-style-type: none;
   grid-template-columns: repeat(auto-fill, 60px);
   padding: 0;
+  z-index: -1;
 }
 
 @media (max-width: 767px) {

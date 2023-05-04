@@ -2,6 +2,7 @@ import "./style.css";
 import { useTranslation } from "react-i18next";
 import DownloadBtn from "../../components/download";
 import SocialMedia from "../../components/socialMedia";
+ 
 const Intro = () => {
   const { t } = useTranslation();
   const lang = localStorage.getItem("i18nextLng");
@@ -13,6 +14,7 @@ const Intro = () => {
   
       className="intro-continer"
     >
+       
       <h1> {t("main_heading.hello")} 👋 </h1>
       <h2  
        className="intro-name" data-text={t("main_heading.name")}>
