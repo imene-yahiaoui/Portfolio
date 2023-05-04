@@ -4,7 +4,7 @@ import "./style.css";
 const Footer = () => {
     return (
       <div className="footer">
-       <h5> Copyright © 2023 - Imene Yahiaoui Ikhlef   </h5>
+       <h4> Copyright © 2023 - Imene Yahiaoui Ikhlef   </h4>
       </div>
     );
   };
