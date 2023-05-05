@@ -32,11 +32,7 @@
   display: none !important;
 }
 @media (max-width: 767px) {
-  /* .carousel .slide img {
-    width: 90% !important;
-    height: 40vh;
-    object-fit: cover;
-  } */
+
   .img_carousel {
     width: 90%;
   }
