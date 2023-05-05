@@ -52,12 +52,17 @@ textarea {
 .send-text {
   display: block;
   margin-top: 10px;
-
   letter-spacing: 2px;
+  color: var(--body_color);
+  background-color: var(--body_background);
+  border-radius: 20px;
+  padding: 6px 20px;
+  border: 1px var(--body_color) solid;
 }
 
-.alt-send-button:hover {
-  transform: translate3d(0px, -29px, 0px);
+.send-text:hover {
+  box-shadow: -6px -6px 25px 0 rgb(206, 177, 255),
+    6px 6px 25px 0 rgb(206, 177, 255);
 }
 
 /* Begin Right Contact Page */
@@ -81,6 +86,7 @@ textarea {
 }
 .list-item a,
 span {
+  text-decoration: none;
   color: var(--body_color);
   font-size: 16px;
 }
@@ -96,6 +102,10 @@ span {
   }
   .direct-contact-container {
     max-width: 281px;
+  }
+  .contact-list {
+ 
+    padding: 0px;
   }
 }
 

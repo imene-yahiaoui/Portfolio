@@ -85,17 +85,17 @@ const Header = () => {
               </div>
               <div className={`navbar-menu${showMenu ? " active" : ""}`}>
                 <ul className="nav-menu titles">
-                  <li>
-                    <Link to={t("home_path")}>{t("home_title")}</Link>
+                  <li className="nav_list">
+                    <a href={t("home_path")}>{t("home_title")}</a>
                   </li>
-                  <li>
-                    <Link to={t("skills_path")}>{t("skills_title")}</Link>
+                  <li className="nav_list">
+                    <a href={t("skills_path")}>{t("skills_title")}</a>
                   </li>
-                  <li>
-                    <Link to={t("portfolio_path")}>{t("portfolio_title")}</Link>
+                  <li className="nav_list">
+                    <a href={t("portfolio_path")}>{t("portfolio_title")}</a>
                   </li>
-                  <li>
-                    <Link to={t("contact_path")}>{t("contact_title")}</Link>
+                  <li className="nav_list">
+                    <a href={t("contact_path")}>{t("contact_title")}</a>
                   </li>
                   <li>
                     <DarkMode />
