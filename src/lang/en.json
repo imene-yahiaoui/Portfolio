@@ -1,0 +1,78 @@
+{
+  "title": "Imene Yahiaoui Ikhlef ",
+  "description": "portfolio Imene Yahiaoui IkhlefFront-end and Fullstack web developer.in Ile De France",
+  "logo_alt": "logo portfolio",
+  "home_title": "Home",
+  "home_path": "/",
+  "skills_title": "Skills",
+  "skills_path": "/#Skills",
+  "portfolio_title": "Portfolio",
+  "portfolio_path": "/#portfolio",
+  "contact_title": "Contact",
+  "contact_path": "/#contact",
+
+  "main_heading": {
+    "hello": "Hello ",
+    "name": "I'm Imene",
+    "static_desc": "I'am a Front-End developer",
+    "dynamic_desc": "Passionate about the world of web development."
+  },
+  "description_info": {
+    "main": "I am a self-taught individual who is constantly learning new technologies and approaches to improve my skills and provide unique user experiences. In addition, I hold a degree in web integration at the Bac+2 level.\n My passion for back-end development also drives me to explore technologies such as Node.js and MongoDB to expand my skills and create innovative web applications",
+    "introduction": "My name is Imene and I am a web integrator and front-end developer passionate about the world of web development. As a self-taught individual, I am constantly learning new technologies and approaches to improve my skills and provide unique user experiences. I hold a degree in web integration at the Bac+2 level. I have worked on several personal projects to strengthen my skills as a web integrator and front-end developer. My goal is to continue learning and evolving as a web professional while offering creative and innovative solutions for any web project.As a web integrator, I have gained strong expertise in developing modern and functional websites using the latest web development technologies. I am also passionate about designing attractive and intuitive user interfaces to provide optimal user experiences. Currently looking for a position in permanent or temporary employment, I am open to new opportunities to continue developing my skills and contribute to the field of web development."
+  },
+  "Download": "Download my CV",
+  "all": "All",
+  "software": "Software",
+  "Mobile": "Mobile",
+  "Technologies_used": "Technologies used",
+  "Readmore": "Read more",
+  "Send": "Submit",
+  "Name": "Name",
+  "Email": "Email",
+  "Message": "Message",
+  "Demo": "Demo",
+  "source_code": "Source code",
+  "notFound": {
+    "message__title": "Page Not Found",
+    "message__text": " We're sorry, the page you were looking for isn't found here.",
+    "message__btn": "Return to the home page"
+  },
+
+  "projectBooki": {
+    "brief_description": "Website that allows you to book a hotel anywhere you want and discover the activities available in that area.",
+    "description_project": "Booki is the first web development project on which I worked during my training as a a Front-End developer at OpenClassrooms.\n My role was to integrate the mockups provided by the UI design team and transform them into a functional web interface using HTML and CSS. The project started with the analysis of mockups, provided in the form of Figma files for different screen sizes.\n Following the best practices of web development and adhering to established quality standards, I worked on integrating the mockups using HTML and CSS.\n I also ensured that the website was responsive, meaning that it automatically adapts to different screen types and sizes."
+  },
+  "projectOhMyFood": {
+    "brief_description": " An website for gourmet restaurants. Customers can compose their own menu before their arrival so that the dishes are ready to their liking.",
+    "description_project": "OhMyFood is a mobile-first website dedicated to presenting menus offered by gourmet restaurants. As a Front-End developer, my role was to transform the mockups provided by the design team into a functional and responsive website, suitable for various devices such as smartphones, tablets, and desktop computers.\n As part of this project, I was also tasked with integrating the animations and behaviors specified in the site's prototype to provide an optimal and attractive user experience. This professional experience allowed me to put my web integration skills into practice and deliver a quality result within the given timeframe."
+  },
+  "projectPortfolioArchitecte": {
+    "brief_description": "Personal website for an interior architect, which allows her to showcase her work in a cohesive manner.",
+    "description_project": "As a Front-End developer, I worked on developing the portfolio website of an interior architect.\n My mission consisted of designing the front-end part of the site.\n Using my JavaScript skills, I managed to retrieve the architect's work from the API and integrated them into a dynamic gallery. I also designed a secure login page to allow users to access the site's administration interface.\n I implemented features to allow logged-in users to delete or add works without the need to reload the page.\n My work improved the user experience and made the site more interactive."
+  },
+  "projectKasa": {
+    "brief_description": "Kasa is an application dedicated to peer-to-peer apartment rentals in France",
+    "description_project": "Kasa, a leader in apartment rentals among individuals in France, tasked me with renovating their website using JavaScript for the client-side, and I chose React as the front-end framework.\n I had access to 20 recent real estate ads in JSON format on which I worked to develop a functional and responsive website. I also used Figma to convert the mockups into React components and routes."
+  },
+  "projectNinaCarducci": {
+    "brief_description": "Website for Nina Carducci, professional photographer, with the aim of showcasing her portfolio and services",
+    "description_project": "This project involves a proposal for SEO optimization services for Nina Carducci, a photographer.\n I worked on improving local search engine optimization (SEO) performance, adding metadata for social media, optimizing the site in terms of code and structure, as well as optimizing images and the site as a whole. I wrote an optimization report and provided the optimized code.\n My goal was to improve the site's SEO for better online visibility"
+  },
+  "projectArgentBankWebsite": {
+    "brief_description": "Argent Bank is a new online bank that aims to provide its users with a user-friendly dashboard",
+    "description_project": "Argent Bank is a new online bank that aims to provide its users with a user-friendly dashboard.\n To achieve this goal, I developed a complete, responsive and mobile-friendly web application using React, 'React Router 6' and 'Protected Routes'.\n The application features include user authentication, homepage, login page, profile page, and application state management with Redux.Additionally, I created a YAML file dedicated to transaction features. This will allow users to easily view, add, modify, or delete information related to a transaction. "
+  },
+  "projectHebergeMoi": {
+    "brief_description": "Apartment rental application that allows the client to view apartment photos, prices, and locations",
+    "description_project": "This is an apartment rental application that allows the client to view apartment photos, prices, and locations.\n The application is built using JavaScript, with React for the frontend and Node.js, Express, and MongoDB for the server side"
+  },
+  "projectAsselelmatell": {
+    "brief_description": "application features stories and popular proverbial tales that many people still circulate without knowing their history, origin, and where they began",
+    "description_project": "The 'Proverb Origin' application features stories and popular proverbial tales that many people still circulate without knowing their history, origin, and where they began.\n This application does not require an internet connection and allows users to easily share stories with their friends.\n The application is available for free on the Play Store and has been downloaded more than 500 times."
+  },
+  "project36": {
+    "brief_description": "A game where the player progresses through a grid of numbered squares, starting from number 1 and reaching number 36.",
+    "description_project": "The game starts from number 1 and increases until reaching 36, but the transition follows simple rules: Moving horizontally ↔ and vertically ↕ counts as two squares , Moving diagonally ⤭⤪ counts as one square.\nIf you reach a number and all the allowed fields to move to are already filled, you lose."
+  }
+}

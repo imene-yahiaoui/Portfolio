@@ -1,0 +1,113 @@
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import "./style.css";
+import SocialMedia from "../../components/socialMedia";
+import { useTranslation } from "react-i18next";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+const Contact = () => {
+  const lang = localStorage.getItem("i18nextLng");
+  const { t } = useTranslation();
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ftu8pss",
+        "template_8chj4e7",
+        form.current,
+        "UBZTusyE5gpEpliK1"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          // suprime les inputs
+          form.current.user_name.value = "";
+          form.current.user_email.value = "";
+          form.current.message.value = "";
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+  return (
+    <section id={t("contact_title")} className=" contact">
+      <h1 className="title">{t("contact_title")}</h1>
+      <div
+        style={{ flexDirection: lang === "ar" ? "row" : "row-reverse" }}
+        className=" contact-wrapper"
+      >
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className="form-horizontal"
+          data-aos="fade-left"
+        >
+          <input
+            style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
+            type="text"
+            name="user_name"
+            className="form-control"
+            placeholder={t("Name")}
+            required
+          />
+
+          <input
+            style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
+            type="email"
+            name="user_email"
+            className="form-control"
+            placeholder={t("Email")}
+            required
+          />
+
+          <textarea
+            style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
+            name="message"
+            className="form-control"
+            placeholder={t("Message")}
+            rows="10"
+            required
+          />
+
+          <input type="submit" value={t("Send")} className="send-text" />
+        </form>
+
+        <div className="direct-contact-container" data-aos="fade-right">
+          <ul className="contact-list">
+            <li className="list-item">
+              <i className="fa fa-map-marker fa-2x"></i>
+              <span className="contact-text place">Ile de France , Paris</span>
+            </li>
+
+            <li className="list-item">
+              <i className="fa fa-phone fa-2x"></i>
+              <span className="contact-text phone">
+                <a href="tel:0033612218389">(33) 6 12 21 83 89</a>
+              </span>
+            </li>
+
+            <li className="list-item">
+              <i className="fa fa-envelope fa-2x"></i>
+              <span className="contact-text gmail">
+                <a href="mailto:Imaniman4848@gmail.com">
+                  Imaniman4848@gmail.com
+                </a>
+              </span>
+            </li>
+          </ul>
+
+          <SocialMedia />
+        </div>
+      </div>
+    </section>
+  );
+};
+export default Contact;

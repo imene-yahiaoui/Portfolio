@@ -1,0 +1,119 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  text-align: center;
+}
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 60px "Oswald", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px;
+  max-width: 90%;
+  grid-gap: 15%;
+  width: 90%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  border-radius: 20px;
+  transition: 0.2s linear;
+  box-shadow: -6px -6px 25px 0 rgb(206, 177, 255),
+    6px 6px 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Left contact page */
+.form-horizontal {
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 14px;
+}
+
+.form-control,
+textarea {
+  max-width: 400px;
+  background-color: #00000000;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  color: var(--body_color);
+  background-color: var(--body_background);
+  border-radius: 20px;
+  padding: 6px 20px;
+  border: 1px var(--body_color) solid;
+}
+
+.send-text:hover {
+  box-shadow: -6px -6px 25px 0 rgb(206, 177, 255),
+    6px 6px 25px 0 rgb(206, 177, 255);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+  max-width: 400px;
+}
+.contact-list {
+  display: flex;
+  grid-gap: 19px;
+  flex-direction: column;
+  padding: 0px;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 19px;
+}
+
+.list-item i {
+  color: var(--body_color);
+}
+.list-item a,
+span {
+  text-decoration: none;
+  color: var(--body_color);
+  font-size: 16px;
+}
+/*media phone */
+@media (max-width: 767px) {
+  .form-horizontal {
+    min-width: 273px;
+  }
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column !important;
+    grid-gap: 78px;
+  }
+  .direct-contact-container {
+    max-width: 281px;
+  }
+  .contact-list {
+ 
+    padding: 0px;
+  }
+}
+
+/*media tablete */
+@media (max-width: 991px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column !important;
+    grid-gap: 78px;
+  }
+}
