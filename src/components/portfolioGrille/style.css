@@ -80,6 +80,13 @@
     height: 244px;
     width: 295px;
   }
+  .card-face p {
+    font-size: 14px;
+    margin-bottom: 0px;
+
+  }
+
+
 }
 
 /*media tablete */

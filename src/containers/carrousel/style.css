@@ -9,36 +9,38 @@
 .carousel {
   margin: 0 30px;
   max-height: 500px;
-  /* min-height: 200px; */
+
   max-width: 500px;
-  /* min-width: 300px; */
- 
 }
 .carousel .overlay {
   width: 100%;
   transform: translateY(-50);
-  
 }
 .img_carousel {
   height: 500px;
   width: 500px;
-  
 }
 .thumbs {
   display: none !important;
 }
 .carousel img {
- height: 100%;
- width: 100%;
-  object-fit:contain;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 .control-arrow {
   display: none !important;
 }
-@media screen and(max-width:600px) {
-  .carousel .slide img {
-    width: 1000vw !important;
+@media (max-width: 767px) {
+  /* .carousel .slide img {
+    width: 90% !important;
     height: 40vh;
     object-fit: cover;
+  } */
+  .img_carousel {
+    width: 90%;
+  }
+  .carousel {
+    margin: 0 5px;
   }
 }

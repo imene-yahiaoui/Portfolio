@@ -143,7 +143,6 @@
 .wrapper .icons:hover,
 .wrapper .icons:hover .tooltip,
 .wrapper .icons:hover .tooltip::before {
-  /* background: var(--box_background); */
   color: var(--body_color);
 }
 .project_boutom {
@@ -157,4 +156,59 @@
   width: 50%;
   gap: 9%;
   display: flex;
+}
+
+@media (max-width: 767px) {
+  .project_page {
+    flex-direction: column !important;
+  }
+  .img_carousel {
+    height: 200px;
+    width: 150px;
+  }
+  .carousel .slide {
+    min-width: 90%;
+  }
+  .project_descreption {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 38px;
+  }
+  .project_btn {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 19px;
+  }
+  .Technologies {
+    width: 100%;
+  }
+  .technologyUsed_icons {
+    grid-template-columns: repeat(auto-fill, 65px);
+  }
+  .project_boutom {
+    display: flex;
+    flex-direction: column !important;
+    gap: 9%;
+  }
+}
+
+/*media tablete */
+@media (max-width: 991px) {
+  .project_page {
+    flex-direction: column !important;
+    gap: 9%;
+  }
+  .img_carousel {
+    height: 90%;
+    width: 90%;
+  }
+
+  .project_descreption p {
+    width: 100%;
+  }
+  .project_descreption {
+    width: 100%;
+  }
 }
