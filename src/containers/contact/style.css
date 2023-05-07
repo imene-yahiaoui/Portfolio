@@ -99,6 +99,10 @@ span {
 }
 /*media phone */
 @media (max-width: 767px) {
+  .contact{
+    width: 97%;
+    margin: 0 auto;
+  }
   .form-horizontal {
     min-width: 273px;
   }

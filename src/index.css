@@ -25,7 +25,6 @@
     inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
   --box-shadow-portfolio: 5px 10px 18px rgba(0, 0, 0, 0.8);
   --skill_color: #e7d2ee;
- 
 }
 
 [data-theme="dark"] {
@@ -54,7 +53,6 @@
     inset 4px 4px 6px 0 rgba(248, 246, 246, 0.452);
   --box-shadow-portfolio: 5px 10px 18px rgba(250, 246, 246, 0.8);
   --skill_color: #422c69;
- 
 }
 .btn_text {
   color: var(--body_color);
@@ -79,14 +77,7 @@ body {
   max-width: 1600px;
   font-size: 16px;
 }
-/* @media (max-width: 767px) {
-  body {
-     font-size: 15px; 
-    max-width: 767px;
-    min-width: 300px;
-    margin: 0 auto;
-  }
-} */
+
 code {
   font-family: "Open Sans", sans-serif;
 }

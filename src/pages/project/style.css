@@ -159,9 +159,17 @@
 }
 
 @media (max-width: 767px) {
+  .project_header {
+    align-items: stretch;
+  }
   .project_page {
     flex-direction: column !important;
   }
+  .project_title,
+  .iconBack {
+    font-size: 20px;
+  }
+
   .img_carousel {
     height: 200px;
     width: 150px;

@@ -101,10 +101,7 @@
 }
 /*media phone */
 @media (max-width: 767px) {
-  .header {
-   
-    padding: 0px 10px;
-  }
+
   .navbar-menu ul a {
     color: var(--body_color);
   }
