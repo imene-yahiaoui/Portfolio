@@ -219,4 +219,8 @@
   .project_descreption {
     width: 100%;
   }
+  .project_title,
+  .iconBack {
+    font-size: 25px;
+  }
 }

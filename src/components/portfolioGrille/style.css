@@ -105,4 +105,13 @@
     height: 244px;
     width: 295px;
   }
+  .back h2 {
+    padding: 0px;
+    font-size: 18px;
+    margin: 0;
+  }
+  .card-face p {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
 }
