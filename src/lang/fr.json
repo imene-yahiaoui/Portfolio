@@ -34,6 +34,7 @@
   "Message": "Message",
   "Demo": "Démo",
   "source_code": "Code source",
+  "email_envoyer":"Votre e-mail a bien été envoyé. Je reviendrai vers vous dans les plus brefs délais",
   "notFound": {
     "message__title": "Page non trouvée",
     "message__text": " Nous sommes désolés, la page que vous recherchez n'existe pas.",

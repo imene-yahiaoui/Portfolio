@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+
 const Contact = () => {
   const lang = localStorage.getItem("i18nextLng");
   const { t } = useTranslation();
@@ -23,6 +24,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
+          alert(` ${form.current.user_name.value} ${t("email_envoyer")} `);
           console.log(result.text);
           // suprime les inputs
           form.current.user_name.value = "";
