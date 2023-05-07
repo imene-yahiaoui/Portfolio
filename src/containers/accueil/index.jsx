@@ -4,10 +4,16 @@ import logointro from "../../assets/images/photographe-portrait-tullins-grenoble
 import { useTranslation } from "react-i18next";
 import Particle from "../../helpers/Particle";
 import useMediaQuery from "../../helpers/MediaQuery";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const Accueil = () => {
   const { t } = useTranslation();
   const lang = localStorage.getItem("i18nextLng");
   const matches = useMediaQuery("(max-width:767px)");
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div id="Home">
       {!matches ? (
@@ -21,8 +27,8 @@ const Accueil = () => {
       >
         <Intro />
 
-        <div className="container_logo">
-          <img src={logointro} alt={t("photo_alt")}/>
+        <div className="container_logo" data-aos="fade-left">
+          <img src={logointro} alt={t("photo_alt")} />
         </div>
       </div>
     </div>

@@ -73,11 +73,19 @@ const Header = () => {
             <div className="navbar-header">
               <div className="navbar-icon">
                 {!showMenu ? (
-                  <button for="open" onClick={handleToggleMenu}>
+                  <button
+                    for="open"
+                    onClick={handleToggleMenu}
+                    aria-label="Open menu"
+                  >
                     <FaBars />
                   </button>
                 ) : (
-                  <button for="close" onClick={handleToggleMenux}>
+                  <button
+                    aria-label="Close menu"
+                    for="close"
+                    onClick={handleToggleMenux}
+                  >
                     <FaTimes />
                   </button>
                 )}
