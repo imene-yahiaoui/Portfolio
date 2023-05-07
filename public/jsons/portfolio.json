@@ -2,6 +2,7 @@
   {
     "title": "Booki",
     "image": "../assets/projects/booki/bookiCover.webp",
+    "alt": "projet booki",
     "id": "1",
     "brief_description": "projectBooki.brief_description",
     "description_project": "projectBooki.description_project",
@@ -33,6 +34,7 @@
   {
     "title": "Ohmyfood",
     "image": "../assets/projects/ohmyfood/food.webp",
+    "alt": "projet Ohmyfood",
     "id": "2",
     "brief_description": "projectOhMyFood.brief_description",
     "description_project": "projectOhMyFood.description_project",
@@ -63,6 +65,7 @@
   {
     "title": "Portfolio Architecte",
     "image": "../assets/projects/portfolioArchitecte/sofi.webp",
+    "alt": "projet Portfolio Architecte",
     "id": "3",
     "brief_description": "projectPortfolioArchitecte.brief_description",
     "description_project": "projectPortfolioArchitecte.description_project",
@@ -97,6 +100,7 @@
   {
     "title": "Kasa",
     "image": "../assets/projects/kasa/kasaIcon.webp",
+    "alt": "projet Kasa",
     "id": "4",
     "brief_description": "projectKasa.brief_description",
     "description_project": "projectKasa.description_project",
@@ -126,6 +130,7 @@
   {
     "title": "Nina Carducci",
     "image": "../assets/projects/ninaCarducci/nina.webp",
+    "alt": "projet Nina Carducci",
     "id": "5",
     "brief_description": "projectNinaCarducci.brief_description",
     "description_project": "projectNinaCarducci.description_project",
@@ -160,6 +165,7 @@
   {
     "title": "ArgentBank Website",
     "image": "../assets/projects/ArgentBankWebsite/banck.webp",
+    "alt": "projet ArgentBank Website",
     "id": "6",
     "brief_description": "projectArgentBankWebsite.brief_description",
     "description_project": "projectArgentBankWebsite.description_project",
@@ -198,6 +204,7 @@
   {
     "title": "Héberge Moi",
     "image": "../assets/projects/hebergeMoi/hebergemoiIcon.webp",
+    "alt": "projet Héberge Moi",
     "id": "7",
     "brief_description": "projectHebergeMoi.brief_description",
     "description_project": "projectHebergeMoi.description_project",
@@ -247,6 +254,7 @@
   {
     "title": "أصل المثل",
     "image": "../assets/projects/asselelmatell/image.webp",
+    "alt": "projet Asselelmatell",
     "id": "8",
     "brief_description": "projectAsselelmatell.brief_description",
     "description_project": "projectAsselelmatell.description_project",
@@ -278,6 +286,7 @@
   {
     "title": "36",
     "image": "../assets/projects/36/icon.webp",
+    "alt": "projet 36",
     "id": "9",
     "brief_description": "project36.brief_description",
     "description_project": "project36.description_project",

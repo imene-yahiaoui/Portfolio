@@ -49,28 +49,34 @@ const Contact = () => {
           onSubmit={sendEmail}
           className="form-horizontal"
           data-aos="fade-left"
+          style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
         >
+          <label for="name">{t("Name")}</label>
           <input
             style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
             type="text"
             name="user_name"
             className="form-control"
             placeholder={t("Name")}
+            id="name"
             required
           />
 
+          <label for="email">{t("Email")}</label>
           <input
             style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
             type="email"
+            id="email"
             name="user_email"
             className="form-control"
             placeholder={t("Email")}
             required
           />
-
+          <label for="message">{t("Message")}</label>
           <textarea
             style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
             name="message"
+            id="message"
             className="form-control"
             placeholder={t("Message")}
             rows="10"

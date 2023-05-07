@@ -79,14 +79,14 @@ body {
   max-width: 1600px;
   font-size: 16px;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   body {
-    font-size: 15px;
+     font-size: 15px; 
     max-width: 767px;
     min-width: 300px;
     margin: 0 auto;
   }
-}
+} */
 code {
   font-family: "Open Sans", sans-serif;
 }

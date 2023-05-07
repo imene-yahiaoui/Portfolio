@@ -45,7 +45,11 @@
   transition: inset 0.3s 0.3s ease-out;
   font-weight: normal;
   text-transform: uppercase;
-  color: white;
+  color: var(--body_color);
+  font-size: 25px;
+  z-index: 1;
+  background-color: rgba(240, 248, 255, 0.12);
+  border-radius: 50px 0;
 }
 .back {
   transform: rotateY(180deg);
@@ -83,10 +87,7 @@
   .card-face p {
     font-size: 14px;
     margin-bottom: 0px;
-
   }
-
-
 }
 
 /*media tablete */

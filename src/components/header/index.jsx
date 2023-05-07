@@ -33,7 +33,7 @@ const Header = () => {
         >
           <div className="logo">
             <Link to="/">
-              <img src={logo} alt={t("logo_alt")} />
+              <img src={logo} alt="logo" />
             </Link>
           </div>
 

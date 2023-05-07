@@ -20,7 +20,7 @@
   flex-direction: row-reverse;
   padding: 20px;
   max-width: 90%;
-  grid-gap: 15%;
+  grid-gap: 20%;
   width: 90%;
   height: 100%;
   align-items: center;
@@ -34,21 +34,28 @@
 
 /* Left contact page */
 .form-horizontal {
-  min-width: 600px;
+  min-width: 437px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   grid-gap: 14px;
+  padding: 20px;
+  box-shadow: -6px -6px 25px 0 rgb(206, 177, 255),
+    6px 6px 25px 0 rgb(206, 177, 255);
+  border-radius: 20px;
 }
 
 .form-control,
 textarea {
-  max-width: 400px;
+  max-width: 470px;
   background-color: #00000000;
   color: #fff;
   letter-spacing: 1px;
+  border: 2px solid var(--body_color);
 }
-
+.form-horizontal label {
+  color: var(--body_color);
+}
 .send-text {
   display: block;
   margin-top: 10px;
@@ -104,7 +111,6 @@ span {
     max-width: 281px;
   }
   .contact-list {
- 
     padding: 0px;
   }
 }

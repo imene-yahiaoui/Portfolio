@@ -40,8 +40,8 @@ const PortfolioGrille = (props) => {
           data-aos-duration="2000"
         >
           <div className="card-face front">
-            <img src={project.image} alt={project.title} />
-            <h2 className="card_title "> {project.title} </h2>
+            <img src={project.image} alt={project.alt} />
+            <p className="card_title "> {project.title} </p>
           </div>
           <figcaption className="card-face back">
             <h2> {project.title} </h2>
