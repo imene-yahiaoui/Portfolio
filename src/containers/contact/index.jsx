@@ -38,7 +38,12 @@ const Contact = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <section id={t("contact_title")} className=" contact">
+    <section
+      id={t("contact_title")}
+      className=" contact"
+      itemScope
+      itemType="http://schema.org/Person"
+    >
       <h1 className="title">{t("contact_title")}</h1>
       <div
         style={{ flexDirection: lang === "ar" ? "row" : "row-reverse" }}
@@ -90,20 +95,24 @@ const Contact = () => {
           <ul className="contact-list">
             <li className="list-item">
               <i className="fa fa-map-marker fa-2x"></i>
-              <span className="contact-text place">Ile de France , Paris</span>
+              <span itemProp="location" className="contact-text place">
+                Ile de France , Paris
+              </span>
             </li>
 
             <li className="list-item">
               <i className="fa fa-phone fa-2x"></i>
               <span className="contact-text phone">
-                <a href="tel:0033612218389">(33) 6 12 21 83 89</a>
+                <a itemProp="telephone" href="tel:0033612218389">
+                  (33) 6 12 21 83 89
+                </a>
               </span>
             </li>
 
             <li className="list-item">
               <i className="fa fa-envelope fa-2x"></i>
               <span className="contact-text gmail">
-                <a href="mailto:Imaniman4848@gmail.com">
+                <a itemProp="email" href="mailto:Imaniman4848@gmail.com">
                   Imaniman4848@gmail.com
                 </a>
               </span>
