@@ -73,12 +73,11 @@ const Header = () => {
             <div className="navbar-header">
               <div className="navbar-icon">
                 {!showMenu ? (
-                  <button for="nav-button" onClick={handleToggleMenu}>
+                  <button for="open" onClick={handleToggleMenu}>
                     <FaBars />
                   </button>
                 ) : (
-                  <button onClick={handleToggleMenux}>
-                    {" "}
+                  <button for="close" onClick={handleToggleMenux}>
                     <FaTimes />
                   </button>
                 )}
