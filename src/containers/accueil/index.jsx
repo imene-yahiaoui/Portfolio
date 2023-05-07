@@ -22,7 +22,7 @@ const Accueil = () => {
         <Intro />
 
         <div className="container_logo">
-          <img src={logointro} alt={t("logo_alt")}/>
+          <img src={logointro} alt={t("photo_alt")}/>
         </div>
       </div>
     </div>

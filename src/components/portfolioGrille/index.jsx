@@ -41,7 +41,7 @@ const PortfolioGrille = (props) => {
         >
           <div className="card-face front">
             <img src={project.image} alt={project.alt} />
-            <p className="card_title "> {project.title} </p>
+            <h2 className="card_title "> {project.title} </h2>
           </div>
           <figcaption className="card-face back">
             <h2> {project.title} </h2>
