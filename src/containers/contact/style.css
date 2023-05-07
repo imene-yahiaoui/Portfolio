@@ -106,6 +106,7 @@ span {
     display: flex;
     flex-direction: column !important;
     grid-gap: 78px;
+    padding: 20px 0px;
   }
   .direct-contact-container {
     max-width: 281px;

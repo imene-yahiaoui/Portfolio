@@ -101,6 +101,10 @@
 }
 /*media phone */
 @media (max-width: 767px) {
+  .header {
+   
+    padding: 0px 10px;
+  }
   .navbar-menu ul a {
     color: var(--body_color);
   }
@@ -117,6 +121,11 @@
     background-color: var(--lang_background);
 
     width: 100vw;
+  }
+  .navbar-icon button {
+    background: transparent;
+    color: var(--body_color);
+    border: 2px solid var(--body_color);
   }
   .nav-menu .titles {
     display: flex;
