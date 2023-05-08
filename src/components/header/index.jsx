@@ -74,7 +74,7 @@ const Header = () => {
               <div className="navbar-icon">
                 {!showMenu ? (
                   <button
-                    for="open"
+                  htmlFor="open"
                     onClick={handleToggleMenu}
                     aria-label="Open menu"
                   >
@@ -83,7 +83,7 @@ const Header = () => {
                 ) : (
                   <button
                     aria-label="Close menu"
-                    for="close"
+                    htmlFor="close"
                     onClick={handleToggleMenux}
                   >
                     <FaTimes />

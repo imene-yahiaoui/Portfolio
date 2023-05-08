@@ -26,7 +26,7 @@ const Contact = () => {
         (result) => {
           alert(` ${form.current.user_name.value} ${t("email_envoyer")} `);
           console.log(result.text);
-          // suprime les inputs
+          // delet  inputs
           form.current.user_name.value = "";
           form.current.user_email.value = "";
           form.current.message.value = "";
@@ -58,7 +58,7 @@ const Contact = () => {
           data-aos="fade-left"
           style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
         >
-          <label for="name">{t("Name")}</label>
+          <label htmlFor="name">{t("Name")}</label>
           <input
             style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
             type="text"
@@ -69,7 +69,7 @@ const Contact = () => {
             required
           />
 
-          <label for="email">{t("Email")}</label>
+          <label htmlFor="email">{t("Email")}</label>
           <input
             style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
             type="email"
@@ -79,7 +79,7 @@ const Contact = () => {
             placeholder={t("Email")}
             required
           />
-          <label for="message">{t("Message")}</label>
+          <label htmlFor="message">{t("Message")}</label>
           <textarea
             style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
             name="message"
