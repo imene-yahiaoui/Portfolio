@@ -3,15 +3,15 @@ import emailjs from "@emailjs/browser";
 import "./style.css";
 import SocialMedia from "../../components/socialMedia";
 import { useTranslation } from "react-i18next";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-import useMediaQuery from "../../helpers/MediaQuery";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+// import { useEffect } from "react";
+// import useMediaQuery from "../../helpers/MediaQuery";
 const Contact = () => {
   const lang = localStorage.getItem("i18nextLng");
   const { t } = useTranslation();
   const form = useRef();
-  const matches = useMediaQuery("(max-width:767px)");
+  // const matches = useMediaQuery("(max-width:767px)");
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -36,9 +36,9 @@ const Contact = () => {
         }
       );
   };
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({ duration: 2000 });
+  // }, []);
   return (
     <section
       id={t("contact_id")}
