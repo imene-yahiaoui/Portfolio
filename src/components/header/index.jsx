@@ -1,7 +1,7 @@
 /* eslint-disable react/style-prop-object */
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/i-removebg-preview.png";
 import "./style.css";
 import useMediaQuery from "../../helpers/MediaQuery";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -34,7 +34,6 @@ const Header = () => {
           <div className="logo">
             <Link to="/">
               <img src={logo} alt={t("logo_alt")} />
-         
             </Link>
           </div>
 
@@ -75,7 +74,7 @@ const Header = () => {
               <div className="navbar-icon">
                 {!showMenu ? (
                   <button
-                  htmlFor="open"
+                    htmlFor="open"
                     onClick={handleToggleMenu}
                     aria-label="Open menu"
                   >

@@ -1,7 +1,7 @@
 .contact {
   display: flex;
   flex-direction: column;
-  display: none;
+  /* display: none; */
 }
 .title {
   text-align: center;
