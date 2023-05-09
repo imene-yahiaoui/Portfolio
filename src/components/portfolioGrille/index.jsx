@@ -27,7 +27,7 @@ const PortfolioGrille = (props) => {
     fetchProjects();
   }, []);
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 6000 });
   }, []);
   return (
     <div className="PortfolioGrille">

@@ -3,15 +3,15 @@ import emailjs from "@emailjs/browser";
 import "./style.css";
 import SocialMedia from "../../components/socialMedia";
 import { useTranslation } from "react-i18next";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
-// import { useEffect } from "react";
-// import useMediaQuery from "../../helpers/MediaQuery";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Contact = () => {
   const lang = localStorage.getItem("i18nextLng");
   const { t } = useTranslation();
   const form = useRef();
-  // const matches = useMediaQuery("(max-width:767px)");
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -36,9 +36,10 @@ const Contact = () => {
         }
       );
   };
-  // useEffect(() => {
-  //   AOS.init({ duration: 2000 });
-  // }, []);
+
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <section
       id={t("contact_id")}
@@ -56,6 +57,7 @@ const Contact = () => {
           onSubmit={sendEmail}
           className="form-horizontal"
           // data-aos="fade-left"
+          data-aos="zoom-in-up"
           style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
         >
           <label htmlFor="name">{t("Name")}</label>
@@ -96,6 +98,7 @@ const Contact = () => {
         <div
           className="direct-contact-container"
           // data-aos="fade-right"
+          data-aos="zoom-in-up"
         >
           <ul className="contact-list">
             <li className="list-item">
@@ -123,7 +126,7 @@ const Contact = () => {
               </span>
             </li>
           </ul>
-
+          :
           <SocialMedia />
         </div>
       </div>
