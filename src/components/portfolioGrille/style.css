@@ -115,3 +115,14 @@
     margin-bottom: 0px;
   }
 }
+
+@media (max-width: 450px) {
+  .card {
+    height: 244px;
+    width: 263px;
+  }
+  .card-face p {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+}

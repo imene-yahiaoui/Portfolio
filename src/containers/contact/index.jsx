@@ -6,12 +6,12 @@ import { useTranslation } from "react-i18next";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-
+import useMediaQuery from "../../helpers/MediaQuery";
 const Contact = () => {
   const lang = localStorage.getItem("i18nextLng");
   const { t } = useTranslation();
   const form = useRef();
-
+  const matches = useMediaQuery("(max-width:767px)");
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -55,7 +55,7 @@ const Contact = () => {
           ref={form}
           onSubmit={sendEmail}
           className="form-horizontal"
-          data-aos="fade-left"
+          // data-aos="fade-left"
           style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
         >
           <label htmlFor="name">{t("Name")}</label>
@@ -93,7 +93,10 @@ const Contact = () => {
           <input type="submit" value={t("Send")} className="send-text" />
         </form>
 
-        <div className="direct-contact-container" data-aos="fade-right">
+        <div
+          className="direct-contact-container"
+          // data-aos="fade-right"
+        >
           <ul className="contact-list">
             <li className="list-item">
               <i className="fa fa-map-marker fa-2x"></i>

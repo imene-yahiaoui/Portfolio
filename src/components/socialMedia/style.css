@@ -9,6 +9,12 @@
 
 @media (max-width: 767px) {
   .socialMedia {
-grid-template-columns: repeat(auto-fill, 55px);
+    grid-template-columns: repeat(auto-fill, 55px);
+  }
+}
+
+@media (max-width: 350px) {
+  .socialMedia {
+    grid-template-columns: repeat(auto-fill, 51px);
   }
 }

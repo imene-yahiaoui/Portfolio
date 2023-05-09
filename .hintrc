@@ -14,7 +14,8 @@
           "backface-visibility"
         ]
       }
-    ]
+    ],
+    "apple-touch-icons": "off"
   },
   "browserslist": [
     "defaults",

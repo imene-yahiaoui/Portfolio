@@ -79,8 +79,11 @@ p {
   p {
     font-size: 15px;
   }
-  /* .intro_contact{
-    display: grid;
-    justify-content: space-around;
-  } */
+}
+
+@media (max-width: 450px) {
+  p {
+    font-size: 14px;
+    padding: 0 5px;
+  }
 }
