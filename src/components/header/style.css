@@ -23,8 +23,9 @@
   position: relative;
 }
 
-.logo {
-  height: 45px;
+.logo , .logo img {
+  height: 60px;
+  width:60px
 }
 
 .menu-icon {
