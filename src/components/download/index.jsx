@@ -6,7 +6,14 @@ const DownloadBtn = () => {
   const { t } = useTranslation();
   return (
     <button className="glow-on-hover" type="button">
-      <a className="btn_text" href={cv} download>
+      <a
+        className="btn_text"
+        href={cv}
+        download
+        target="_blank"
+        rel="noreferrer"
+        aria-label={t("Download")}
+      >
         {t("Download")}
       </a>
     </button>

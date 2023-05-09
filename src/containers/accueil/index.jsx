@@ -15,7 +15,7 @@ const Accueil = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div id="Home">
+    <div id={t("home_id")}>
       {!matches ? (
         <div className="particles-container">
           <Particle />

@@ -41,7 +41,7 @@ const Contact = () => {
   }, []);
   return (
     <section
-      id={t("contact_title")}
+      id={t("contact_id")}
       className=" contact"
       itemScope
       itemType="http://schema.org/Person"

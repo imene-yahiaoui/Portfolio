@@ -4,12 +4,16 @@
   "photo_alt": "Imene Yahiaoui Ikhlef",
   "logo_alt": "logo de portfolio ",
   "home_title": "Accueil",
-  "home_path": "/#Home",
+  "home_id": "Accueil",
+  "home_path": "/#Accueil",
   "skills_title": "Compétences",
+  "skills_id": "Compétences",
   "skills_path": "/#Compétences",
   "portfolio_title": "Portfolio",
+  "portfolio_id": "Portfolio",
   "portfolio_path": "/#Portfolio",
   "contact_title": "Contact",
+  "contact_id": "Contact",
   "contact_path": "/#Contact",
 
   "main_heading": {
@@ -34,7 +38,7 @@
   "Message": "Message",
   "Demo": "Démo",
   "source_code": "Code source",
-  "email_envoyer":"Votre e-mail a bien été envoyé. Je reviendrai vers vous dans les plus brefs délais",
+  "email_envoyer": "Votre e-mail a bien été envoyé. Je reviendrai vers vous dans les plus brefs délais",
   "notFound": {
     "message__title": "Page non trouvée",
     "message__text": " Nous sommes désolés, la page que vous recherchez n'existe pas.",
