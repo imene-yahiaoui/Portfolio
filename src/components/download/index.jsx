@@ -9,7 +9,6 @@ const DownloadBtn = () => {
       <a
         className="btn_text"
         href={cv}
-        download
         target="_blank"
         rel="noreferrer"
         aria-label={t("Download")}
