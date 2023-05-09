@@ -1,6 +1,7 @@
 .contact {
   display: flex;
   flex-direction: column;
+  display: none;
 }
 .title {
   text-align: center;
