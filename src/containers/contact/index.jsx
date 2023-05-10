@@ -126,7 +126,7 @@ const Contact = () => {
               </span>
             </li>
           </ul>
-          :
+         
           <SocialMedia />
         </div>
       </div>
