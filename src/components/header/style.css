@@ -29,10 +29,10 @@
   box-shadow: -6px -6px 25px 0 rgb(206, 177, 255),
     6px 6px 25px 0 rgb(206, 177, 255);
 }
-.logo img {
+/* .logo img {
   width: 40px;
   height: 40px;
-}
+} */
 .menu-icon {
   display: none;
 }
