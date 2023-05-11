@@ -45,7 +45,9 @@
 }
 
 @media (max-width: 767px) {
-  .container_logo {
-    display: none;
+  .accueil {
+    display: flex;
+    flex-direction: column !important;
+    grid-gap: 24px;
   }
 }

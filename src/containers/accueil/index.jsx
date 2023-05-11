@@ -23,7 +23,7 @@ const Accueil = () => {
       ) : null}
       <div
         style={{ flexDirection: lang === "ar" ? "row-reverse" : "row" }}
-        className="container accueil  "
+        className="container accueil"
       >
         <Intro />
 

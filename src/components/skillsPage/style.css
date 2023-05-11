@@ -64,4 +64,7 @@ img {
   .skillsGrille {
     grid-template-columns: repeat(auto-fill, 76px);
   }
+  .skillsGrille_item b {
+    font-size: 12px;
+  }
 }
