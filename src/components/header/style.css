@@ -22,12 +22,7 @@
   position: relative;
 }
 
-.logo {
 
-
-  /* box-shadow: var(--box-shadow-portfolio); */
-
-}
 .logo img {
   border-radius: 50px;
   position: relative;
@@ -87,7 +82,6 @@
   box-sizing: border-box;
   text-decoration: none;
   font-weight: 300;
-  /* color: var( --body_color); */
   text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
   text-align: center;
   transition: all 0.2s;

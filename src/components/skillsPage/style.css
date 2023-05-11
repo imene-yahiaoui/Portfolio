@@ -13,6 +13,11 @@
   border: 1px solid var(--body_color);
   margin: 21px auto;
 }
+.filtre:hover {
+  border-color: var(--lang_color);
+  background-color: var(--lang_background);
+  color: var(--body_color);
+}
 
 .skillsGrille_continer {
   display: flex;
