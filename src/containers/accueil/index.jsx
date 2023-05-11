@@ -1,6 +1,6 @@
 import "./style.css";
 import Intro from "../intro";
-import logointro from "../../assets/images/photographe-portrait-tullins-grenoble-022_bigthumb.jpg";
+import photoImene from "../../assets/images/imeneYahiaoui.png";
 import { useTranslation } from "react-i18next";
 import Particle from "../../helpers/Particle";
 import useMediaQuery from "../../helpers/MediaQuery";
@@ -28,7 +28,7 @@ const Accueil = () => {
         <Intro />
 
         <div className="container_logo" data-aos="fade-left">
-          <img src={logointro} alt={t("photo_alt")} />
+          <img src={photoImene} alt={t("photo_alt")} />
         </div>
       </div>
     </div>

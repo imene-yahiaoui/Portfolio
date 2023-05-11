@@ -2,7 +2,6 @@
   width: auto;
   height: auto;
   display: flex;
-
   text-align: center;
   justify-content: space-between;
   align-items: center;
@@ -11,7 +10,6 @@
   cursor: pointer;
   justify-content: center;
   border-radius: 20px;
-
   border: 1px solid var(--body_color);
   margin: 21px auto;
 }
@@ -28,9 +26,6 @@
   overflow: hidden;
   background-color: var(--skill_color);
 }
-/* .skillsGrille_continer:hover{
-  background: var(--hover);
-} */
 
 .skillsGrille {
   display: grid;
