@@ -1,6 +1,6 @@
 import "./style.css";
 import Intro from "../intro";
-import photoImene from "../../assets/images/imeneYahiaoui.png";
+import photoImene from "../../assets/images/imeneYahiaoui.webp";
 import { useTranslation } from "react-i18next";
 import Particle from "../../helpers/Particle";
 import useMediaQuery from "../../helpers/MediaQuery";
