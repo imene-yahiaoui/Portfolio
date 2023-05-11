@@ -139,5 +139,12 @@
     "name": "Notion",
     "category": "Logiciel",
     "key": "20"
+  },
+  {
+    "image": "./assets/technologyIcons/slack.webp",
+    "alt": "icon slack",
+    "name": "Slack",
+    "category": "Logiciel",
+    "key": "21"
   }
 ]
