@@ -1,12 +1,13 @@
 import "./style.css";
-
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-    return (
-      <div className="footer">
-       <h2> Copyright © 2023 - Imene Yahiaoui Ikhlef   </h2>
-      </div>
-    );
-  };
-  
-  export default Footer;
+  const { t } = useTranslation();
+  return (
+    <div className="footer">
+      <h2> {t("footer")} </h2>
+    </div>
+  );
+};
+
+export default Footer;

@@ -27,7 +27,7 @@ const Accueil = () => {
       >
         <Intro />
 
-        <div className="container_logo" data-aos="fade-left">
+        <div className="container_logo" data-aos="zoom-in-up">
           <img src={photoImene} alt={t("photo_alt")} />
         </div>
       </div>

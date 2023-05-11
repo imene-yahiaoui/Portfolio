@@ -56,7 +56,6 @@ const Contact = () => {
           ref={form}
           onSubmit={sendEmail}
           className="form-horizontal"
-          // data-aos="fade-left"
           data-aos="zoom-in-up"
           style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
         >
@@ -95,11 +94,7 @@ const Contact = () => {
           <input type="submit" value={t("Send")} className="send-text" />
         </form>
 
-        <div
-          className="direct-contact-container"
-          // data-aos="fade-right"
-          data-aos="zoom-in-up"
-        >
+        <div className="direct-contact-container" data-aos="zoom-in-up">
           <ul className="contact-list">
             <li className="list-item">
               <i className="fa fa-map-marker fa-2x"></i>
@@ -126,7 +121,7 @@ const Contact = () => {
               </span>
             </li>
           </ul>
-         
+
           <SocialMedia />
         </div>
       </div>
