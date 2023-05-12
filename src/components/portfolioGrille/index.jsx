@@ -3,9 +3,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const PortfolioGrille = (props) => {
+const PortfolioGrille = () => {
   const { t } = useTranslation();
   const [projects, setProjects] = useState([]);
 
@@ -47,14 +47,15 @@ const PortfolioGrille = (props) => {
             <h2> {project.title} </h2>
             <p>{t(project.brief_description)}</p>
             <div className="glow-on-hover">
-              <NavLink
+              
+              <Link
                 to={`/Project/${project.id}`}
                 className="btn_text"
                 key={project.id}
                
               >
                 {t("Readmore")}
-              </NavLink>
+              </Link>
             </div>
           </figcaption>
         </figure>
