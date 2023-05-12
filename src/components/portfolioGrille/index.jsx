@@ -51,7 +51,7 @@ const PortfolioGrille = (props) => {
                 to={`/Project/${project.id}`}
                 className="btn_text"
                 key={project.id}
-                target="_blank"
+               
               >
                 {t("Readmore")}
               </NavLink>
