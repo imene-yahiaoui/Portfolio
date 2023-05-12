@@ -2,25 +2,25 @@ import "./style.css";
 import Intro from "../intro";
 import photoImene from "../../assets/images/imeneYahiaoui.webp";
 import { useTranslation } from "react-i18next";
-import Particle from "../../helpers/Particle";
-import useMediaQuery from "../../helpers/MediaQuery";
+// import Particle from "../../helpers/Particle";
+// import useMediaQuery from "../../helpers/MediaQuery";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 const Accueil = () => {
   const { t } = useTranslation();
   const lang = localStorage.getItem("i18nextLng");
-  const matches = useMediaQuery("(max-width:767px)");
+  // const matches = useMediaQuery("(max-width:767px)");
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
     <div id={t("home_id")}>
-      {!matches ? (
+      {/* {!matches ? (
         <div className="particles-container">
           <Particle />
         </div>
-      ) : null}
+      ) : null} */}
       <div
         style={{ flexDirection: lang === "ar" ? "row-reverse" : "row" }}
         className="container accueil"

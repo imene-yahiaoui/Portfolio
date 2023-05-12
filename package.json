@@ -1,6 +1,8 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "hostinger-react",
+  "homepage": "http://imeneyahiaoui.com",
+  "version": "1.0.0",
+  "description": "my react application",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",

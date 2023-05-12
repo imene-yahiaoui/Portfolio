@@ -62,9 +62,10 @@ textarea {
   box-shadow: -6px -6px 25px 0 rgb(206, 177, 255),
     6px 6px 25px 0 rgb(206, 177, 255);
 }
-.list-item i:hover{
+.list-item i:hover {
+  border-radius: 50px;
   box-shadow: -6px -6px 25px 0 rgb(206, 177, 255),
-  6px 6px 25px 0 rgb(206, 177, 255);
+    6px 6px 25px 0 rgb(206, 177, 255);
 }
 /* Begin Right Contact Page */
 .direct-contact-container {

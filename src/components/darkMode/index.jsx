@@ -32,9 +32,13 @@ const DarkMode = () => {
         onChange={toggleTheme}
         defaultChecked={selectedTheme === "dark"}
       />
-      <label className="dark_mode_label" htmlFor="darkmode-toggle">
+      <label
+        className="dark_mode_label"
+        htmlFor="darkmode-toggle"
+        aria-label="Changer le mode sombre"
+      >
         <Sun />
-        
+
         <Moon />
       </label>
     </div>
