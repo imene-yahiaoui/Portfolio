@@ -47,7 +47,10 @@ const PortfolioGrille = () => {
             <h2> {project.title} </h2>
             <p>{t(project.brief_description)}</p>
             <div className="glow-on-hover">
-              <a className="btn_text" href={`/Project/${project.id}`}>
+              <a
+                className="btn_text"
+                href={`../../pages/project/${project.id}`}
+              >
                 {t("Readmore")}
               </a>
             </div>
