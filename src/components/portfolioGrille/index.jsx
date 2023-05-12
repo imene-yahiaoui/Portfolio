@@ -3,7 +3,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 
 const PortfolioGrille = () => {
   const { t } = useTranslation();
@@ -29,6 +28,7 @@ const PortfolioGrille = () => {
   useEffect(() => {
     AOS.init({ duration: 6000 });
   }, []);
+
   return (
     <div className="PortfolioGrille">
       {projects.map((project) => (
@@ -47,15 +47,9 @@ const PortfolioGrille = () => {
             <h2> {project.title} </h2>
             <p>{t(project.brief_description)}</p>
             <div className="glow-on-hover">
-              
-              <Link
-                to={`/Project/${project.id}`}
-                className="btn_text"
-                key={project.id}
-               
-              >
+              <a className="btn_text" href={`/Project/${project.id}`}>
                 {t("Readmore")}
-              </Link>
+              </a>
             </div>
           </figcaption>
         </figure>
