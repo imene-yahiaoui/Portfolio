@@ -37,7 +37,7 @@
   width: 100%;
   height: auto;
   margin: 30px auto;
-  grid-template-columns: repeat(auto-fill, 116px);
+  grid-template-columns: repeat(auto-fill, 111px);
   justify-content: center;
   justify-items: center;
 }
