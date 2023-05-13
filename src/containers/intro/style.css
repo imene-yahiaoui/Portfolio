@@ -9,7 +9,7 @@ Particle {
 }
 .intro_des {
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 22px;
 }
 h1 {
   display: inline;
@@ -17,11 +17,12 @@ h1 {
 }
 h3 {
   display: inline;
-  font-size: 25px;
+  font-size: 23px;
 }
 p {
   /* text-align: justify; */
   word-spacing: 6px;
+  margin-bottom: 22px;
 }
 .intro-name {
   font-size: 30px;

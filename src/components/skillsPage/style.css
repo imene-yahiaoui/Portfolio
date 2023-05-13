@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
+  width: 100%;
   object-fit: cover;
   padding: 20px;
   border-radius: 50px;
@@ -37,7 +37,7 @@
   width: 100%;
   height: auto;
   margin: 30px auto;
-  grid-template-columns: repeat(auto-fill, 147px);
+  grid-template-columns: repeat(auto-fill, 116px);
   justify-content: center;
   justify-items: center;
 }
@@ -49,19 +49,18 @@
   align-items: center;
   grid-gap: 20px;
   margin-bottom: 39px;
-  transition: transform .1s;
+  transition: transform 0.1s;
 }
 /* .skillsGrille_item {
 
 
 } */
-.skillsGrille_item:hover{
- 
+.skillsGrille_item:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
 }
- 
+
 img {
   height: 40px;
   width: 40px;
