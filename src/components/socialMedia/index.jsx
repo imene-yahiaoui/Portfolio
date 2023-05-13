@@ -3,7 +3,7 @@ import { FaDiscord } from "react-icons/fa";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { GrCodepen } from "react-icons/gr";
 
-import "./style.css";
+import "./style.min.css";
 const SocialMedia = () => {
   return (
     <ul className="socialMedia">

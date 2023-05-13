@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 
-import "./style.css";
+import "./style.min.css";
 const SkillsPage = () => {
   const [filtre, setFiltre] = useState();
 

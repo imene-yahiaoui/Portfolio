@@ -1,6 +1,6 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "./style.css";
+import "./style.min.css";
 import { useParams } from "react-router-dom";
 
 import { useState, useEffect } from "react";

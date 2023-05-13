@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.min.css";
 
 const Alboum = () => {
   return (

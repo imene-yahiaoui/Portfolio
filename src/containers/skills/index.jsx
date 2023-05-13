@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.min.css";
 import SkillsPage from "../../components/skillsPage";
 import { useTranslation } from "react-i18next";
 

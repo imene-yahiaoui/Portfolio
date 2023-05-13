@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.min.css";
 import cv from "./cv imene ikhlef yahiaoui.pdf";
 import { useTranslation } from "react-i18next";
 

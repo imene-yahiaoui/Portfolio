@@ -1,8 +1,8 @@
-/* eslint-disable react/style-prop-object */
+ 
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import logo from "../../assets/images/logo.webp";
-import "./style.css";
+import "./style.min.css";
 import useMediaQuery from "../../helpers/MediaQuery";
 import { FaBars, FaTimes } from "react-icons/fa";
 import React, { useState } from "react";

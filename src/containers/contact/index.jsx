@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import "./style.css";
+import "./style.min.css";
 import SocialMedia from "../../components/socialMedia";
 import { useTranslation } from "react-i18next";
 import AOS from "aos";

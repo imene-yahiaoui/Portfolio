@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.min.css";
 import Intro from "../intro";
 import photoImene from "../../assets/images/imeneYahiaoui.webp";
 import { useTranslation } from "react-i18next";

@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.min.css";
 import { useTranslation } from "react-i18next";
 import DownloadBtn from "../../components/download";
 import SocialMedia from "../../components/socialMedia";

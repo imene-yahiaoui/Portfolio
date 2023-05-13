@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
