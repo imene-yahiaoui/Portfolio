@@ -1,5 +1,5 @@
 .accueil {
-  padding-top: 102px;
+  padding-top: 215px;
 }
 .container_logo {
   height: 100%;
@@ -46,6 +46,7 @@
 
 @media (max-width: 767px) {
   .accueil {
+    padding-top: 124px;
     display: flex;
     flex-direction: column !important;
     grid-gap: 24px;

@@ -1,6 +1,4 @@
 import { useTranslation } from "react-i18next";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { useState, useEffect } from "react";
 
 import "./style.css";
@@ -60,9 +58,7 @@ const SkillsGrille = ({ filtre }) => {
     };
     fetchSkills();
   }, []);
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []);
+
   return filtre === undefined ||
     filtre === null ||
     filtre === "الكل" ||
@@ -70,12 +66,7 @@ const SkillsGrille = ({ filtre }) => {
     filtre === "Tout" ? (
     <div className="skillsGrille">
       {skills.map((skill) => (
-        <div
-          className="skillsGrille_item"
-          key={skill.key}
-          data-aos="fade-up"
-          data-aos-duration="3000"
-        >
+        <div className="skillsGrille_item" key={skill.key}>
           <div className="skillsGrille_img">
             <img src={skill.image} alt={skill.alt} />
           </div>
@@ -88,12 +79,7 @@ const SkillsGrille = ({ filtre }) => {
       {skills
         .filter((skill) => skill.category === filtre)
         .map((skill) => (
-          <div
-            className="skillsGrille_item"
-            key={skill.key}
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
+          <div className="skillsGrille_item" key={skill.key}>
             <div className="skillsGrille_img">
               <img src={skill.image} alt={skill.alt} />
             </div>
