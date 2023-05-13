@@ -1,7 +1,6 @@
- 
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import logo from "../../assets/images/logo.webp";
+import logo from "../../assets/images/logo.png";
 import "./style.min.css";
 import useMediaQuery from "../../helpers/MediaQuery";
 import { FaBars, FaTimes } from "react-icons/fa";
