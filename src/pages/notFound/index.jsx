@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.min.css";
 import { useTranslation } from "react-i18next";
 
 const NotFound = () => {

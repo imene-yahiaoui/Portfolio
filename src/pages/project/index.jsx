@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.min.css";
 import { IoArrowBackOutline } from "react-icons/io5";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
