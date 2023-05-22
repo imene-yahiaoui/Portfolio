@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import logo from "../../assets/images/logo.png";
+import logoPc from "../../assets/images/logo_pc.png";
+import logoMobile from "../../assets/images/logo_mobile.png";
 import "./style.min.css";
 import useMediaQuery from "../../helpers/MediaQuery";
 import { FaBars, FaTimes } from "react-icons/fa";
 import React, { useState } from "react";
 import DarkMode from "../darkMode";
-const Header = () => {
+ const Header = () => {
   const matches = useMediaQuery("(max-width:767px)");
   const { t, i18n } = useTranslation();
   const lang = localStorage.getItem("i18nextLng");
@@ -32,7 +33,10 @@ const Header = () => {
         >
           <div className="logo">
             <Link to="/">
-              <img src={logo} alt={t("logo_alt")} />
+            {!matches ?
+              <img  src={logoPc} alt={t("logo_alt")} />  :
+              <img  src={logoMobile} alt={t("logo_alt")} />
+            }
             </Link>
           </div>
 
