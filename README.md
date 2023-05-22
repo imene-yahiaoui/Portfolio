@@ -59,3 +59,68 @@ Ouvrez votre navigateur et accédez à http://localhost:3000 pour voir le portfo
 
 Maintenant, vous pouvez explorer mon portfolio sur votre propre machine ! ✨
 
+
+
+⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️
+
+🌟 Portfolio
+
+🎊 You can access my website at the following address: https://imeneyahiaoui.com. 🎊
+
+
+This project is my personal portfolio, designed to showcase my skills, projects, and professional experiences. It has been developed using the following technologies:
+
+React: a JavaScript library for building user interfaces. ⚛️
+
+React Router: a library for managing routes in a React application. 🛣️
+
+react-i18next: a localization library for supporting multiple languages. 🌍
+
+CSS: used for styling and layout of the application. 🎨
+
+AOS: a library of animations for creating attractive visual effects. ✨
+
+Bootstrap: a popular CSS framework for creating responsive websites. 🅱️
+
+Additionally, I have used the following dependencies:
+
+@emailjs/browser: Used for sending emails from the browser. 📧
+
+emailjs: Used for sending emails from a React application. 📧
+
+react-dom: The library for manipulating the DOM in React applications. 🏢
+
+react-icons: Popular icons as React components. 🔣
+
+These dependencies have been added to provide specific functionality to my portfolio. 🚀
+
+⭐ Features
+
+Presentation of my technical and non-technical skills. 🚀
+
+Display of my projects with detailed descriptions and screenshots. 🖼️
+
+Ability to change the site's language through localization support with react-i18next. 🌍
+
+Smooth navigation between different sections of the portfolio using React Router. 🛣️
+
+Use of AOS animations to make the user experience more dynamic. ✨
+
+These features are integrated into my portfolio to provide an interactive and engaging experience for users. 💼
+
+🚀 Installation
+
+Follow the steps below to install and run the project:
+
+Clone this GitHub repository to your computer. 📂
+
+Navigate to the project directory in your terminal. 💻
+
+Run the command npm install or yarn install to install all the dependencies. ⚙️
+
+Run the command npm start or yarn start to start the application in development mode. 🏃‍♂️
+
+Open your browser and go to http://localhost:3000 to see the portfolio in action. 🌐
+
+Now, you can explore my portfolio on your own machine! ✨
+
