@@ -146,5 +146,40 @@
     "name": "Slack",
     "category": "Logiciel",
     "key": "21"
+  },
+  {
+    "image": "./assets/technologyIcons/vite.webp",
+    "alt": "icon vite",
+    "name": "Vite",
+    "category": "Frontend",
+    "key": "22"
+  },
+  {
+    "image": "./assets/technologyIcons/Tailwind.webp",
+    "alt": "icon Tailwind",
+    "name": "Tailwind",
+    "category": "Frontend",
+    "key": "23"
+  },
+  {
+    "image": "./assets/technologyIcons/TS.webp",
+    "alt": "icon TypeScript",
+    "name": "TypeScript",
+    "category": "Frontend",
+    "key": "24"
+  },
+  {
+    "image": "./assets/technologyIcons/jest.webp",
+    "alt": "icon jest",
+    "name": "Jest",
+    "category": "Frontend",
+    "key": "25"
+  },
+  {
+    "image": "./assets/technologyIcons/cypress.webp",
+    "alt": "icon Cypress",
+    "name": "Cypress",
+    "category": "Frontend",
+    "key": "26"
   }
 ]
