@@ -115,8 +115,11 @@ const Contact = () => {
             <li className="list-item">
               <i className="fa fa-envelope fa-2x"></i>
               <span className="contact-text gmail">
-                <a itemProp="email" href="mailto:Imaniman4848@gmail.com">
-                  Imaniman4848@gmail.com
+                <a
+                  itemProp="email"
+                  href="mailto:ikhlefyahiaoui.imene@gmail.com"
+                >
+                  ikhlefyahiaoui.imene@gmail.com
                 </a>
               </span>
             </li>
