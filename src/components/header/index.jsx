@@ -50,6 +50,9 @@ import DarkMode from "../darkMode";
                   <a href={t("skills_path")}>{t("skills_title")}</a>
                 </li>
                 <li className="nav_list">
+                  <a href={t("aboutMe_path")}>{t("aboutMe")}</a>
+                </li>
+                <li className="nav_list">
                   <a href={t("portfolio_path")}>{t("portfolio_title")}</a>
                 </li>
                 <li className="nav_list">
@@ -101,6 +104,9 @@ import DarkMode from "../darkMode";
                   <li className="nav_list">
                     <a href={t("skills_path")}>{t("skills_title")}</a>
                   </li>
+                  <li className="nav_list">
+                  <a href={t("aboutMe_path")}>{t("aboutMe")}</a>
+                </li>
                   <li className="nav_list">
                     <a href={t("portfolio_path")}>{t("portfolio_title")}</a>
                   </li>

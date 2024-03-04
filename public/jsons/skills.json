@@ -169,14 +169,14 @@
     "key": "24"
   },
   {
-    "image": "./assets/technologyIcons/jest.webp",
+    "image": "./assets/technologyIcons/JEST1.png",
     "alt": "icon jest",
     "name": "Jest",
     "category": "Frontend",
     "key": "25"
   },
   {
-    "image": "./assets/technologyIcons/cypress.webp",
+    "image": "./assets/technologyIcons/cypress1.png",
     "alt": "icon Cypress",
     "name": "Cypress",
     "category": "Frontend",
