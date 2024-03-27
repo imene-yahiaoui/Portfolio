@@ -4,27 +4,27 @@
 
 Ce projet est mon portfolio personnel, conçu pour présenter mes compétences, projets et expériences professionnelles. Il a été développé en utilisant les technologies suivantes :
 
-React : une bibliothèque JavaScript pour la construction d'interfaces utilisateur. ⚛️
+-React : une bibliothèque JavaScript pour la construction d'interfaces utilisateur. ⚛️
 
-React Router : une bibliothèque pour la gestion des routes dans une application React. 🛣️
+-React Router : une bibliothèque pour la gestion des routes dans une application React. 🛣️
 
-react-i18next : une bibliothèque de localisation pour la prise en charge de plusieurs langues. 🌍
+-react-i18next : une bibliothèque de localisation pour la prise en charge de plusieurs langues. 🌍
 
-CSS : utilisé pour le style et la mise en page de l'application. 🎨
+-CSS : utilisé pour le style et la mise en page de l'application. 🎨
 
-AOS : une bibliothèque d'animations pour créer des effets visuels attrayants. ✨
+-AOS : une bibliothèque d'animations pour créer des effets visuels attrayants. ✨
 
-Bootstrap : un framework CSS populaire pour la création de sites web réactifs. 🅱️
+-Bootstrap : un framework CSS populaire pour la création de sites web réactifs. 🅱️
 
 De plus, j'ai utilisé les dépendances suivantes :
 
-@emailjs/browser : Utilisé pour envoyer des e-mails depuis le navigateur. 📧
+-@emailjs/browser : Utilisé pour envoyer des e-mails depuis le navigateur. 📧
 
-emailjs : Utilisé pour envoyer des e-mails depuis une application React. 📧
+-emailjs : Utilisé pour envoyer des e-mails depuis une application React. 📧
 
-react-dom : La bibliothèque pour manipuler le DOM dans les applications React. 🏢
+-react-dom : La bibliothèque pour manipuler le DOM dans les applications React. 🏢
 
-react-icons : Des icônes populaires en tant que composants React. 🔣
+-react-icons : Des icônes populaires en tant que composants React. 🔣
 
 Ces dépendances ont été ajoutées pour fournir des fonctionnalités spécifiques à mon portfolio. 🚀
 
