@@ -1,5 +1,6 @@
 🌟🌟 ***Portfolio*** 🌟🌟
 
+
 🎊 Vous pouvez accéder à mon site à l'adresse suivante : https://imeneyahiaoui.com. 🎊
 
 Ce projet est mon portfolio personnel, conçu pour présenter mes compétences, projets et expériences professionnelles. Il a été développé en utilisant les technologies suivantes :
@@ -29,7 +30,7 @@ De plus, j'ai utilisé les dépendances suivantes :
 Ces dépendances ont été ajoutées pour fournir des fonctionnalités spécifiques à mon portfolio. 🚀
 
 
-⭐ Fonctionnalités ⭐
+⭐⭐ Fonctionnalités ⭐⭐
 
 
 Présentation de mes compétences techniques et non techniques. 🚀
