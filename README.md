@@ -45,6 +45,7 @@ Utilisation d'animations AOS pour rendre l'expérience utilisateur plus dynamiqu
 
 Ces fonctionnalités sont intégrées dans mon portfolio pour offrir une expérience interactive et attrayante aux utilisateurs. 💼
 
+
 🚀 Installation
 
 Suivez les étapes ci-dessous pour installer et exécuter le projet :
@@ -109,6 +110,7 @@ Smooth navigation between different sections of the portfolio using React Router
 Use of AOS animations to make the user experience more dynamic. ✨
 
 These features are integrated into my portfolio to provide an interactive and engaging experience for users. 💼
+
 
 🚀 Installation
 
