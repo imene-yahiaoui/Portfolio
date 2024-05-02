@@ -97,4 +97,15 @@ p {
     font-size: 14px;
     padding: 0 5px;
   }
+  .intro_contact {
+  
+    width: 60%;
+  }
+}
+@media (max-width: 375px) {
+ 
+  .intro_contact {
+  
+    width: 70%;
+  }
 }

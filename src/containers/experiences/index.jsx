@@ -9,12 +9,14 @@ function Experiences() {
     AOS.init({ duration: 2000 });
   }, []);
   const { t } = useTranslation();
+  const lang = localStorage.getItem("i18nextLng");
   return (
     <>
       <div
         className="infoTablel-container"
         data-aos="fade-down-right"
         data-aos-duration="3000"
+        style={{ alignItems: lang === "ar" ? "flex-end" : "flex-start" }}
       >
         <h1 className="infoTablel-title">{t("Experiences.Experiences")} </h1>
         {ExperiencesList.map((experience) => (
