@@ -5,7 +5,7 @@
   "logo_alt": "Portfolio logo",
   "home_title": "Home",
   "home_id": "Home",
-  "home_path": "#Home",
+  "home_path": "/#Home",
   "skills_title": "Skills",
   "skills_id": "Skills",
   "skills_path": "/#Skills",

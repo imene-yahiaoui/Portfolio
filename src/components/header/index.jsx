@@ -7,7 +7,7 @@ import useMediaQuery from "../../helpers/MediaQuery";
 import { FaBars, FaTimes } from "react-icons/fa";
 import React, { useState } from "react";
 import DarkMode from "../darkMode";
- const Header = () => {
+const Header = () => {
   const matches = useMediaQuery("(max-width:767px)");
   const { t, i18n } = useTranslation();
   const lang = localStorage.getItem("i18nextLng");
@@ -33,10 +33,11 @@ import DarkMode from "../darkMode";
         >
           <div className="logo">
             <Link to="/">
-            {!matches ?
-              <img  src={logoPc} alt={t("logo_alt")} />  :
-              <img  src={logoMobile} alt={t("logo_alt")} />
-            }
+              {!matches ? (
+                <img src={logoPc} alt={t("logo_alt")} />
+              ) : (
+                <img src={logoMobile} alt={t("logo_alt")} />
+              )}
             </Link>
           </div>
 
@@ -48,9 +49,6 @@ import DarkMode from "../darkMode";
                 </li>
                 <li className="nav_list">
                   <a href={t("skills_path")}>{t("skills_title")}</a>
-                </li>
-                <li className="nav_list">
-                  <a href={t("aboutMe_path")}>{t("aboutMe")}</a>
                 </li>
                 <li className="nav_list">
                   <a href={t("portfolio_path")}>{t("portfolio_title")}</a>
@@ -65,7 +63,7 @@ import DarkMode from "../darkMode";
                   <select
                     className="btn_lang"
                     onChange={(e) => i18n.changeLanguage(e.target.value)}
-                    value={lang} // Ajouter cet attribut value
+                    value={lang}
                   >
                     <option value="fr">fr</option>
                     <option value="en">en</option>
@@ -104,9 +102,6 @@ import DarkMode from "../darkMode";
                   <li className="nav_list">
                     <a href={t("skills_path")}>{t("skills_title")}</a>
                   </li>
-                  <li className="nav_list">
-                  <a href={t("aboutMe_path")}>{t("aboutMe")}</a>
-                </li>
                   <li className="nav_list">
                     <a href={t("portfolio_path")}>{t("portfolio_title")}</a>
                   </li>

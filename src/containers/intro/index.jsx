@@ -2,7 +2,7 @@ import "./style.min.css";
 import { useTranslation } from "react-i18next";
 import DownloadBtn from "../../components/download";
 import SocialMedia from "../../components/socialMedia";
-
+import MoreInfoBtn from "../../components/moreInfo";
 const Intro = () => {
   const { t } = useTranslation();
   const lang = localStorage.getItem("i18nextLng");
@@ -33,11 +33,12 @@ const Intro = () => {
         <p> {t("description_info.main")} </p>
       </div>
       <div className="intro_contact">
-        <div>
-          <SocialMedia />
-        </div>
+        <SocialMedia />
 
-        <DownloadBtn />
+        <div className="intro_btn">
+          <MoreInfoBtn />
+          <DownloadBtn />
+        </div>
       </div>
     </div>
   );

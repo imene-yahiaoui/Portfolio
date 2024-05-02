@@ -1,3 +1,7 @@
 body{ background-color: var(--body_background);}
 
- 
+.bpw-header-container {
+    background:#dba7f3;
+    border: none;
+    color: #fff;
+ }
