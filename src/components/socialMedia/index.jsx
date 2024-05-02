@@ -1,4 +1,4 @@
-import { DiGithubBadge } from "react-icons/di";
+import { DiGithubAlt } from "react-icons/di";
 import { FaDiscord } from "react-icons/fa";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { GrCodepen } from "react-icons/gr";
@@ -14,7 +14,7 @@ const SocialMedia = () => {
           rel="noreferrer"
           aria-label="github"
         >
-          <DiGithubBadge
+          <DiGithubAlt
             color="var(--body_color)"
             size="50px"
             onMouseOver={({ target }) =>

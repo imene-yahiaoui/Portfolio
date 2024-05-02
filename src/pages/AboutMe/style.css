@@ -1,11 +1,13 @@
 .aboutMe_container {
+  padding-top: 140px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-bottom: 68px;
 }
 @media (max-width: 950px) {
   .aboutMe_container {
-    flex-direction: column!important;
+    flex-direction: column !important;
     align-items: center;
     row-gap: 50px;
   }

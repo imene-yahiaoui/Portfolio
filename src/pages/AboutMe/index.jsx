@@ -7,7 +7,10 @@ const AboutMe = () => {
 
   return (
     <div>
-      <div className="aboutMe_container"   style={{ flexDirection: lang === "ar" ? "row-reverse" : "row" }}>
+      <div
+        className="aboutMe_container"
+        style={{ flexDirection: lang === "ar" ? "row-reverse" : "row" }}
+      >
         <Experiences />
         <Educations />
       </div>
