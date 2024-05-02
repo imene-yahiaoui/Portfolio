@@ -1,15 +1,24 @@
 import InfoTable from "../../components/infoTable";
 import EducationsList from "../../assets/json/Education.json";
 import { useTranslation } from "react-i18next";
-function Educations(titleTable) {
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+function Educations() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   const { t } = useTranslation();
   return (
     <>
-      <div className="infoTablel-container">
+      <div
+        className="infoTablel-container"
+        data-aos="fade-down-left"
+        data-aos-duration="3000"
+      >
         <h1 className="infoTablel-title">{t("Educations.Educations")} </h1>
         {EducationsList.map((education) => (
           <InfoTable
-            titleTable="education"
             key={education.startDate}
             title={t(education.title)}
             startDate={education.startDate}

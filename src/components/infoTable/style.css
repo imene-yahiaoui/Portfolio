@@ -8,6 +8,7 @@
   padding: 20px;
   box-shadow: -6px -6px 25px 0 #ceb1ff, 6px 6px 25px 0 #ceb1ff;
   border-radius: 20px;
+  color: var(--body_color);
 }
 .infoTablel-title {
   margin: 0 auto;
