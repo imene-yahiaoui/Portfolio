@@ -9,8 +9,8 @@
   "skills_title": "المهارات",
   "skills_id": "المهارات",
   "skills_path": "/#المهارات",
-  "aboutMe":"معلومات عني",
-  "aboutMe_path":"/َAboutMe",
+  "aboutMe": "معلومات عني",
+  "aboutMe_path": "/َAboutMe",
   "portfolio_title": "معرض الأعمال",
   "portfolio_id": "معرضالأعمال",
   "portfolio_path": "/#معرضالأعمال",
@@ -83,5 +83,43 @@
   "project36": {
     "brief_description": " لعبة مسلية يتعين عليك التقدّم عبر جدول يحتوي على خانات مرقّمة، بدءًا من الرقم 1 وصولًا إلى الرقم 36.",
     "description_project": "يبدأ اللعب من الرقم 1 ويزيد حتى الوصول إلى 36، ولكن الانتقال يتبع قواعد بسيطة:  التحرك أفقيًا ↔ ورأسيًا ↕ يعتبر مربعين  التحرك بشكل مائل ⤭⤪ يعتبر مربعًا واحدًا.\n  إذا وصلت إلى رقم وجميع الحقول المسموح بها للتحرك إليها ممتلئة بالفعل، فقد خسرت."
+  },
+  "Educations": {
+    "Educations": "التعليم",
+    "DéveloppeurApplication": {
+      "title": "مطور تطبيقات - جافا سكريبت رياكت",
+      "Diplôme": "شهادة مستوى 6 (البكالوريوس + 3/4)",
+      "localisation": "Openclassrooms | باريس"
+    },
+    "Intégrateur": {
+      "title": "مطور  ويب",
+      "Diplôme": "شهادة مستوى 5 (الدبلوم الجامعي)",
+      "localisation": "Openclassrooms | باريس"
+    },
+    "sciencePo": {
+      "title": "Master's in Political Science",
+      "Diplôme": "شهادة مستوى 7 (درجة الماجستير)",
+      "localisation": "جامعة الجزائر 3 | الجزائر"
+    }
+  },
+  "Experiences": {
+    "Experiences": "الخبرة المهنية",
+
+    "Assistante": {
+      "Present": "حتى الأن",
+      "title": "مساعدة مدير",
+      "localisation": " BFT Services | ضواحي باريس",
+      "description": "إدارة الاستقبال وصياغة وإرسال البريد الإلكتروني، بالإضافة إلى تنسيق وإدارة المهام الإدارية"
+    },
+    "Enseignante": {
+      "title": "متطوعة-معلمة",
+      "localisation": "المدرسة الليبية إبن خلدون | باريس",
+      "description": "تدريس وحدة الحاسوب للفصول الإعدادية والثانوية"
+    },
+    "Journaliste": {
+      "title": "صحفية",
+      "localisation": "جريدة الشاهد | الجزائر",
+      "description": "تابة مقالات وتقارير صحفية حول الأحداث الجارية"
+    }
   }
 }

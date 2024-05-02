@@ -1,10 +1,13 @@
-
+import "./style.css";
+import Experiences from "../../containers/experiences";
+import Educations from "../../containers/educations";
 const AboutMe = () => {
-  
   return (
     <div>
-      <h1> Coming soon </h1>
- 
+      <div className="aboutMe_container">
+        <Experiences />
+        <Educations />
+      </div>
     </div>
   );
 };

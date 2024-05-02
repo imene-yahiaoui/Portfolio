@@ -83,5 +83,42 @@
   "project36": {
     "brief_description": "Ce jeu implique de parcourir un tableau de cases numérotées, en commençant par le numéro 1 et en visant à atteindre le numéro 36 pour progresser.",
     "description_project": "Le jeu commence au numéro 1 et se poursuit jusqu'à ce que le numéro 36 soit atteint.\n Cependant, il y a des règles simples qui régissent la progression : vous pouvez vous déplacer horizontalement ↔ et verticalement ↕ de deux cases à la fois, tandis qu'un déplacement en diagonale ⤭⤪ équivaut à une case. Si vous arrivez à un numéro et que toutes les cases de déplacement autorisées sont déjà occupées, vous perdez la partie."
+  },
+  "Educations": {
+    "Educations": "Éducations",
+    "DéveloppeurApplication": {
+      "title": "Développeur d'application - JavaScript React",
+      "Diplôme": "Diplôme de niveau 6 (bac +3/4)",
+      "localisation": "Openclassrooms | Paris"
+    },
+    "Intégrateur": {
+      "title": "Intégrateur Web",
+      "Diplôme": "Diplôme de niveau 5 (bac +2)",
+      "localisation": "Openclassrooms | Paris"
+    },
+    "sciencePo": {
+      "title": "master en science politique",
+      "Diplôme": "Diplôme de niveau 7 (bac +5)",
+      "localisation": "université d'alger 3| Alger"
+    }
+  },
+  "Experiences": {
+    "Experiences": "Expériences",
+    "Assistante": {
+      "Present": "Présent",
+      "title": "Assistante de direction",
+      "localisation": " BFT Services | Ile de France",
+      "description": "géré la réception, la rédaction et la transmission d'e-mails, ainsi que la coordination et la gestion administrative des tâches"
+    },
+    "Enseignante": {
+      "title": "Enseignante-Bénévola",
+      "localisation": "Ecole libyen Iben Khaldoun  | Paris",
+      "description": "Enseignante de module informatique pour les classes préparatoires et secondaires"
+    },
+    "Journaliste": {
+      "title": "Journaliste",
+      "localisation": "Journal elshahed  | Alger",
+      "description": "Rédiger des articles et des reportages journalistiques portant sur les événements d'actualité."
+    }
   }
 }

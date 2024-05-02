@@ -1,0 +1,33 @@
+.infoTablel-container {
+  width: 40%;
+  min-width: 437px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-gap: 14px;
+  padding: 20px;
+  box-shadow: -6px -6px 25px 0 #ceb1ff, 6px 6px 25px 0 #ceb1ff;
+  border-radius: 20px;
+}
+.infoTablel-title {
+  margin: 0 auto;
+}
+.dateList {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  flex-direction: column;
+  border-right: 2px solid #ceb1ff;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.case {
+  display: flex;
+  flex-direction: row;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}

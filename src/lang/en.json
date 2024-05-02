@@ -83,5 +83,43 @@
   "project36": {
     "brief_description": "This game involves traversing a grid of numbered squares, starting from number 1 and aiming to reach number 36 to make progress.",
     "description_project": "The game starts at number 1 and continues until number 36 is reached.\n  However, there are simple rules that govern the progression: you can move horizontally ↔ and vertically ↕ by two squares at a time, while a diagonal movement ⤭⤪ counts as one square. If you reach a number and all the allowed move squares are already occupied, you lose the game."
+  },
+  "Educations": {
+    "Educations": "Educations",
+    "DéveloppeurApplication": {
+      "title": "Application Developer - JavaScript React",
+      "Diplôme": "Bachelor's degree",
+      "localisation": "Openclassrooms | Paris"
+    },
+    "Intégrateur": {
+      "title": "Web Integrator",
+      "Diplôme": "Associate degree",
+      "localisation": "Openclassrooms | Paris"
+    },
+    "sciencePo": {
+      "title": "Master's in Political Science",
+      "Diplôme": "Master's degree",
+      "localisation": "University of Algiers 3 | Algiers"
+    }
+  },
+  "Experiences": {
+    "Experiences": "Experiences",
+
+    "Assistante": {
+      "Present": "Present",
+      "title": "Assistant Director",
+      "localisation": " BFT Services | Ile de France",
+      "description": "Managed reception, drafting and forwarding of emails, as well as coordination and administrative task management"
+    },
+    "Enseignante": {
+      "title": "Teacher-Volunteer ",
+      "localisation": "Libyan School Iben Khaldoun | Paris",
+      "description": "Teaching computer module for preparatory and secondary classes"
+    },
+    "Journaliste": {
+      "title": "Journalist",
+      "localisation": "Elshahed Journal | Algiers",
+      "description": "Writing articles and journalistic reports on current events"
+    }
   }
 }

@@ -1,0 +1,23 @@
+[
+  {
+    "startDate": "2019",
+    "endDate": "2024",
+    "title": "Experiences.Assistante.title",
+    "Diplôme": "Experiences.Assistante.localisation",
+    "localisation": "Experiences.Assistante.description"
+  },
+  {
+    "startDate": "2019",
+    "endDate": "2021",
+    "title": "Experiences.Enseignante.title",
+    "Diplôme": "Experiences.Enseignante.localisation",
+    "localisation": "Experiences.Enseignante.description"
+  },
+  {
+    "startDate": "2014",
+    "endDate": "2017",
+    "title": "Experiences.Journaliste.title",
+    "Diplôme": "Experiences.Journaliste.localisation",
+    "localisation": "Experiences.Journaliste.description"
+  }
+]

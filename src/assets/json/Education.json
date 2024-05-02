@@ -1,0 +1,23 @@
+[
+  {
+    "startDate": "2023",
+    "endDate": "2024",
+    "title": "Educations.DéveloppeurApplication.title",
+    "Diplôme": "Educations.DéveloppeurApplication.Diplôme",
+    "localisation": "Educations.DéveloppeurApplication.localisation"
+  },
+  {
+    "startDate": "2022",
+    "endDate": "2023",
+    "title": "Educations.Intégrateur.title",
+    "Diplôme": "Educations.Intégrateur.Diplôme",
+    "localisation": "Educations.Intégrateur.localisation"
+  },
+  {
+    "startDate": "2010",
+    "endDate": "2015",
+    "title": "Educations.sciencePo.title",
+    "Diplôme": "Educations.sciencePo.Diplôme",
+    "localisation": "Educations.sciencePo.localisation"
+  }
+]
