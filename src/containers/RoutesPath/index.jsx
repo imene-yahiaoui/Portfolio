@@ -9,7 +9,7 @@ const RoutesPath = () => {
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/Project/:id" element={<Project />} />
-        <Route path="/َAboutMe" element={<AboutMe />} />
+        <Route path="/AboutMe" element={<AboutMe />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
     </div>

@@ -18,7 +18,7 @@
   text-decoration: none;
   list-style-type: none;
   flex-direction: column;
-  border-right: 2px solid #ceb1ff;
+
   padding-right: 10px;
   align-items: center;
   justify-content: space-between;
@@ -30,7 +30,6 @@
 .InfoTable_section {
   display: flex;
   flex-direction: column;
-  padding-left: 10px;
 }
 
 @media (max-width: 767px) {
