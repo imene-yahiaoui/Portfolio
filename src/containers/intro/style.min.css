@@ -45,6 +45,7 @@ p {
 .intro_contact {
   display: flex;
   flex-direction: row;
+  column-gap: 60px;
 }
 .intro_btn {
   display: flex;

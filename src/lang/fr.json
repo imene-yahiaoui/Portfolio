@@ -76,14 +76,11 @@
     "brief_description": "une application de location d'appartements qui offre aux clients la possibilité de visualiser des photos, de consulter les prix et d'obtenir des informations détaillées sur l'emplacement des différents appartements.",
     "description_project": "Il s'agit d'une application de location d'appartements qui offre aux clients la possibilité de visualiser des photos, le prix et l'emplacement des appartements.\n  Cette application a été développée en JavaScript, en utilisant React pour le frontend et Node.js, express et MongoDB pour le côté serveur."
   },
-  "projectAsselelmatell": {
-    "brief_description": "Cette application propose une collection d'histoires, de contes et de proverbes populaires qui sont souvent partagés sans que les gens en connaissent réellement l'origine et l'histoire qui les entoure.",
-    "description_project": "L'application 'Asselelmatell''Proverbe Origin' est une plateforme qui offre une collection d'histoires et de contes basés sur des proverbes populaires. Ces récits sont souvent partagés sans que les gens connaissent leur histoire, leur origine et leur lieu de départ.\n  Cette application, accessible sans connexion Internet, permet aux utilisateurs de découvrir et d'explorer ces histoires enrichissantes. \n  De plus, les utilisateurs ont la possibilité de partager facilement ces histoires avec leurs amis. L'application est disponible gratuitement sur le Play Store et a déjà été téléchargée plus de 500 fois."
+  "projectWorkVibes": {
+    "brief_description": "un réseau social conçu pour favoriser la collaboration et la connexion entre les membres d'une entreprise.",
+    "description_project": "WorkVibes est un réseau social conçu pour favoriser la collaboration et la connexion au sein des équipes au sein d'une entreprise.\n Il offre bien plus qu'un simple réseau social d'entreprise ; c'est une plateforme dynamique où les utilisateurs peuvent partager des idées, des projets et même leurs boissons matinales préférées !"
   },
-  "project36": {
-    "brief_description": "Ce jeu implique de parcourir un tableau de cases numérotées, en commençant par le numéro 1 et en visant à atteindre le numéro 36 pour progresser.",
-    "description_project": "Le jeu commence au numéro 1 et se poursuit jusqu'à ce que le numéro 36 soit atteint.\n Cependant, il y a des règles simples qui régissent la progression : vous pouvez vous déplacer horizontalement ↔ et verticalement ↕ de deux cases à la fois, tandis qu'un déplacement en diagonale ⤭⤪ équivaut à une case. Si vous arrivez à un numéro et que toutes les cases de déplacement autorisées sont déjà occupées, vous perdez la partie."
-  },
+  
   "Educations": {
     "Educations": "Éducations",
     "DéveloppeurApplication": {

@@ -1,0 +1,88 @@
+[{
+    "title": "أصل المثل",
+    "image": "../assets/projects/asselelmatell/image-min.webp",
+    "alt": "projet Asselelmatell",
+    "id": "8",
+    "brief_description": "projectAsselelmatell.brief_description",
+    "description_project": "projectAsselelmatell.description_project",
+    "technologyUsed": [
+      {
+        "icon": "../assets/technologyIcons/kotlin-min.webp",
+        "name": "Kotlin"
+      },
+      {
+        "icon": "../assets/technologyIcons/Android_Studio-min.webp",
+        "name": "Android Studio"
+      },
+      {
+        "icon": "../assets/technologyIcons/admobe-min.webp",
+        "name": "Admob"
+      }
+    ],
+    "pictures": [
+      "../assets/projects/asselelmatell/asselelmatell-min.webp",
+      "../assets/projects/asselelmatell/asselelmatell1-min.webp",
+      "../assets/projects/asselelmatell/asselelmatell2-min.webp",
+      "../assets/projects/asselelmatell/asselelmatell3-min.webp",
+      "../assets/projects/asselelmatell/asselelmatell4-min.webp",
+      "../assets/projects/asselelmatell/asselelmatell5-min.webp",
+      "../assets/projects/asselelmatell/asselelmatell6-min.webp"
+    ],
+    "site": "https://play.google.com/store/apps/details?id=com.bftservices.asselmatel"
+  },
+  {
+    "title": "36",
+    "image": "../assets/projects/36/icon-min.webp",
+    "alt": "projet 36",
+    "id": "9",
+    "brief_description": "project36.brief_description",
+    "description_project": "project36.description_project",
+    "technologyUsed": [
+      {
+        "icon": "../assets/technologyIcons/kotlin-min.webp",
+        "name": "Kotlin"
+      },
+      {
+        "icon": "../assets/technologyIcons/Android_Studio-min.webp",
+        "name": "Android Studio"
+      },
+      {
+        "icon": "../assets/technologyIcons/admobe-min.webp",
+        "name": "Admob"
+      }
+    ],
+    "pictures": [
+      "../assets/projects/36/361-min.webp",
+      "../assets/projects/36/362-min.webp",
+      "../assets/projects/36/363-min.webp",
+      "../assets/projects/36/364-min.webp",
+      "../assets/projects/36/365-min.webp"
+    ],
+    "site": "https://play.google.com/store/apps/details?id=com.bftservices.game36"
+  },
+"projectAsselelmatell": {
+  "brief_description": "Cette application propose une collection d'histoires, de contes et de proverbes populaires qui sont souvent partagés sans que les gens en connaissent réellement l'origine et l'histoire qui les entoure.",
+  "description_project": "L'application 'Asselelmatell''Proverbe Origin' est une plateforme qui offre une collection d'histoires et de contes basés sur des proverbes populaires. Ces récits sont souvent partagés sans que les gens connaissent leur histoire, leur origine et leur lieu de départ.\n  Cette application, accessible sans connexion Internet, permet aux utilisateurs de découvrir et d'explorer ces histoires enrichissantes. \n  De plus, les utilisateurs ont la possibilité de partager facilement ces histoires avec leurs amis. L'application est disponible gratuitement sur le Play Store et a déjà été téléchargée plus de 500 fois."
+},
+"project36": {
+  "brief_description": "Ce jeu implique de parcourir un tableau de cases numérotées, en commençant par le numéro 1 et en visant à atteindre le numéro 36 pour progresser.",
+  "description_project": "Le jeu commence au numéro 1 et se poursuit jusqu'à ce que le numéro 36 soit atteint.\n Cependant, il y a des règles simples qui régissent la progression : vous pouvez vous déplacer horizontalement ↔ et verticalement ↕ de deux cases à la fois, tandis qu'un déplacement en diagonale ⤭⤪ équivaut à une case. Si vous arrivez à un numéro et que toutes les cases de déplacement autorisées sont déjà occupées, vous perdez la partie."
+},
+"projectAsselelmatell": {
+  "brief_description": "aThis application offers a collection of popular stories, tales, and proverbs that are often shared without people actually knowing their origin and the story behind them.",
+  "description_project": "The 'Asselelmatell'Proverbe Origin' application is a platform that offers a collection of stories and tales based on popular proverbs.\n  These narratives are often shared without people knowing their story, origin, and starting point. This offline-accessible application allows users to discover and explore these enriching stories.\n  Additionally, users have the option to easily share these stories with their friends. The application is available for free on the Play Store and has already been downloaded over 500 times."
+},
+"project36": {
+  "brief_description": "This game involves traversing a grid of numbered squares, starting from number 1 and aiming to reach number 36 to make progress.",
+  "description_project": "The game starts at number 1 and continues until number 36 is reached.\n  However, there are simple rules that govern the progression: you can move horizontally ↔ and vertically ↕ by two squares at a time, while a diagonal movement ⤭⤪ counts as one square. If you reach a number and all the allowed move squares are already occupied, you lose the game."
+},
+
+"projectAsselelmatell": {
+  "brief_description": "تطبيق أصل المثل  يتميز بالقصص والحكايات الشائعة للأمثال التي يتداولها الكثيرون إلى الآن دون معرفة تاريخها وأصلها",
+  "description_project": "تطبيق أصل المثل  يتميز بالقصص والحكايات الشائعة للأمثال التي يتداولها الكثيرون إلى الآن دون معرفة تاريخها وأصلها ومكان بدء انتشارها.\n  هذا التطبيق لا يحتاج إلى اتصال بالإنترنت ويسمح للمستخدمين بمشاركة القصص بسهولة مع أصدقائهم. التطبيق متوفر بكشل مجاني على متجر بلاي ستور وحاصل على اكثر من500 تحميل "
+},
+"project36": {
+  "brief_description": " لعبة مسلية يتعين عليك التقدّم عبر جدول يحتوي على خانات مرقّمة، بدءًا من الرقم 1 وصولًا إلى الرقم 36.",
+  "description_project": "يبدأ اللعب من الرقم 1 ويزيد حتى الوصول إلى 36، ولكن الانتقال يتبع قواعد بسيطة:  التحرك أفقيًا ↔ ورأسيًا ↕ يعتبر مربعين  التحرك بشكل مائل ⤭⤪ يعتبر مربعًا واحدًا.\n  إذا وصلت إلى رقم وجميع الحقول المسموح بها للتحرك إليها ممتلئة بالفعل، فقد خسرت."
+}
+]

@@ -76,13 +76,9 @@
     "brief_description": "An apartment rental application that provides customers with the ability to view photos, check prices, and obtain detailed information about the location of various apartments.",
     "description_project": "This is an apartment rental application that allows the client to view apartment photos, prices, and locations.\n The application is built using JavaScript, with React for the frontend and Node.js, Express, and MongoDB for the server side"
   },
-  "projectAsselelmatell": {
-    "brief_description": "aThis application offers a collection of popular stories, tales, and proverbs that are often shared without people actually knowing their origin and the story behind them.",
-    "description_project": "The 'Asselelmatell'Proverbe Origin' application is a platform that offers a collection of stories and tales based on popular proverbs.\n  These narratives are often shared without people knowing their story, origin, and starting point. This offline-accessible application allows users to discover and explore these enriching stories.\n  Additionally, users have the option to easily share these stories with their friends. The application is available for free on the Play Store and has already been downloaded over 500 times."
-  },
-  "project36": {
-    "brief_description": "This game involves traversing a grid of numbered squares, starting from number 1 and aiming to reach number 36 to make progress.",
-    "description_project": "The game starts at number 1 and continues until number 36 is reached.\n  However, there are simple rules that govern the progression: you can move horizontally ↔ and vertically ↕ by two squares at a time, while a diagonal movement ⤭⤪ counts as one square. If you reach a number and all the allowed move squares are already occupied, you lose the game."
+  "projectWorkVibes": {
+    "brief_description": "a social network designed to foster collaboration and connection among members of a company",
+    "description_project": "WorkVibes is a social network designed to foster collaboration and connection within teams within a company.\n It offers much more than just a company social network; it's a dynamic platform where users can share ideas, projects, and even their favorite morning beverages!"
   },
   "Educations": {
     "Educations": "Educations",

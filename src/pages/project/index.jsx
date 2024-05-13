@@ -36,9 +36,7 @@ const Project = () => {
     fetchProjects();
   }, [id]);
   const { t } = useTranslation();
-  console.log(projects);
 
-  console.log(id);
 
   return (
     <section>
