@@ -27,6 +27,8 @@ De plus, j'ai utilisé les dépendances suivantes :
 
 -react-icons : Des icônes populaires en tant que composants React. 🔣
 
+-Botpress: En utilisant Botpress, j'ai créé un chatbot qui donne plus d'informations sur moi. 🤖 
+
 Ces dépendances ont été ajoutées pour fournir des fonctionnalités spécifiques à mon portfolio. 🚀
 
 
