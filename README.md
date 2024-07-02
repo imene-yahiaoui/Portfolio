@@ -19,6 +19,7 @@ Ce projet est mon portfolio personnel, conçu pour présenter mes compétences, 
 
 De plus, j'ai utilisé les dépendances suivantes :
 
+
 -@emailjs/browser : Utilisé pour envoyer des e-mails depuis le navigateur. 📧
 
 -emailjs : Utilisé pour envoyer des e-mails depuis une application React. 📧
