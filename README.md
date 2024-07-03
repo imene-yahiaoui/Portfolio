@@ -19,6 +19,7 @@ Ce projet est mon portfolio personnel, conçu pour présenter mes compétences, 
 
 De plus, j'ai utilisé les dépendances suivantes :
 
+
 -@emailjs/browser : Utilisé pour envoyer des e-mails depuis le navigateur. 📧
 
 -emailjs : Utilisé pour envoyer des e-mails depuis une application React. 📧
@@ -26,6 +27,8 @@ De plus, j'ai utilisé les dépendances suivantes :
 -react-dom : La bibliothèque pour manipuler le DOM dans les applications React. 🏢
 
 -react-icons : Des icônes populaires en tant que composants React. 🔣
+
+-Botpress: En utilisant Botpress, j'ai créé un chatbot qui donne plus d'informations sur moi. 🤖 
 
 Ces dépendances ont été ajoutées pour fournir des fonctionnalités spécifiques à mon portfolio. 🚀
 
