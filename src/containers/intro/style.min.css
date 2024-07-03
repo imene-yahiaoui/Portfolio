@@ -50,7 +50,7 @@ p {
 .intro_btn {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 @keyframes script {
   0% {

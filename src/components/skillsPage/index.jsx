@@ -27,7 +27,11 @@ const Filtre = ({ onFiltreChange }) => {
 
   return (
     <div>
-      <select className="filtre" onChange={handleFiltreSelect}>
+      <select
+        className="filtre"
+        onChange={handleFiltreSelect}
+        aria-label="Select filtre"
+      >
         <option value={t("all")}> {t("all")}</option>
         <option value="Frontend">Frontend</option>
         <option value="Backend">Backend</option>

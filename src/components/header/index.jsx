@@ -64,6 +64,7 @@ const Header = () => {
                     className="btn_lang"
                     onChange={(e) => i18n.changeLanguage(e.target.value)}
                     value={lang}
+                    aria-label="Select Language"
                   >
                     <option value="fr">fr</option>
                     <option value="en">en</option>

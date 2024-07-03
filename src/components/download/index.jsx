@@ -5,17 +5,17 @@ import { useTranslation } from "react-i18next";
 const DownloadBtn = () => {
   const { t } = useTranslation();
   return (
-    <button className="glow-on-hover" type="button">
-      <a
-        className="btn_text"
-        href={cv}
-        target="_blank"
-        rel="noreferrer"
-        aria-label={t("Download")}
-      >
+    <a
+      className="btn_text"
+      href={cv}
+      target="_blank"
+      rel="noreferrer"
+      aria-label={t("Download")}
+    >
+      <button className="glow-on-hover" type="button">
         {t("Download")}
-      </a>
-    </button>
+      </button>
+    </a>
   );
 };
 
