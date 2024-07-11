@@ -99,6 +99,8 @@ react-dom: The library for manipulating the DOM in React applications. 🏢
 
 react-icons: Popular icons as React components. 🔣
 
+Botpress Chatbot: Integrated a chatbot using Botpress to provide responses and assist users with information about me🤖 
+
 These dependencies have been added to provide specific functionality to my portfolio. 🚀
 
 ⭐ Features
