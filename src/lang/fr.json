@@ -83,6 +83,11 @@
 
   "Educations": {
     "Educations": "Éducations",
+    "Formation": {
+      "title": "Formation en Science Informatique et Intelligence Artificielle",
+      "Diplôme": "",
+      "localisation": "EDU Business Institute "
+    },
     "DéveloppeurApplication": {
       "title": "Développeur d'application - JavaScript React",
       "Diplôme": "Diplôme de niveau 6 (bac +3/4)",
@@ -101,6 +106,12 @@
   },
   "Experiences": {
     "Experiences": "Expériences",
+    "DéveloppeuseFullstack": {
+      "Present": "Présent",
+      "title": "Développeuse fullstack",
+      "localisation": " Andragogy  | Stage",
+      "description": "Aide à la réalisation d'une interface de statistiques Patch de site web en stack MERN"
+    },
     "Assistante": {
       "Present": "Présent",
       "title": "Assistante de direction",

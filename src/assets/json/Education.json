@@ -1,5 +1,12 @@
 [
   {
+    "startDate": "2024",
+    "endDate": "2025",
+    "title": "Educations.Formation.title",
+    "Diplôme": "Educations.Formation.Diplôme",
+    "localisation": "Educations.Formation.localisation"
+  },
+  {
     "startDate": "2023",
     "endDate": "2024",
     "title": "Educations.DéveloppeurApplication.title",

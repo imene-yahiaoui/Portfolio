@@ -82,6 +82,11 @@
   },
   "Educations": {
     "Educations": "Educations",
+    "Formation": {
+      "title": "Training in Computer Science and Artificial Intelligence",
+      "Diplôme": "",
+      "localisation": "EDU Business Institute "
+    },
     "DéveloppeurApplication": {
       "title": "Application Developer - JavaScript React",
       "Diplôme": "Bachelor's degree",
@@ -100,7 +105,12 @@
   },
   "Experiences": {
     "Experiences": "Experiences",
-
+    "DéveloppeuseFullstack": {
+      "Present": "Present",
+      "title": "Fullstack Developer",
+      "localisation": " Andragogy  | Internship",
+      "description": "Assisting in the creation of a statistics interface. Patching a website using the MERN stack"
+    },
     "Assistante": {
       "Present": "Present",
       "title": "Assistant Director",

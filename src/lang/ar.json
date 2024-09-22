@@ -82,6 +82,11 @@
   },
   "Educations": {
     "Educations": "التعليم",
+    "Formation": {
+      "title": "تدريب في علوم الحاسوب والذكاء الاصطناعي",
+      "Diplôme": "",
+      "localisation": "EDU Business Institute "
+    },
     "DéveloppeurApplication": {
       "title": "مطور تطبيقات - جافا سكريبت رياكت",
       "Diplôme": "شهادة مستوى 6 (البكالوريوس + 3/4)",
@@ -100,7 +105,12 @@
   },
   "Experiences": {
     "Experiences": "الخبرة المهنية",
-
+    "DéveloppeuseFullstack": {
+      "Present": "حتى الأن",
+      "title": "Fullstack Developer",
+      "localisation": " Andragogy  | تدريب",
+      "description": "إنشاء موقع ويب  كامل بواجهة متفاعلة مع المستخدم  "
+    },
     "Assistante": {
       "Present": "حتى الأن",
       "title": "مساعدة مدير",

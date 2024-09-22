@@ -1,5 +1,12 @@
 [
   {
+    "startDate": "2024",
+    "endDate": "2024",
+    "title": "Experiences.DéveloppeuseFullstack.title",
+    "Diplôme": "Experiences.DéveloppeuseFullstack.localisation",
+    "localisation": "Experiences.DéveloppeuseFullstack.description"
+  },
+  {
     "startDate": "2019",
     "endDate": "2024",
     "title": "Experiences.Assistante.title",
