@@ -1,8 +1,9 @@
 /* Blog Page */
 .blog-page {
+  padding-top: 140px;
   max-width: 1200px; /* Réduire la largeur pour une lecture confortable */
   margin: 0 auto;
-  padding: 20px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
