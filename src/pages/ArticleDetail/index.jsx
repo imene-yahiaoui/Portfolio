@@ -18,7 +18,7 @@ const ArticleDetail = () => {
     if (window.history.state?.idx > 0) {
       navigate(-1);
     } else {
-      navigate("/solotion");
+      navigate("/solution");
     }
   };
 
@@ -55,8 +55,7 @@ const ArticleDetail = () => {
         );
 
         if (!selectedArticle) {
-          setArticle(null);
-          setRelatedArticles([]);
+          navigate("/404"); // Redirection vers une page 404
         } else {
           setArticle(selectedArticle);
           const otherArticles = validPosts.filter(
@@ -69,16 +68,20 @@ const ArticleDetail = () => {
           );
         }
       } catch (error) {
-        console.error("Erreur lors du chargement de l'article :", error);
-        setArticle(null);
-        setRelatedArticles([]);
+        console.error("Error loading the article:", error);
+        navigate("/404"); // Redirection vers une page 404 en cas d'erreur
       } finally {
         setLoading(false);
       }
     };
 
     loadArticle();
-  }, [id, currentLanguage]);
+  }, [id, currentLanguage, navigate]);
+
+  // Ajouter le défilement vers le haut à chaque changement d'article
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [id]);
 
   useEffect(() => {
     if (article) {
@@ -96,43 +99,38 @@ const ArticleDetail = () => {
     return <div className="spinner">{t("article.loading")}</div>;
   }
 
-  if (!article) {
-    return (
-      <div className="no-article">
-        <p>{t("article.notFound")}</p>
-        <button onClick={() => navigate("/Solution")}>
-          {t("article.goBack")}
-        </button>
-      </div>
-    );
-  }
-
   return (
     <div>
       <div
         style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
         className="article-detail"
       >
-        <button className="back-button" onClick={goBack}>
-          ← {t("article.back")}
-        </button>
-        <h1 className="article-title">{article.title}</h1>
-        <img
-          src={`/assets/images/articles/${article.image}`}
-          alt={article.title}
-          className="article-image"
-        />
-        <div
-          className="article-content"
-          dangerouslySetInnerHTML={{ __html: article.content }}
-        />
+        {article ? (
+          <>
+            <button className="back-button" onClick={goBack}>
+              ← {t("article.back")}
+            </button>
+            <h1 className="article-title">{article.title}</h1>
+            <img
+              src={`/assets/images/articles/${article.image}`}
+              alt={article.title}
+              className="article-image"
+            />
+            <div
+              className="article-content"
+              dangerouslySetInnerHTML={{ __html: article.content }}
+            />
+          </>
+        ) : (
+          <p>{t("article.notFound")}</p>
+        )}
       </div>
 
-      <div className="article-detail">
-        <h2>{t("article.readMore")}</h2>
-        <div className="related-articles-list">
-          {relatedArticles.length > 0 ? (
-            relatedArticles.map((related) => (
+      {article && relatedArticles.length > 0 && (
+        <div className="related-articles">
+          <h2>{t("article.readMore")}</h2>
+          <div className="related-articles-list">
+            {relatedArticles.map((related) => (
               <div
                 key={related.id}
                 className="related-article-card"
@@ -145,12 +143,10 @@ const ArticleDetail = () => {
                 />
                 <h3 className="related-article-title">{related.title}</h3>
               </div>
-            ))
-          ) : (
-            <p>{t("article.noFounMore")}</p>
-          )}
+            ))}
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };
