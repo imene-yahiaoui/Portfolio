@@ -9,6 +9,9 @@
   "skills_title": "المهارات",
   "skills_id": "المهارات",
   "skills_path": "/#المهارات",
+  "solotion_title": "الحلول التقنية",
+  "solotion_id": "solotion",
+  "solotion_path": "/solotion",
   "aboutMe": "معلومات عني",
   "aboutMe_path": "/AboutMe",
   "portfolio_title": "معرض الأعمال",
@@ -17,7 +20,7 @@
   "contact_title": "تواصل معنا",
   "contact_id": "تواصلمعنا",
   "contact_path": "/#تواصلمعنا",
-  "footer": " جميع الحقوق محفوظة© 2023  إيمان يحياوي إخلف",
+  "footer": " جميع الحقوق محفوظة© 2024  إيمان يحياوي إخلف",
   "main_heading": {
     "hello": "مرحبا  ",
     "name": " أنا إيمــــان",
@@ -127,5 +130,18 @@
       "localisation": "جريدة الشاهد | الجزائر",
       "description": "تابة مقالات وتقارير صحفية حول الأحداث الجارية"
     }
-  }
+  },
+  "article": {
+  "title": "جاري تحميل المقال...",
+  "noFound": "لم يتم العثور على أي مقال",
+  "back": "رجوع",
+  "readMore": "اقرأ المزيد",
+  "noFounMore": "لم يتم العثور على مقالات ذات صلة"
+},
+"solution": {
+  "pagedes": "عدد المقالات لكل صفحة",
+  "nonFound": "لم يتم العثور على أي مقالات",
+  "readMore": "اقرأ المقال"
+}
+
 }

@@ -9,6 +9,9 @@
   "skills_title": "Compétences",
   "skills_id": "Compétences",
   "skills_path": "/#Compétences",
+  "solotion_title": "Solutions",
+  "solotion_id": "solotion",
+  "solotion_path": "/solotion",
   "aboutMe": "À propos de moi",
   "aboutMe_path": "/AboutMe",
   "portfolio_title": "Portfolio",
@@ -17,7 +20,7 @@
   "contact_title": "Contact",
   "contact_id": "Contact",
   "contact_path": "/#Contact",
-  "footer": "Tous droits réservés © 2023 - Imene Yahiaoui Ikhlef",
+  "footer": "Tous droits réservés © 2024 - Imene Yahiaoui Ikhlef",
 
   "main_heading": {
     "hello": "Bonjour",
@@ -119,7 +122,7 @@
       "description": "géré la réception, la rédaction et la transmission d'e-mails, ainsi que la coordination et la gestion administrative des tâches"
     },
     "Enseignante": {
-      "title": "Enseignante-Bénévola",
+      "title": "Enseignante-Bénévolat",
       "localisation": "Ecole libyen Iben Khaldoun  | Paris",
       "description": "Enseignante de module informatique pour les classes préparatoires et secondaires"
     },
@@ -128,5 +131,18 @@
       "localisation": "Journal elshahed  | Alger",
       "description": "Rédiger des articles et des reportages journalistiques portant sur les événements d'actualité."
     }
+  },
+  "article": {
+    "title": "Chargement de l'article...",
+    "noFound": "Aucun article trouvé",
+    "back": "Retour",
+    "readMore": "Lire aussi",
+    "noFounMore": "Aucun article lié trouvé"
+  },
+  "solution": {
+    "pagedes": "Articles par page",
+    "nonFound": "Aucun article trouvé",
+    "readMore": "Lire l'article"
+
   }
 }

@@ -51,6 +51,9 @@ const Header = () => {
                   <a href={t("skills_path")}>{t("skills_title")}</a>
                 </li>
                 <li className="nav_list">
+                  <a href={t("solotion_path")}>{t("solotion_title")}</a>
+                </li>
+                <li className="nav_list">
                   <a href={t("portfolio_path")}>{t("portfolio_title")}</a>
                 </li>
                 <li className="nav_list">

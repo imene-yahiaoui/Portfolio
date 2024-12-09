@@ -9,6 +9,9 @@
   "skills_title": "Skills",
   "skills_id": "Skills",
   "skills_path": "/#Skills",
+  "solotion_title": "Solutions",
+  "solotion_id": "solotion",
+  "solotion_path": "/solotion",
   "aboutMe": "About Me",
   "aboutMe_path": "/AboutMe",
   "portfolio_title": "Portfolio",
@@ -17,7 +20,7 @@
   "contact_title": "Contact",
   "contact_id": "Contact",
   "contact_path": "/#Contact",
-  "footer": "Copyright © 2023 - Imene Yahiaoui Ikhlef  ",
+  "footer": "Copyright © 2024 - Imene Yahiaoui Ikhlef  ",
   "main_heading": {
     "hello": "Hello ",
     "name": "I'm Imene",
@@ -127,5 +130,17 @@
       "localisation": "Elshahed Journal | Algiers",
       "description": "Writing articles and journalistic reports on current events"
     }
-  }
+  },
+  "article": {
+  "title": "Loading article...",
+  "noFound": "No article found",
+  "back": "Back",
+  "readMore": "Read more",
+  "noFounMore": "No related articles found"
+},
+"solution": {
+  "pagedes": "Articles per page",
+  "nonFound": "No articles found",
+  "readMore": "Read the article"
+}
 }

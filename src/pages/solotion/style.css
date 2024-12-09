@@ -1,0 +1,235 @@
+/* Blog Page */
+.blog-page {
+  max-width: 1200px; /* Réduire la largeur pour une lecture confortable */
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Page Title */
+.page-title {
+  font-size: 2.5rem;
+  color: #222;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Blog Posts Flex Column */
+.blog-posts {
+  display: flex;
+  flex-direction: column; /* Chaque article sur une nouvelle ligne */
+  gap: 40px; /* Espacement entre les articles */
+  width: 100%;
+}
+
+/* Blog Post Card */
+.blog-post-card {
+  display: flex;
+  flex-direction: row; /* Image à gauche, contenu à droite */
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%; /* Prend toute la largeur disponible */
+}
+
+.blog-post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Post Image */
+.post-image {
+  flex-shrink: 0;
+  width: 400px;
+  height: 200px;
+  object-fit: fill;
+}
+
+/* Blog Section */
+.blog-section {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1; /* Laisse le contenu occuper tout l'espace restant */
+}
+
+/* Post Title */
+.post-title {
+  font-size: 1.2rem;
+  margin: 0 0 10px 0;
+  color: #333;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.posts-per-page {
+  display: flex;
+  align-content: space-between;
+  /* justify-content: space-between; */
+  width: 100%;
+  margin-bottom: 40px;
+  gap: 10px;
+}
+/* Post Excerpt */
+.post-excerpt {
+  font-size: 1rem;
+  color: #555;
+  margin: 0 0 20px 0;
+  line-height: 1.8;
+}
+
+/* Read More Button */
+.read-more-button {
+  border-radius: 30px;
+  background-color: #ff3131;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  align-self: flex-start; /* Alignement à gauche */
+  transition: background-color 0.3s ease;
+}
+
+.read-more-button:hover {
+  background-color: #900001;
+}
+
+/* No Posts Message */
+.no-posts-message {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #000000;
+  margin: 30px 0;
+}
+
+/* SearchBar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%; /* Alignement avec le conteneur */
+}
+
+.search-bar input {
+  flex: 1; /* Occupe tout l'espace disponible */
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.search-bar input:focus {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff3131;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #900001;
+}
+
+/* Tag Cloud */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tag-cloud span {
+  background-color: #ffe7e7;
+  color: #ff3131;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* .tag-cloud span:hover {
+  background-color: #900001;
+  color: #fff;
+} */
+
+.tag-cloud .selected {
+  background-color: #900001;
+  color: #fff;
+}
+
+/* Pagination Controls */
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.pagination-controls button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #810707cf;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-controls button:hover {
+  background-color: #900001;
+}
+
+.pagination-controls span {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .pagination-controls {
+    flex-direction: column;
+  }
+  .blog-post-card {
+    flex-direction: column; /* Passer en colonne sur petits écrans */
+  }
+
+  .post-image {
+    width: 100%; /* Image pleine largeur */
+    height: auto;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .tag-cloud {
+    gap: 1px;
+  }
+}
