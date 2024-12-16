@@ -93,7 +93,7 @@ pre {
   height: 400px;
   display: block;
   margin: 20px auto;
-  object-fit: cover;
+  /* object-fit: cover; */
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -284,7 +284,7 @@ pre {
 /* Titre de l'article */
 .related-article-title {
   font-size: 1.2rem;
-  color: var(--black);
+  color: #000000;
 
   text-align: center;
   font-weight: 600;

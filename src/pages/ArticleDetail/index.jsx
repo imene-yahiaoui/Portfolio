@@ -55,7 +55,7 @@ const ArticleDetail = () => {
         );
 
         if (!selectedArticle) {
-          navigate("/404"); // Redirection vers une page 404
+          navigate("/solotion"); // Redirection vers une page /solotion
         } else {
           setArticle(selectedArticle);
           const otherArticles = validPosts.filter(
@@ -69,7 +69,7 @@ const ArticleDetail = () => {
         }
       } catch (error) {
         console.error("Error loading the article:", error);
-        navigate("/404"); // Redirection vers une page 404 en cas d'erreur
+        navigate("/solotion"); // Redirection vers une page /solotion
       } finally {
         setLoading(false);
       }
