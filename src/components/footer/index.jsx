@@ -6,6 +6,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <h2> {t("footer")} </h2>
+      <a href="/CookiesPolicy">{t("cookie")}</a>
+   
     </div>
   );
 };
