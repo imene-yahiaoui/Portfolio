@@ -4,10 +4,22 @@ import Footer from "./components/footer";
 import RoutesPath from "./containers/RoutesPath";
 import { useState, useEffect } from "react";
 import DisplayMessage from "./components/displayMessage";
+import CookieConsent from "./components/cookieConsent";
+import ReactGA from "react-ga4";
 
 function App() {
   const [isOnline, setIsOnline] = useState(navigator.onLine);
-
+  const initGoogleAnalytics = () => {
+    ReactGA.initialize("G-4K01ML8RPH"); //ID  Google Analytics
+    ReactGA.send("pageview");
+  };
+  useEffect(() => {
+    // Vérifier le consentement déjà donné via localStorage ou un autre mécanisme
+    const consentGiven = localStorage.getItem("cookiesAccepted");
+    if (consentGiven === "true") {
+      initGoogleAnalytics();
+    }
+  }, []);
   useEffect(() => {
     const handleOnline = () => setIsOnline(true);
     const handleOffline = () => setIsOnline(false);
@@ -30,11 +42,14 @@ function App() {
   }, [isOnline]);
 
   return (
-    <div className="App">
-      <Header />
-      <RoutesPath />
-      <Footer />
-    </div>
+    <>
+      <CookieConsent />
+      <div className="App">
+        <Header />
+        <RoutesPath />
+        <Footer />
+      </div>
+    </>
   );
 }
 

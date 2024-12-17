@@ -132,15 +132,39 @@
     }
   },
   "article": {
-  "title": "Loading article...",
-  "noFound": "No article found",
-  "back": "Back",
-  "readMore": "Read more",
-  "noFounMore": "No related articles found"
-},
-"solution": {
-  "pagedes": "Articles per page",
-  "nonFound": "No articles found",
-  "readMore": "Read the article"
-}
+    "title": "Loading article...",
+    "noFound": "No article found",
+    "back": "Back",
+    "readMore": "Read more",
+    "noFounMore": "No related articles found"
+  },
+  "solution": {
+    "pagedes": "Articles per page",
+    "nonFound": "No articles found",
+    "readMore": "Read the article"
+  },
+
+  "cookies": {
+    "title": "Cookie Policy",
+    "intro1": "We use cookies to ensure its proper functioning, improve your browsing experience, and help us understand how you interact with our content. These cookies are categorized and detailed below. You can adjust your preferences at any time, but please note that certain site functionalities may be impacted if you disable certain types of cookies.",
+    "intro2": "Third-party cookies are also used to personalize ads, analyze traffic, or provide additional functionalities. These cookies are only activated with your consent.",
+    "types": "Types of Cookies Used",
+    "essential": "Essential Cookies",
+    "essential_description": "These cookies are essential for the proper functioning of the site. They allow, for example, to keep your session secure or to remember your privacy settings. These cookies do not collect personal data.",
+    "functional": "Functional Cookies",
+    "functional_description": "Functional cookies make your browsing more enjoyable. For example, they allow you to share content on social networks or use certain third-party services. Some data collected via these cookies may be linked to personal information.",
+    "analytics": "Analytics Cookies",
+    "analytics_description": "These cookies collect anonymous data about how visitors interact with our site (e.g., pages visited or session duration). This information helps us improve the quality of our content and your user experience.",
+    "performance": "Performance Cookies",
+    "performance_description": "They measure the technical performance of our site, such as loading time or error detection. This information allows us to improve the reliability and speed of the site.",
+    "advertising": "Advertising Cookies",
+    "advertising_description": "These cookies personalize ads based on your interests and measure the effectiveness of advertising campaigns. They may also be used to recommend relevant content based on your preferences.",
+    "reset_button": "Reset Cookies"
+  },
+  "cookiesMSG": {
+    "title": "We use cookies to enhance your experience. Check our",
+    "CookiePolicy": "Cookie Policy",
+    "ok": "Accept",
+    "no": "Decline"
+  }
 }

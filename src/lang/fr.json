@@ -144,5 +144,28 @@
     "nonFound": "Aucun article trouvé",
     "readMore": "Lire l'article"
 
+  },
+  "cookies": {
+    "title": "Politique de Cookies",
+    "intro1": "Nous utilisons des cookies pour garantir son bon fonctionnement, améliorer votre navigation, et nous aider à comprendre comment vous interagissez avec nos contenus. Ces cookies sont classés par catégories et détaillés ci-dessous. Vous pouvez ajuster vos préférences à tout moment, mais sachez que certaines fonctionnalités du site pourraient être impactées si vous désactivez certains types de cookies.",
+    "intro2": "Des cookies tiers sont également utilisés pour personnaliser les publicités, analyser le trafic ou fournir des fonctionnalités supplémentaires. Ces cookies ne sont activés qu'avec votre consentement.",
+    "types": "Types de Cookies Utilisés",
+    "essential": "Cookies Essentiels",
+    "essential_description": "Ces cookies sont indispensables au bon fonctionnement du site. Ils permettent, par exemple, de maintenir votre session sécurisée ou de mémoriser vos paramètres de confidentialité. Ces cookies ne collectent pas de données personnelles.",
+    "functional": "Cookies Fonctionnels",
+    "functional_description": "Les cookies fonctionnels rendent votre navigation plus agréable. Ils permettent, par exemple, de partager des contenus sur les réseaux sociaux ou d'utiliser certains services tiers. Certaines données collectées via ces cookies peuvent être associées à des informations personnelles.",
+    "analytics": "Cookies d’Analyse",
+    "analytics_description": "Ces cookies collectent des données anonymes sur la manière dont les visiteurs interagissent avec notre site (par exemple, les pages visitées ou la durée des sessions). Ces informations nous aident à améliorer la qualité de nos contenus et votre expérience utilisateur.",
+    "performance": "Cookies de Performance",
+    "performance_description": "Ils mesurent la performance technique de notre site, comme le temps de chargement ou la détection d’erreurs. Ces informations nous permettent d’améliorer la fiabilité et la rapidité du site.",
+    "advertising": "Cookies Publicitaires",
+    "advertising_description": "Ces cookies personnalisent les publicités en fonction de vos centres d’intérêt et mesurent l’efficacité des campagnes publicitaires. Ils peuvent également être utilisés pour recommander des contenus pertinents en fonction de vos préférences.",
+    "reset_button": "Réinitialiser les cookies"
+  },
+  "cookiesMSG": {
+    "title": "Nous utilisons des cookies pour améliorer votre expérience Consultez notre",
+    "CookiePolicy": "  Politique de Cookies",
+    "ok": "Accepter",
+    "no": "Refuser"
   }
 }
